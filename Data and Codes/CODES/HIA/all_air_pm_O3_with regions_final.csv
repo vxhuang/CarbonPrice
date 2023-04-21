@@ -1,0 +1,1129 @@
+year,PM_lower,PM_mean,PM_upper,ISO3,Country,reporting_region_name,,,REGION,Super_region_name,SUPER-REGION,O3_mean,O3_lower,O3_upper
+1990,20.01,20.48,20.98,AFG,Afghanistan,"Asia, South",,,4,South Asia,3,61.5828,57.83015,65.3752
+1995,19.3,19.74,20.21,AFG,Afghanistan,"Asia, South",,,4,South Asia,3,61.89984,58.2055,65.52612
+2000,19.31,19.75,20.22,AFG,Afghanistan,"Asia, South",,,4,South Asia,3,62.26085,58.41865,65.81267
+2005,20.05,20.51,21.01,AFG,Afghanistan,"Asia, South",,,4,South Asia,3,62.48918,58.85272,66.34368
+2010,20.84,21.35,21.89,AFG,Afghanistan,"Asia, South",,,4,South Asia,3,62.79026,59.19715,66.27534
+2013,21.16,21.69,22.25,AFG,Afghanistan,"Asia, South",,,4,South Asia,3,63.21207,59.56892,66.93906
+1990,11.7,11.94,12.19,AGO,Angola,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,79.97759,75.31512,84.81918
+1995,11.68,11.93,12.17,AGO,Angola,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,80.44737,75.80634,85.20472
+2000,11.95,12.19,12.44,AGO,Angola,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,81.42152,76.53708,86.35728
+2005,12.26,12.52,12.77,AGO,Angola,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,83.03085,77.88465,88.3444
+2010,13.08,13.35,13.62,AGO,Angola,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,85.26985,80.18439,90.02421
+2013,13.74,14.02,14.29,AGO,Angola,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,86.3892,81.06828,91.42454
+1990,23.56,24.19,24.86,ALB,Albania,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,71.60323,67.09092,76.05376
+1995,20.76,21.26,21.78,ALB,Albania,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,70.48166,66.18862,74.76209
+2000,18.86,19.28,19.71,ALB,Albania,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,69.69012,65.2061,74.09796
+2005,17.58,17.96,18.32,ALB,Albania,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,69.014,64.86269,72.90318
+2010,18.21,18.6,18.99,ALB,Albania,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,68.27622,64.37085,72.43164
+2013,15.61,15.94,16.25,ALB,Albania,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,68.02132,64.08477,72.10908
+1990,12.65,12.91,13.17,AND,Andorra,"Europe, Western",,,10,High income,1,64.73582,60.62405,68.7142
+1995,11.94,12.18,12.43,AND,Andorra,"Europe, Western",,,10,High income,1,65.01505,61.21314,68.52771
+2000,11.24,11.47,11.72,AND,Andorra,"Europe, Western",,,10,High income,1,64.79328,60.78066,68.728
+2005,14.08,14.36,14.64,AND,Andorra,"Europe, Western",,,10,High income,1,63.2783,59.39393,67.25082
+2010,9.78,10,10.24,AND,Andorra,"Europe, Western",,,10,High income,1,60.92874,57.29395,64.22002
+2013,9.29,9.51,9.75,AND,Andorra,"Europe, Western",,,10,High income,1,60.11014,56.58961,63.61092
+1990,34.33,35.66,37.16,ARE,United Arab Emirates,North Africa / Middle East,,,15,North Africa / Middle East,2,88.39802,83.1775,93.21843
+1995,34.35,35.69,37.17,ARE,United Arab Emirates,North Africa / Middle East,,,15,North Africa / Middle East,2,92.93119,87.49383,98.46947
+2000,34.57,35.92,37.42,ARE,United Arab Emirates,North Africa / Middle East,,,15,North Africa / Middle East,2,96.28265,90.4608,102.2274
+2005,36.4,37.87,39.51,ARE,United Arab Emirates,North Africa / Middle East,,,15,North Africa / Middle East,2,98.6715,93.08783,104.4955
+2010,39.23,40.89,42.74,ARE,United Arab Emirates,North Africa / Middle East,,,15,North Africa / Middle East,2,100.5161,94.53003,106.6515
+2013,39.27,40.93,42.79,ARE,United Arab Emirates,North Africa / Middle East,,,15,North Africa / Middle East,2,102.3286,96.53142,108.5558
+1990,8.43,8.64,8.86,ARG,Argentina,"Latin America, Southern",,,13,High income,1,35.79805,33.82224,37.91185
+1995,8.86,9.07,9.29,ARG,Argentina,"Latin America, Southern",,,13,High income,1,36.83364,34.44919,39.19687
+2000,8.86,9.07,9.29,ARG,Argentina,"Latin America, Southern",,,13,High income,1,37.64619,35.49956,39.79258
+2005,9.14,9.35,9.57,ARG,Argentina,"Latin America, Southern",,,13,High income,1,38.45637,36.19958,40.73725
+2010,9.3,9.52,9.74,ARG,Argentina,"Latin America, Southern",,,13,High income,1,39.15952,36.77629,41.50003
+2013,8.75,8.96,9.18,ARG,Argentina,"Latin America, Southern",,,13,High income,1,39.6441,37.30015,41.96208
+1990,20.05,20.51,21,ARM,Armenia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,61.64527,57.86578,65.62345
+1995,17.84,18.22,18.6,ARM,Armenia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,61.70549,57.72061,65.24123
+2000,17.46,17.83,18.19,ARM,Armenia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,61.72142,58.0995,65.468
+2005,18.81,19.23,19.66,ARM,Armenia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,61.73759,57.71657,65.37051
+2010,20.72,21.22,21.74,ARM,Armenia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,61.87018,58.11229,65.67884
+2013,17.37,17.74,18.11,ARM,Armenia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,61.99386,58.30157,65.57944
+1990,13.35,13.62,13.9,ATG,Antigua and Barbuda,Caribbean,,,7,Latin America and Caribbean ,5,40.6642,38.2836,43.09815
+1995,13.33,13.6,13.87,ATG,Antigua and Barbuda,Caribbean,,,7,Latin America and Caribbean ,5,40.85589,38.62703,43.2401
+2000,13.3,13.57,13.84,ATG,Antigua and Barbuda,Caribbean,,,7,Latin America and Caribbean ,5,40.98847,38.53631,43.4609
+2005,13.18,13.45,13.71,ATG,Antigua and Barbuda,Caribbean,,,7,Latin America and Caribbean ,5,41.12924,38.76278,43.62967
+2010,13.45,13.73,14,ATG,Antigua and Barbuda,Caribbean,,,7,Latin America and Caribbean ,5,41.28214,38.81893,43.66982
+2013,15.43,15.76,16.06,ATG,Antigua and Barbuda,Caribbean,,,7,Latin America and Caribbean ,5,41.29878,38.807,43.68828
+1990,7.47,7.68,7.89,AUS,Australia,Australasia,,,6,High income,1,35.58274,33.36416,37.80866
+1995,7.9,8.11,8.32,AUS,Australia,Australasia,,,6,High income,1,35.66814,33.52996,37.67791
+2000,7.95,8.15,8.36,AUS,Australia,Australasia,,,6,High income,1,35.79203,33.65413,37.83946
+2005,7.4,7.6,7.81,AUS,Australia,Australasia,,,6,High income,1,35.95319,33.90527,38.16367
+2010,6.55,6.75,6.96,AUS,Australia,Australasia,,,6,High income,1,36.11734,34.09172,38.22371
+2013,5.73,5.93,6.14,AUS,Australia,Australasia,,,6,High income,1,36.17392,34.05601,38.43411
+1990,25.05,25.77,26.55,AUT,Austria,"Europe, Western",,,10,High income,1,62.6809,58.84279,66.21416
+1995,19.92,20.38,20.87,AUT,Austria,"Europe, Western",,,10,High income,1,61.88979,58.31971,65.40891
+2000,16.34,16.68,17.01,AUT,Austria,"Europe, Western",,,10,High income,1,61.17576,57.53117,64.82303
+2005,16.09,16.43,16.75,AUT,Austria,"Europe, Western",,,10,High income,1,60.40327,56.63898,64.13689
+2010,15.05,15.37,15.67,AUT,Austria,"Europe, Western",,,10,High income,1,59.763,56.47004,63.22984
+2013,14.54,14.84,15.13,AUT,Austria,"Europe, Western",,,10,High income,1,59.37888,55.95713,63.05759
+1990,25.67,26.41,27.22,AZE,Azerbaijan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,59.70808,56.23649,63.12865
+1995,22.66,23.25,23.88,AZE,Azerbaijan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,59.14383,55.68491,62.72885
+2000,21.3,21.83,22.38,AZE,Azerbaijan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,58.83058,55.23554,62.48661
+2005,20.17,20.64,21.13,AZE,Azerbaijan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,58.8016,55.34216,62.3112
+2010,20.99,21.5,22.04,AZE,Azerbaijan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,58.81322,55.27098,62.06903
+2013,20.31,20.79,21.29,AZE,Azerbaijan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,58.79536,55.44182,62.42082
+1990,14.4,14.69,14.98,BDI,Burundi,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,53.7034,50.19968,57.03915
+1995,14.23,14.52,14.8,BDI,Burundi,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,53.62757,50.64798,56.57154
+2000,14.16,14.44,14.73,BDI,Burundi,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,53.5843,50.46545,56.79293
+2005,14.57,14.87,15.16,BDI,Burundi,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,53.37437,50.17608,56.64624
+2010,15.16,15.48,15.78,BDI,Burundi,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,53.23058,50.0764,56.38565
+2013,16.74,17.09,17.44,BDI,Burundi,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,53.19173,49.85648,56.37074
+1990,27.75,28.6,29.53,BEL,Belgium,"Europe, Western",,,10,High income,1,48.99535,45.99585,51.90533
+1995,23.83,24.47,25.16,BEL,Belgium,"Europe, Western",,,10,High income,1,50.44675,47.44894,53.45895
+2000,20.65,21.14,21.66,BEL,Belgium,"Europe, Western",,,10,High income,1,51.69292,48.53055,54.61697
+2005,20.08,20.54,21.03,BEL,Belgium,"Europe, Western",,,10,High income,1,52.52881,49.34336,55.62097
+2010,18.65,19.06,19.48,BEL,Belgium,"Europe, Western",,,10,High income,1,53.16642,49.73082,56.3275
+2013,18.13,18.52,18.92,BEL,Belgium,"Europe, Western",,,10,High income,1,53.67282,50.50502,56.75496
+1990,25.48,26.22,27.02,BEN,Benin,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,70.38195,65.79891,74.36005
+1995,25.3,26.03,26.82,BEN,Benin,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,71.05698,66.88589,75.26873
+2000,25.12,25.84,26.62,BEN,Benin,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,71.58348,67.54368,76.04203
+2005,25.07,25.78,26.55,BEN,Benin,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,71.63371,67.5749,76.084
+2010,22.91,23.51,24.16,BEN,Benin,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,71.4906,67.11031,75.89011
+2013,25.92,26.7,27.54,BEN,Benin,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,71.63457,67.24424,75.90311
+1990,28.36,29.24,30.22,BFA,Burkina Faso,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,51.83965,48.63823,54.70335
+1995,28.32,29.2,30.17,BFA,Burkina Faso,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,52.1393,49.0997,55.3083
+2000,28.28,29.16,30.13,BFA,Burkina Faso,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,52.26104,49.24285,55.35682
+2005,29.35,30.27,31.31,BFA,Burkina Faso,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,52.40276,49.34969,55.4138
+2010,27.56,28.4,29.32,BFA,Burkina Faso,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,52.36783,49.3054,55.54401
+2013,28.33,29.21,30.19,BFA,Burkina Faso,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,52.27721,49.07088,55.44059
+1990,28.99,29.9,30.92,BGD,Bangladesh,"Asia, South",,,4,South Asia,3,59.40911,56.02492,63.24752
+1995,31.13,32.18,33.34,BGD,Bangladesh,"Asia, South",,,4,South Asia,3,61.01232,57.28791,64.57263
+2000,33.44,34.65,35.97,BGD,Bangladesh,"Asia, South",,,4,South Asia,3,63.30378,59.63173,66.85815
+2005,38.62,40.16,41.88,BGD,Bangladesh,"Asia, South",,,4,South Asia,3,66.34738,62.35983,70.48705
+2010,43.68,45.57,47.71,BGD,Bangladesh,"Asia, South",,,4,South Asia,3,70.0303,66.12029,74.46556
+2013,46.25,48.33,50.69,BGD,Bangladesh,"Asia, South",,,4,South Asia,3,72.04435,67.70235,76.30302
+1990,27.4,28.24,29.15,BGR,Bulgaria,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,65.96989,62.19965,70.19068
+1995,22.67,23.26,23.88,BGR,Bulgaria,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,65.74315,62.02415,69.70204
+2000,19.33,19.77,20.22,BGR,Bulgaria,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,65.61201,61.92024,69.63013
+2005,18.69,19.1,19.52,BGR,Bulgaria,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,65.22426,61.28469,69.14227
+2010,16.87,17.23,17.58,BGR,Bulgaria,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,64.83869,60.86927,68.46101
+2013,15.6,15.93,16.24,BGR,Bulgaria,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,64.75832,61.10186,68.69881
+1990,38.02,39.52,41.18,BHR,Bahrain,North Africa / Middle East,,,15,North Africa / Middle East,2,89.81555,84.35253,94.79202
+1995,37.91,39.4,41.06,BHR,Bahrain,North Africa / Middle East,,,15,North Africa / Middle East,2,95.1248,89.4002,100.9738
+2000,38.1,39.6,41.27,BHR,Bahrain,North Africa / Middle East,,,15,North Africa / Middle East,2,99.59016,93.8728,105.7137
+2005,41.21,42.93,44.85,BHR,Bahrain,North Africa / Middle East,,,15,North Africa / Middle East,2,102.9089,96.72057,109.1342
+2010,45.79,47.83,50.14,BHR,Bahrain,North Africa / Middle East,,,15,North Africa / Middle East,2,105.1283,98.88947,112.2054
+2013,41.84,43.6,45.57,BHR,Bahrain,North Africa / Middle East,,,15,North Africa / Middle East,2,107.3535,101.2479,113.6258
+1990,13.06,13.33,13.59,BHS,The Bahamas,Caribbean,,,7,Latin America and Caribbean ,5,50.40813,47.28986,53.66373
+1995,12.75,13.02,13.27,BHS,The Bahamas,Caribbean,,,7,Latin America and Caribbean ,5,50.40996,47.25264,53.50093
+2000,12.64,12.9,13.15,BHS,The Bahamas,Caribbean,,,7,Latin America and Caribbean ,5,50.36765,47.37629,53.35876
+2005,11.54,11.78,12.03,BHS,The Bahamas,Caribbean,,,7,Latin America and Caribbean ,5,50.01822,47.25174,53.13465
+2010,10.73,10.97,11.21,BHS,The Bahamas,Caribbean,,,7,Latin America and Caribbean ,5,49.7248,46.71024,52.7509
+2013,10.69,10.92,11.16,BHS,The Bahamas,Caribbean,,,7,Latin America and Caribbean ,5,49.43707,46.66268,52.47159
+1990,21.07,21.58,22.13,BIH,Bosnia and Herzegovina,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,68.75327,64.45873,72.62849
+1995,17.83,18.21,18.59,BIH,Bosnia and Herzegovina,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,67.8475,63.74874,72.10136
+2000,15.68,16.01,16.32,BIH,Bosnia and Herzegovina,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,66.91319,62.9918,70.71613
+2005,15.45,15.78,16.08,BIH,Bosnia and Herzegovina,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,65.95921,62.20883,69.83897
+2010,14.18,14.47,14.75,BIH,Bosnia and Herzegovina,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,65.27768,61.4245,69.16938
+2013,13.35,13.62,13.9,BIH,Bosnia and Herzegovina,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,64.88435,61.11585,68.72495
+1990,24.54,25.22,25.95,BLR,Belarus,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,55.06551,51.83904,58.22128
+1995,18.52,18.93,19.34,BLR,Belarus,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,53.10589,50.1353,56.18444
+2000,14.94,15.24,15.54,BLR,Belarus,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,51.66402,48.64417,54.63747
+2005,14.6,14.9,15.19,BLR,Belarus,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,51.1281,47.8843,54.11978
+2010,13.53,13.8,14.07,BLR,Belarus,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,50.99776,48.01325,54.14025
+2013,13.33,13.6,13.87,BLR,Belarus,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,50.54204,47.5471,53.51564
+1990,7.79,8.01,8.23,BLZ,Belize,Caribbean,,,7,Latin America and Caribbean ,5,45.73968,42.91252,48.44355
+1995,7.77,7.99,8.21,BLZ,Belize,Caribbean,,,7,Latin America and Caribbean ,5,46.19521,43.43392,48.83833
+2000,7.82,8.04,8.26,BLZ,Belize,Caribbean,,,7,Latin America and Caribbean ,5,46.49491,43.64214,49.41634
+2005,7,7.21,7.43,BLZ,Belize,Caribbean,,,7,Latin America and Caribbean ,5,46.5119,43.90821,49.42388
+2010,6.51,6.72,6.94,BLZ,Belize,Caribbean,,,7,Latin America and Caribbean ,5,46.35867,43.54461,49.25542
+2013,5.51,5.71,5.92,BLZ,Belize,Caribbean,,,7,Latin America and Caribbean ,5,46.26704,43.41335,48.98318
+1990,5.14,5.32,5.52,BOL,Bolivia,"Latin America, Andean",,,11,Latin America and Caribbean ,5,49.53898,46.61276,52.38044
+1995,5.11,5.3,5.5,BOL,Bolivia,"Latin America, Andean",,,11,Latin America and Caribbean ,5,50.05283,47.03362,53.02976
+2000,5.33,5.52,5.72,BOL,Bolivia,"Latin America, Andean",,,11,Latin America and Caribbean ,5,51.39615,48.6402,54.40339
+2005,7.69,7.89,8.11,BOL,Bolivia,"Latin America, Andean",,,11,Latin America and Caribbean ,5,54.26135,51.01594,57.5089
+2010,8.68,8.88,9.1,BOL,Bolivia,"Latin America, Andean",,,11,Latin America and Caribbean ,5,58.24026,54.90373,61.70845
+2013,10.67,10.88,11.11,BOL,Bolivia,"Latin America, Andean",,,11,Latin America and Caribbean ,5,60.27647,56.79475,63.75247
+1990,9.48,9.68,9.88,BRA,Brazil,"Latin America, Tropical",,,14,Latin America and Caribbean ,5,43.42918,40.8952,45.98606
+1995,8.67,8.86,9.06,BRA,Brazil,"Latin America, Tropical",,,14,Latin America and Caribbean ,5,43.45398,40.98016,46.07415
+2000,8.92,9.11,9.31,BRA,Brazil,"Latin America, Tropical",,,14,Latin America and Caribbean ,5,44.29244,41.55713,46.80886
+2005,10.97,11.2,11.42,BRA,Brazil,"Latin America, Tropical",,,14,Latin America and Caribbean ,5,46.49052,43.64204,49.32317
+2010,13.93,14.23,14.54,BRA,Brazil,"Latin America, Tropical",,,14,Latin America and Caribbean ,5,49.50343,46.48302,52.73434
+2013,16.09,16.49,16.93,BRA,Brazil,"Latin America, Tropical",,,14,Latin America and Caribbean ,5,50.96357,47.92495,53.89351
+1990,15.39,15.72,16.02,BRB,Barbados,Caribbean,,,7,Latin America and Caribbean ,5,38.68476,36.5096,40.88789
+1995,15.44,15.76,16.07,BRB,Barbados,Caribbean,,,7,Latin America and Caribbean ,5,38.87238,36.6307,41.15794
+2000,15.46,15.78,16.09,BRB,Barbados,Caribbean,,,7,Latin America and Caribbean ,5,38.99585,36.45515,41.33417
+2005,15.62,15.94,16.25,BRB,Barbados,Caribbean,,,7,Latin America and Caribbean ,5,39.12609,37.00541,41.40644
+2010,15.8,16.13,16.44,BRB,Barbados,Caribbean,,,7,Latin America and Caribbean ,5,39.17794,36.9427,41.56117
+2013,15.77,16.1,16.41,BRB,Barbados,Caribbean,,,7,Latin America and Caribbean ,5,39.20022,36.98595,41.55495
+1990,7.69,7.91,8.13,BRN,Brunei,"Asia Pacific, High Income",,,1,High income,1,41.72292,39.20546,44.30804
+1995,6.97,7.18,7.4,BRN,Brunei,"Asia Pacific, High Income",,,1,High income,1,39.00175,36.71805,41.28511
+2000,6.46,6.66,6.87,BRN,Brunei,"Asia Pacific, High Income",,,1,High income,1,37.39668,35.34465,39.77433
+2005,8.79,9.01,9.24,BRN,Brunei,"Asia Pacific, High Income",,,1,High income,1,37.53578,35.39297,39.67901
+2010,9,9.22,9.45,BRN,Brunei,"Asia Pacific, High Income",,,1,High income,1,38.68783,36.47018,40.90155
+2013,9.25,9.46,9.68,BRN,Brunei,"Asia Pacific, High Income",,,1,High income,1,38.68514,36.44798,40.93002
+1990,17.48,17.86,18.25,BTN,Bhutan,"Asia, South",,,4,South Asia,3,56.12841,52.80076,59.50748
+1995,18.18,18.59,19.01,BTN,Bhutan,"Asia, South",,,4,South Asia,3,57.54825,54.23405,61.14639
+2000,19,19.44,19.91,BTN,Bhutan,"Asia, South",,,4,South Asia,3,59.65126,55.91148,63.13083
+2005,21.52,22.07,22.67,BTN,Bhutan,"Asia, South",,,4,South Asia,3,62.63633,58.92713,66.48246
+2010,27.06,27.9,28.83,BTN,Bhutan,"Asia, South",,,4,South Asia,3,65.97385,62.14442,70.03481
+2013,27.24,28.1,29.07,BTN,Bhutan,"Asia, South",,,4,South Asia,3,67.73589,63.69448,71.65559
+1990,7.77,7.99,8.22,BWA,Botswana,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,55.069,51.52182,58.48399
+1995,7.58,7.8,8.02,BWA,Botswana,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,55.29943,51.85957,58.67254
+2000,7.61,7.83,8.06,BWA,Botswana,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,55.84668,52.62661,59.10114
+2005,7.52,7.74,7.97,BWA,Botswana,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,56.62857,53.11337,60.05632
+2010,8.17,8.38,8.61,BWA,Botswana,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,57.52652,54.31428,61.01489
+2013,9.48,9.7,9.93,BWA,Botswana,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,57.99524,54.55391,61.44293
+1990,19.38,19.82,20.27,CAF,Central African Republic,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,79.68262,75.01095,84.7452
+1995,19.25,19.68,20.13,CAF,Central African Republic,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,79.43371,74.81586,84.30013
+2000,19.15,19.57,20.02,CAF,Central African Republic,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,79.12054,74.56857,84.16389
+2005,19.31,19.74,20.19,CAF,Central African Republic,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,78.62939,73.97295,83.24343
+2010,18.05,18.44,18.83,CAF,Central African Republic,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,78.08771,73.2434,83.04343
+2013,18.9,19.33,19.76,CAF,Central African Republic,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,77.64159,72.91432,82.10926
+1990,11.25,11.48,11.71,CAN,Canada,"North America, High Income",,,16,High income,1,57.67933,54.19832,61.17302
+1995,10.55,10.77,11,CAN,Canada,"North America, High Income",,,16,High income,1,57.57372,54.1264,61.02959
+2000,10.47,10.69,10.92,CAN,Canada,"North America, High Income",,,16,High income,1,57.71153,54.28271,61.14744
+2005,11.51,11.75,11.99,CAN,Canada,"North America, High Income",,,16,High income,1,57.38662,53.88168,61.10588
+2010,11.62,11.87,12.11,CAN,Canada,"North America, High Income",,,16,High income,1,57.1186,53.49263,60.56515
+2013,11.89,12.13,12.37,CAN,Canada,"North America, High Income",,,16,High income,1,56.92027,53.69358,60.34408
+1990,22.34,22.91,23.53,CHE,Switzerland,"Europe, Western",,,10,High income,1,63.91237,59.77139,67.59696
+1995,19.07,19.5,19.94,CHE,Switzerland,"Europe, Western",,,10,High income,1,63.06247,59.22877,66.91153
+2000,16.5,16.85,17.18,CHE,Switzerland,"Europe, Western",,,10,High income,1,62.04747,58.32074,65.87598
+2005,17.88,18.26,18.65,CHE,Switzerland,"Europe, Western",,,10,High income,1,61.03994,57.58468,64.61317
+2010,15.58,15.91,16.21,CHE,Switzerland,"Europe, Western",,,10,High income,1,60.04131,56.56002,63.5952
+2013,17.22,17.59,17.96,CHE,Switzerland,"Europe, Western",,,10,High income,1,59.43687,55.78846,62.85076
+1990,16.82,17.22,17.65,CHL,Chile,"Latin America, Southern",,,13,High income,1,45.45857,42.91551,48.05648
+1995,18.51,18.99,19.52,CHL,Chile,"Latin America, Southern",,,13,High income,1,44.55222,41.89663,47.10262
+2000,18.94,19.45,20,CHL,Chile,"Latin America, Southern",,,13,High income,1,43.86388,41.29639,46.36784
+2005,19.02,19.53,20.09,CHL,Chile,"Latin America, Southern",,,13,High income,1,43.59267,40.99825,46.17924
+2010,18.36,18.84,19.36,CHL,Chile,"Latin America, Southern",,,13,High income,1,43.59535,41.07097,46.08973
+2013,17.91,18.37,18.87,CHL,Chile,"Latin America, Southern",,,13,High income,1,43.31947,40.64165,45.90971
+1990,37.71,39.28,41.03,CHN,China,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,57.01595,53.51489,60.45254
+1995,40.16,41.89,43.84,CHN,China,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,58.01093,54.51965,61.65355
+2000,42.24,44.13,46.26,CHN,China,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,59.06646,55.58031,62.46536
+2005,48.63,51,53.68,CHN,China,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,60.83567,57.40042,64.33275
+2010,51.52,54.12,57.06,CHN,China,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,62.8241,59.03823,66.71207
+2013,51.7,54.33,57.3,CHN,China,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,64.51536,60.66429,67.99151
+1990,19.05,19.49,19.95,CIV,Côte d’Ivoire,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,60.60743,57.15548,64.21848
+1995,18.93,19.36,19.81,CIV,Côte d’Ivoire,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,61.06298,57.32333,64.60986
+2000,18.78,19.21,19.65,CIV,Côte d’Ivoire,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,61.37471,57.67895,64.99629
+2005,19.85,20.31,20.79,CIV,Côte d’Ivoire,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,61.26717,57.75069,65.14987
+2010,18.14,18.53,18.93,CIV,Côte d’Ivoire,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,61.03354,57.27911,64.56841
+2013,19.82,20.29,20.8,CIV,Côte d’Ivoire,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,60.86432,57.45295,64.59581
+1990,22.2,22.77,23.39,CMR,Cameroon,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,66.70501,62.65599,70.96293
+1995,22.12,22.69,23.3,CMR,Cameroon,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,66.89302,63.06395,70.97565
+2000,21.89,22.45,23.05,CMR,Cameroon,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,67.13305,63.11393,70.96094
+2005,22.72,23.32,23.97,CMR,Cameroon,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,67.18326,63.10592,71.32172
+2010,20.45,20.96,21.49,CMR,Cameroon,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,66.97371,62.81152,71.03164
+2013,20.81,21.34,21.9,CMR,Cameroon,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,67.05154,63.3188,70.97305
+1990,16.67,17.02,17.37,COD,Democratic Republic of the Congo,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,63.26125,59.76377,67.13049
+1995,16.53,16.88,17.23,COD,Democratic Republic of the Congo,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,63.47704,59.58993,67.35201
+2000,16.48,16.83,17.17,COD,Democratic Republic of the Congo,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,63.64985,59.97151,67.26171
+2005,16.2,16.54,16.86,COD,Democratic Republic of the Congo,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,63.54591,59.73054,67.29102
+2010,15.85,16.18,16.5,COD,Democratic Republic of the Congo,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,63.64128,60.12536,67.30036
+2013,17.69,18.08,18.47,COD,Democratic Republic of the Congo,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,63.70188,60.0461,67.51443
+1990,16.41,16.76,17.1,COG,Congo,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,60.51459,56.92694,63.87204
+1995,16.08,16.42,16.75,COG,Congo,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,60.83675,57.30939,64.55618
+2000,15.99,16.33,16.66,COG,Congo,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,61.05378,57.30672,64.87418
+2005,14.87,15.18,15.48,COG,Congo,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,61.31857,57.80833,64.9156
+2010,13.85,14.13,14.41,COG,Congo,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,61.51682,57.70224,65.18213
+2013,13.54,13.81,14.08,COG,Congo,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,61.64112,57.97623,65.38721
+1990,8.93,9.15,9.37,COL,Colombia,"Latin America, Central",,,12,Latin America and Caribbean ,5,39.34698,37.02574,41.60135
+1995,8.55,8.76,8.98,COL,Colombia,"Latin America, Central",,,12,Latin America and Caribbean ,5,40.04316,37.81198,42.4885
+2000,8.89,9.11,9.33,COL,Colombia,"Latin America, Central",,,12,Latin America and Caribbean ,5,41.19339,38.62846,43.7075
+2005,9.89,10.1,10.33,COL,Colombia,"Latin America, Central",,,12,Latin America and Caribbean ,5,43.20026,40.64097,45.91193
+2010,11.44,11.68,11.92,COL,Colombia,"Latin America, Central",,,12,Latin America and Caribbean ,5,45.76075,42.99718,48.60877
+2013,12.37,12.63,12.88,COL,Colombia,"Latin America, Central",,,12,Latin America and Caribbean ,5,47.11504,44.22993,49.95209
+1990,5.55,5.75,5.96,COM,Comoros,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,40.26789,37.86323,42.69619
+1995,5.63,5.83,6.04,COM,Comoros,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,40.25781,38.07609,42.72138
+2000,5.69,5.89,6.1,COM,Comoros,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,40.33549,37.81722,42.78731
+2005,6.14,6.34,6.56,COM,Comoros,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,40.70723,38.20901,43.15481
+2010,6.44,6.65,6.87,COM,Comoros,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,41.11026,38.55993,43.76672
+2013,6.71,6.91,7.13,COM,Comoros,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,41.27827,38.96036,43.87093
+1990,40.24,41.9,43.74,CPV,Cape Verde,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,43.48037,40.94125,46.17563
+1995,40.19,41.84,43.67,CPV,Cape Verde,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,43.68527,41.0457,46.01726
+2000,40.13,41.77,43.6,CPV,Cape Verde,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,43.70936,41.11824,46.30004
+2005,37.58,39.04,40.66,CPV,Cape Verde,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,43.76875,41.0787,46.43175
+2010,35.92,37.27,38.75,CPV,Cape Verde,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,43.68087,40.92937,46.17596
+2013,41.3,43.04,44.98,CPV,Cape Verde,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,43.58804,41.10195,46.25664
+1990,7.86,8.08,8.3,CRI,Costa Rica,"Latin America, Central",,,12,Latin America and Caribbean ,5,38.4044,36.1086,40.6115
+1995,8.19,8.41,8.64,CRI,Costa Rica,"Latin America, Central",,,12,Latin America and Caribbean ,5,39.13721,36.71446,41.54647
+2000,8.49,8.71,8.94,CRI,Costa Rica,"Latin America, Central",,,12,Latin America and Caribbean ,5,39.69946,37.47705,41.94328
+2005,9.14,9.36,9.59,CRI,Costa Rica,"Latin America, Central",,,12,Latin America and Caribbean ,5,40.11321,37.53581,42.5021
+2010,8.76,8.98,9.21,CRI,Costa Rica,"Latin America, Central",,,12,Latin America and Caribbean ,5,40.39823,38.00907,42.80782
+2013,9.09,9.31,9.54,CRI,Costa Rica,"Latin America, Central",,,12,Latin America and Caribbean ,5,40.61463,38.30536,43.03767
+1990,9.27,9.49,9.72,CUB,Cuba,Caribbean,,,7,Latin America and Caribbean ,5,48.23175,45.5298,51.15969
+1995,9.14,9.36,9.6,CUB,Cuba,Caribbean,,,7,Latin America and Caribbean ,5,48.70509,45.69461,51.60038
+2000,9.11,9.33,9.56,CUB,Cuba,Caribbean,,,7,Latin America and Caribbean ,5,48.83535,45.87513,51.77708
+2005,8.98,9.2,9.43,CUB,Cuba,Caribbean,,,7,Latin America and Caribbean ,5,48.61688,45.82132,51.55327
+2010,8.19,8.41,8.64,CUB,Cuba,Caribbean,,,7,Latin America and Caribbean ,5,48.10699,45.36751,50.84229
+2013,10.66,10.97,11.34,CUB,Cuba,Caribbean,,,7,Latin America and Caribbean ,5,48.05376,45.38902,50.92481
+1990,19.78,20.23,20.7,CYP,Cyprus,"Europe, Western",,,10,High income,1,68.10841,63.9069,72.18852
+1995,18.77,19.18,19.6,CYP,Cyprus,"Europe, Western",,,10,High income,1,68.68287,64.85399,72.56271
+2000,18.44,18.84,19.25,CYP,Cyprus,"Europe, Western",,,10,High income,1,68.96542,64.71175,73.24634
+2005,18.21,18.6,19,CYP,Cyprus,"Europe, Western",,,10,High income,1,68.8026,64.60238,73.06966
+2010,17.16,17.52,17.88,CYP,Cyprus,"Europe, Western",,,10,High income,1,68.32628,63.93513,72.55338
+2013,16.11,16.45,16.77,CYP,Cyprus,"Europe, Western",,,10,High income,1,68.34663,63.99416,72.69346
+1990,31.72,32.81,34,CZE,Czech Republic,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,58.28611,54.67363,61.54162
+1995,23.83,24.47,25.16,CZE,Czech Republic,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,58.40326,54.95877,61.80031
+2000,18.2,18.6,18.99,CZE,Czech Republic,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,58.47027,55.21711,61.99251
+2005,17.98,18.36,18.75,CZE,Czech Republic,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,58.40036,54.89829,61.87567
+2010,16.28,16.62,16.94,CZE,Czech Republic,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,57.98729,54.67791,61.26138
+2013,16.2,16.55,16.86,CZE,Czech Republic,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,58.01736,54.59275,61.58969
+1990,28.83,29.74,30.74,DEU,Germany,"Europe, Western",,,10,High income,1,54.60513,51.40808,57.6924
+1995,22.18,22.74,23.34,DEU,Germany,"Europe, Western",,,10,High income,1,55.13675,51.99347,58.39082
+2000,17.53,17.91,18.27,DEU,Germany,"Europe, Western",,,10,High income,1,55.60586,52.35754,58.91757
+2005,17.05,17.41,17.77,DEU,Germany,"Europe, Western",,,10,High income,1,55.52764,52.27186,58.90826
+2010,15.66,15.99,16.29,DEU,Germany,"Europe, Western",,,10,High income,1,55.31715,52.05307,58.88549
+2013,15.03,15.34,15.64,DEU,Germany,"Europe, Western",,,10,High income,1,55.33424,52.06445,58.55851
+1990,19.99,20.45,20.93,DJI,Djibouti,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,45.78791,43.06509,48.5613
+1995,19.96,20.42,20.91,DJI,Djibouti,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,46.17425,43.23103,48.95126
+2000,20.13,20.59,21.08,DJI,Djibouti,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,46.55734,43.84843,49.37007
+2005,20.73,21.22,21.74,DJI,Djibouti,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,46.98775,44.10366,49.78462
+2010,23.52,24.14,24.81,DJI,Djibouti,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,47.22516,44.49957,50.06859
+2013,27.2,28.02,28.92,DJI,Djibouti,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,47.47006,44.7465,50.32544
+1990,14.06,14.34,14.63,DMA,Dominica,Caribbean,,,7,Latin America and Caribbean ,5,39.96497,37.62714,42.27377
+1995,14.06,14.35,14.63,DMA,Dominica,Caribbean,,,7,Latin America and Caribbean ,5,40.15195,37.82001,42.53443
+2000,14.05,14.34,14.62,DMA,Dominica,Caribbean,,,7,Latin America and Caribbean ,5,40.33639,37.98888,42.73407
+2005,14.51,14.8,15.09,DMA,Dominica,Caribbean,,,7,Latin America and Caribbean ,5,40.37682,37.92638,42.72186
+2010,14.54,14.83,15.13,DMA,Dominica,Caribbean,,,7,Latin America and Caribbean ,5,40.49975,38.01586,42.837
+2013,15.09,15.39,15.7,DMA,Dominica,Caribbean,,,7,Latin America and Caribbean ,5,40.49092,38.17072,42.93793
+1990,17.91,18.3,18.69,DNK,Denmark,"Europe, Western",,,10,High income,1,49.30415,46.28259,52.16097
+1995,14.62,14.92,15.22,DNK,Denmark,"Europe, Western",,,10,High income,1,49.65656,46.79446,52.64846
+2000,12.22,12.47,12.73,DNK,Denmark,"Europe, Western",,,10,High income,1,49.7699,46.96189,52.64762
+2005,11.2,11.43,11.68,DNK,Denmark,"Europe, Western",,,10,High income,1,49.91613,47.02097,52.85762
+2010,10.39,10.62,10.85,DNK,Denmark,"Europe, Western",,,10,High income,1,50.03028,47.17185,52.93569
+2013,11.17,11.4,11.63,DNK,Denmark,"Europe, Western",,,10,High income,1,50.10737,47.06486,53.11658
+1990,11.38,11.62,11.86,DOM,Dominican Republic,Caribbean,,,7,Latin America and Caribbean ,5,44.17933,41.54224,46.91799
+1995,11.64,11.88,12.13,DOM,Dominican Republic,Caribbean,,,7,Latin America and Caribbean ,5,44.67059,42.06314,47.33324
+2000,11.73,11.97,12.22,DOM,Dominican Republic,Caribbean,,,7,Latin America and Caribbean ,5,45.27901,42.60708,47.80072
+2005,11.26,11.5,11.74,DOM,Dominican Republic,Caribbean,,,7,Latin America and Caribbean ,5,45.3303,42.6172,47.85242
+2010,10.88,11.11,11.35,DOM,Dominican Republic,Caribbean,,,7,Latin America and Caribbean ,5,45.38539,42.61578,48.38416
+2013,12.23,12.49,12.74,DOM,Dominican Republic,Caribbean,,,7,Latin America and Caribbean ,5,45.43266,42.75179,47.99149
+1990,20.17,20.67,21.2,DZA,Algeria,North Africa / Middle East,,,15,North Africa / Middle East,2,67.24919,63.32665,71.35686
+1995,20.14,20.64,21.16,DZA,Algeria,North Africa / Middle East,,,15,North Africa / Middle East,2,68.06068,64.19562,72.08668
+2000,20.04,20.53,21.06,DZA,Algeria,North Africa / Middle East,,,15,North Africa / Middle East,2,68.76193,64.72569,72.81956
+2005,19.65,20.13,20.64,DZA,Algeria,North Africa / Middle East,,,15,North Africa / Middle East,2,69.05108,65.30228,73.09234
+2010,18.71,19.15,19.61,DZA,Algeria,North Africa / Middle East,,,15,North Africa / Middle East,2,69.37398,65.14124,73.58078
+2013,18.81,19.26,19.73,DZA,Algeria,North Africa / Middle East,,,15,North Africa / Middle East,2,69.70429,65.61748,73.9372
+1990,7.81,8.01,8.23,ECU,Ecuador,"Latin America, Andean",,,11,Latin America and Caribbean ,5,32.96514,31.05705,34.92906
+1995,7.81,8.01,8.23,ECU,Ecuador,"Latin America, Andean",,,11,Latin America and Caribbean ,5,33.46308,31.50255,35.53183
+2000,8.17,8.38,8.59,ECU,Ecuador,"Latin America, Andean",,,11,Latin America and Caribbean ,5,34.44507,32.2903,36.54163
+2005,9.41,9.63,9.85,ECU,Ecuador,"Latin America, Andean",,,11,Latin America and Caribbean ,5,36.41648,34.14407,38.64221
+2010,10.73,10.95,11.19,ECU,Ecuador,"Latin America, Andean",,,11,Latin America and Caribbean ,5,38.76466,36.45621,40.98675
+2013,13.62,13.9,14.18,ECU,Ecuador,"Latin America, Andean",,,11,Latin America and Caribbean ,5,39.89738,37.53451,42.29804
+1990,34.62,35.9,37.32,EGY,Egypt,North Africa / Middle East,,,15,North Africa / Middle East,2,67.94526,63.7842,71.88471
+1995,35.6,36.94,38.42,EGY,Egypt,North Africa / Middle East,,,15,North Africa / Middle East,2,68.85275,64.79232,72.74744
+2000,36.18,37.56,39.09,EGY,Egypt,North Africa / Middle East,,,15,North Africa / Middle East,2,69.66541,65.57455,73.88721
+2005,35.73,37.07,38.56,EGY,Egypt,North Africa / Middle East,,,15,North Africa / Middle East,2,69.97846,65.52203,73.97911
+2010,33.75,34.97,36.31,EGY,Egypt,North Africa / Middle East,,,15,North Africa / Middle East,2,70.0359,65.77702,74.20823
+2013,35.07,36.39,37.84,EGY,Egypt,North Africa / Middle East,,,15,North Africa / Middle East,2,70.08681,65.78687,74.29129
+1990,22.22,22.79,23.39,ERI,Eritrea,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,46.1637,43.39598,48.79009
+1995,22.15,22.71,23.31,ERI,Eritrea,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,46.54801,43.68077,49.59634
+2000,22.19,22.76,23.36,ERI,Eritrea,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,46.71321,43.92398,49.6477
+2005,22.87,23.46,24.1,ERI,Eritrea,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,46.98996,44.32021,49.83693
+2010,23.53,24.16,24.83,ERI,Eritrea,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,47.08443,44.04649,49.86724
+2013,24.15,24.81,25.52,ERI,Eritrea,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,47.10573,44.11793,49.94859
+1990,17.44,17.81,18.18,ESP,Spain,"Europe, Western",,,10,High income,1,64.66093,60.77973,68.46933
+1995,17.15,17.52,17.88,ESP,Spain,"Europe, Western",,,10,High income,1,65.20173,61.29491,69.17146
+2000,16.56,16.91,17.25,ESP,Spain,"Europe, Western",,,10,High income,1,65.28584,61.22474,69.34605
+2005,14.91,15.22,15.52,ESP,Spain,"Europe, Western",,,10,High income,1,64.26495,60.41559,68.1256
+2010,12.51,12.77,13.02,ESP,Spain,"Europe, Western",,,10,High income,1,62.75881,59.227,66.4285
+2013,11.41,11.65,11.89,ESP,Spain,"Europe, Western",,,10,High income,1,62.18564,58.48285,65.95716
+1990,13.75,14.02,14.3,EST,Estonia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,51.17934,47.98132,54.4581
+1995,11,11.24,11.48,EST,Estonia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,49.89966,47.02734,52.73079
+2000,9.5,9.72,9.95,EST,Estonia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,48.86737,45.90039,51.82712
+2005,9.1,9.33,9.56,EST,Estonia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,48.34436,45.53199,51.32889
+2010,9.27,9.5,9.73,EST,Estonia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,48.03052,45.07317,50.90362
+2013,8.87,9.09,9.32,EST,Estonia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,47.65372,44.77983,50.71961
+1990,15.65,15.98,16.29,ETH,Ethiopia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.42585,48.52111,54.51331
+1995,15.68,16.02,16.32,ETH,Ethiopia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.55754,48.46547,54.69597
+2000,15.74,16.07,16.38,ETH,Ethiopia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.5481,48.32283,54.65156
+2005,16.47,16.82,17.15,ETH,Ethiopia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.48158,48.51176,54.43546
+2010,16.68,17.04,17.38,ETH,Ethiopia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.47371,48.44386,54.74332
+2013,17.22,17.59,17.97,ETH,Ethiopia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.53774,48.49181,54.71375
+1990,9.34,9.55,9.78,FIN,Finland,"Europe, Western",,,10,High income,1,48.48228,45.37128,51.64269
+1995,8.03,8.24,8.46,FIN,Finland,"Europe, Western",,,10,High income,1,48.00631,45.33489,50.92734
+2000,7.32,7.53,7.75,FIN,Finland,"Europe, Western",,,10,High income,1,47.41803,44.52119,50.29093
+2005,7.78,7.99,8.21,FIN,Finland,"Europe, Western",,,10,High income,1,47.20075,44.48134,49.90779
+2010,7.21,7.41,7.63,FIN,Finland,"Europe, Western",,,10,High income,1,46.82908,43.84249,49.61073
+2013,6.84,7.03,7.24,FIN,Finland,"Europe, Western",,,10,High income,1,45.95051,43.20755,48.60667
+1990,7.28,7.5,7.72,FJI,Fiji,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,35.74784,33.6572,37.87949
+1995,7.26,7.47,7.7,FJI,Fiji,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,35.59333,33.3915,37.81041
+2000,7.24,7.45,7.68,FJI,Fiji,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,35.47866,33.37273,37.63008
+2005,7.22,7.43,7.66,FJI,Fiji,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,35.6433,33.49446,37.77674
+2010,7.28,7.5,7.72,FJI,Fiji,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,35.8574,33.70045,38.09692
+2013,7.27,7.49,7.71,FJI,Fiji,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,36.04715,33.85688,38.29089
+1990,22.17,22.75,23.37,FRA,France,"Europe, Western",,,10,High income,1,57.89613,54.36928,61.57642
+1995,19.68,20.14,20.63,FRA,France,"Europe, Western",,,10,High income,1,57.93062,54.52714,61.47966
+2000,17.46,17.84,18.22,FRA,France,"Europe, Western",,,10,High income,1,57.77776,54.15374,61.52447
+2005,16.37,16.71,17.05,FRA,France,"Europe, Western",,,10,High income,1,57.58344,54.15913,60.94246
+2010,14.73,15.04,15.33,FRA,France,"Europe, Western",,,10,High income,1,56.97748,53.53075,60.35535
+2013,13.74,14.02,14.29,FRA,France,"Europe, Western",,,10,High income,1,56.94271,53.63439,60.20914
+1990,1.12,1.17,1.22,FSM,Federated States of Micronesia,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,32.14407,30.19605,34.17605
+1995,1.1,1.15,1.2,FSM,Federated States of Micronesia,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,32.13549,30.20467,34.06466
+2000,1.09,1.14,1.19,FSM,Federated States of Micronesia,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,32.28745,30.32558,34.25324
+2005,3.31,3.44,3.58,FSM,Federated States of Micronesia,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,32.56158,30.63726,34.69129
+2010,4.12,4.28,4.44,FSM,Federated States of Micronesia,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,32.82347,30.81831,34.73666
+2013,4.21,4.36,4.53,FSM,Federated States of Micronesia,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,32.99915,31.16226,34.9308
+1990,12.26,12.51,12.76,GAB,Gabon,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,50.56298,47.63933,53.61834
+1995,12.08,12.33,12.58,GAB,Gabon,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,50.67341,47.79056,53.59046
+2000,12.02,12.26,12.51,GAB,Gabon,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,50.82796,47.8277,53.71126
+2005,10.14,10.37,10.6,GAB,Gabon,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,50.72152,47.5955,53.63739
+2010,9.53,9.75,9.98,GAB,Gabon,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,50.80195,47.82678,53.69909
+2013,10.69,10.92,11.15,GAB,Gabon,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,50.74709,47.56449,53.84734
+1990,19.3,19.74,20.2,GBR,United Kingdom,"Europe, Western",,,10,High income,1,40.7454,38.37753,43.34544
+1995,16.64,16.99,17.34,GBR,United Kingdom,"Europe, Western",,,10,High income,1,43.21191,40.55983,45.84165
+2000,14.26,14.55,14.83,GBR,United Kingdom,"Europe, Western",,,10,High income,1,45.47467,42.74293,48.19962
+2005,12.41,12.67,12.92,GBR,United Kingdom,"Europe, Western",,,10,High income,1,47.06627,44.25536,49.77767
+2010,11.15,11.39,11.63,GBR,United Kingdom,"Europe, Western",,,10,High income,1,48.46455,45.52135,51.30717
+2013,10.57,10.8,11.04,GBR,United Kingdom,"Europe, Western",,,10,High income,1,49.54396,46.455,52.51867
+1990,19.95,20.42,20.92,GEO,Georgia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,60.35958,56.85055,63.74983
+1995,17.34,17.71,18.08,GEO,Georgia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,59.5254,55.83179,63.2308
+2000,16.35,16.7,17.03,GEO,Georgia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,59.12986,55.55833,62.58438
+2005,16.5,16.85,17.18,GEO,Georgia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,58.80872,55.10894,62.16454
+2010,16.89,17.25,17.6,GEO,Georgia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,58.85257,55.47609,62.51984
+2013,15.18,15.5,15.8,GEO,Georgia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,58.72166,55.07539,62.04877
+1990,21.96,22.52,23.12,GHA,Ghana,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,65.34063,61.471,69.29612
+1995,21.96,22.53,23.13,GHA,Ghana,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,66.00517,61.96735,70.00831
+2000,21.92,22.48,23.08,GHA,Ghana,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,66.45612,62.15976,70.43812
+2005,23.14,23.76,24.42,GHA,Ghana,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,66.66332,62.42216,70.88844
+2010,22.44,23.01,23.63,GHA,Ghana,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,66.58045,62.67902,70.29855
+2013,25.76,26.53,27.36,GHA,Ghana,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,66.66673,62.74717,70.53799
+1990,25.85,26.6,27.43,GIN,Guinea,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,57.99284,54.73638,61.60201
+1995,25.57,26.31,27.12,GIN,Guinea,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,58.93707,55.61314,62.54305
+2000,25.34,26.07,26.86,GIN,Guinea,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,59.5527,55.83587,63.14896
+2005,24.85,25.56,26.32,GIN,Guinea,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,59.75508,56.40461,63.32295
+2010,23.51,24.14,24.83,GIN,Guinea,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,59.66507,55.8573,63.11344
+2013,26.22,27.01,27.87,GIN,Guinea,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,59.86908,56.16581,63.35405
+1990,33.89,35.12,36.46,GMB,The Gambia,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,45.88774,43.08441,48.66353
+1995,33.77,34.98,36.32,GMB,The Gambia,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,46.25975,43.59634,48.91664
+2000,33.7,34.91,36.23,GMB,The Gambia,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,46.4133,43.81419,49.33746
+2005,33.29,34.47,35.77,GMB,The Gambia,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,46.43703,43.42822,49.34306
+2010,32.38,33.51,34.74,GMB,The Gambia,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,46.36706,43.4797,49.22461
+2013,33.58,34.78,36.1,GMB,The Gambia,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,46.44639,43.61577,49.0498
+1990,32,33.1,34.31,GNB,Guinea-Bissau,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,51.46803,48.29292,54.49622
+1995,31.96,33.07,34.27,GNB,Guinea-Bissau,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,51.97412,48.69024,55.14053
+2000,31.93,33.03,34.23,GNB,Guinea-Bissau,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,52.22496,49.33808,55.36436
+2005,30.18,31.16,32.25,GNB,Guinea-Bissau,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,52.35263,49.11396,55.41535
+2010,28.61,29.5,30.49,GNB,Guinea-Bissau,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,52.27288,49.02246,55.26954
+2013,29.26,30.19,31.22,GNB,Guinea-Bissau,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,52.20316,48.89762,55.2561
+1990,10.54,10.77,11.01,GNQ,Equatorial Guinea,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,52.68526,49.71571,55.7139
+1995,10.47,10.7,10.93,GNQ,Equatorial Guinea,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,53.0044,49.91437,56.19533
+2000,10.37,10.59,10.83,GNQ,Equatorial Guinea,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,53.17551,49.80905,56.47022
+2005,11.24,11.48,11.73,GNQ,Equatorial Guinea,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,53.06624,49.76289,56.27446
+2010,9.84,10.06,10.3,GNQ,Equatorial Guinea,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,52.97103,49.76741,56.15196
+2013,11.02,11.25,11.48,GNQ,Equatorial Guinea,"Sub-Saharan Africa, Central",,,18,Sub-Saharan Africa,7,52.94701,49.81772,56.03427
+1990,22.45,23.03,23.64,GRC,Greece,"Europe, Western",,,10,High income,1,72.19839,67.77622,76.55129
+1995,20.43,20.91,21.42,GRC,Greece,"Europe, Western",,,10,High income,1,71.88725,67.54504,76.25875
+2000,18.83,19.25,19.67,GRC,Greece,"Europe, Western",,,10,High income,1,71.43052,66.81006,75.69765
+2005,17.75,18.13,18.51,GRC,Greece,"Europe, Western",,,10,High income,1,70.66551,66.34518,74.80939
+2010,16.74,17.09,17.43,GRC,Greece,"Europe, Western",,,10,High income,1,69.92645,65.72443,74.19331
+2013,15.05,15.36,15.66,GRC,Greece,"Europe, Western",,,10,High income,1,69.69581,65.4556,73.90727
+1990,13.97,14.25,14.53,GRD,Grenada,Caribbean,,,7,Latin America and Caribbean ,5,37.73011,35.47939,39.94979
+1995,13.96,14.25,14.53,GRD,Grenada,Caribbean,,,7,Latin America and Caribbean ,5,38.02348,35.53534,40.15719
+2000,13.96,14.24,14.52,GRD,Grenada,Caribbean,,,7,Latin America and Caribbean ,5,38.29851,36.10461,40.57533
+2005,13.57,13.85,14.12,GRD,Grenada,Caribbean,,,7,Latin America and Caribbean ,5,38.43045,36.06516,40.73187
+2010,13.97,14.26,14.54,GRD,Grenada,Caribbean,,,7,Latin America and Caribbean ,5,38.55696,36.25911,40.783
+2013,16.51,16.86,17.19,GRD,Grenada,Caribbean,,,7,Latin America and Caribbean ,5,38.65121,36.42326,40.97915
+1990,11.12,11.35,11.59,GTM,Guatemala,"Latin America, Central",,,12,Latin America and Caribbean ,5,54.78207,51.47736,57.96473
+1995,12.02,12.26,12.51,GTM,Guatemala,"Latin America, Central",,,12,Latin America and Caribbean ,5,56.53662,53.13401,59.92753
+2000,12.61,12.87,13.13,GTM,Guatemala,"Latin America, Central",,,12,Latin America and Caribbean ,5,57.73909,54.35746,61.09347
+2005,13.22,13.49,13.76,GTM,Guatemala,"Latin America, Central",,,12,Latin America and Caribbean ,5,57.97346,54.43028,61.39898
+2010,12.15,12.4,12.66,GTM,Guatemala,"Latin America, Central",,,12,Latin America and Caribbean ,5,57.70977,54.31758,60.89299
+2013,12.14,12.4,12.64,GTM,Guatemala,"Latin America, Central",,,12,Latin America and Caribbean ,5,57.85299,54.42601,61.38974
+1990,8.61,8.82,9.03,GUY,Guyana,Caribbean,,,7,Latin America and Caribbean ,5,31.38837,29.43482,33.28893
+1995,8.55,8.76,8.97,GUY,Guyana,Caribbean,,,7,Latin America and Caribbean ,5,31.48852,29.56081,33.33181
+2000,8.6,8.8,9.02,GUY,Guyana,Caribbean,,,7,Latin America and Caribbean ,5,31.57937,29.75903,33.50832
+2005,7.26,7.47,7.7,GUY,Guyana,Caribbean,,,7,Latin America and Caribbean ,5,31.73523,29.71043,33.68091
+2010,7.2,7.41,7.63,GUY,Guyana,Caribbean,,,7,Latin America and Caribbean ,5,31.91915,30.09321,33.7744
+2013,8.54,8.75,8.96,GUY,Guyana,Caribbean,,,7,Latin America and Caribbean ,5,32.06006,30.10768,33.96949
+1990,8.38,8.6,8.82,HND,Honduras,"Latin America, Central",,,12,Latin America and Caribbean ,5,43.99355,41.53246,46.5105
+1995,8.6,8.82,9.04,HND,Honduras,"Latin America, Central",,,12,Latin America and Caribbean ,5,44.69825,41.9758,47.33752
+2000,8.83,9.05,9.28,HND,Honduras,"Latin America, Central",,,12,Latin America and Caribbean ,5,45.01611,42.42611,47.48483
+2005,9.22,9.44,9.67,HND,Honduras,"Latin America, Central",,,12,Latin America and Caribbean ,5,45.08769,42.47417,47.82541
+2010,8.88,9.1,9.33,HND,Honduras,"Latin America, Central",,,12,Latin America and Caribbean ,5,45.05917,42.16571,47.91441
+2013,8.46,8.67,8.89,HND,Honduras,"Latin America, Central",,,12,Latin America and Caribbean ,5,45.19968,42.62381,47.80875
+1990,24.22,24.88,25.59,HRV,Croatia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,69.49605,65.31946,73.77708
+1995,20.14,20.61,21.11,HRV,Croatia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,68.54802,64.72756,72.77392
+2000,17.38,17.75,18.11,HRV,Croatia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,67.42426,63.2507,71.44527
+2005,16.57,16.92,17.25,HRV,Croatia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,66.60875,62.89991,70.53349
+2010,14.75,15.06,15.36,HRV,Croatia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,65.73995,61.5451,69.72601
+2013,13.65,13.93,14.2,HRV,Croatia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,65.29826,61.19999,69.37552
+1990,11.79,12.03,12.27,HTI,Haiti,Caribbean,,,7,Latin America and Caribbean ,5,44.77938,42.17416,47.45108
+1995,12.04,12.28,12.53,HTI,Haiti,Caribbean,,,7,Latin America and Caribbean ,5,45.72128,42.94847,48.48117
+2000,12.15,12.4,12.65,HTI,Haiti,Caribbean,,,7,Latin America and Caribbean ,5,46.50901,43.68079,49.30741
+2005,12.58,12.85,13.1,HTI,Haiti,Caribbean,,,7,Latin America and Caribbean ,5,46.81114,43.93707,49.84439
+2010,12.43,12.69,12.94,HTI,Haiti,Caribbean,,,7,Latin America and Caribbean ,5,46.76522,43.89684,49.69237
+2013,13.08,13.35,13.61,HTI,Haiti,Caribbean,,,7,Latin America and Caribbean ,5,46.9579,43.95258,49.90435
+1990,32.9,34.07,35.36,HUN,Hungary,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,63.9148,59.97316,67.53605
+1995,25.37,26.09,26.87,HUN,Hungary,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,63.24612,59.39322,66.87017
+2000,20.31,20.78,21.29,HUN,Hungary,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,62.56197,58.74366,66.49416
+2005,19.35,19.78,20.23,HUN,Hungary,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,62.12619,58.48535,65.90754
+2010,17.51,17.88,18.25,HUN,Hungary,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,61.60624,57.87036,65.27901
+2013,15.43,15.75,16.06,HUN,Hungary,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,61.37415,57.54539,65.05896
+1990,20.47,21.01,21.59,IDN,Indonesia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,50.21857,47.2548,53.16336
+1995,15.53,15.86,16.18,IDN,Indonesia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,45.13809,42.29123,47.69768
+2000,11.86,12.1,12.34,IDN,Indonesia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,41.71112,39.21782,44.37294
+2005,11.7,11.94,12.19,IDN,Indonesia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,41.13098,38.86737,43.63868
+2010,11.9,12.15,12.39,IDN,Indonesia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,42.44445,39.96057,44.78639
+2013,14.46,14.76,15.05,IDN,Indonesia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,42.08194,39.64768,44.59814
+1990,29.25,30.24,31.32,IND,India,"Asia, South",,,4,South Asia,3,61.50953,57.92173,65.43497
+1995,30.68,31.76,32.95,IND,India,"Asia, South",,,4,South Asia,3,63.10376,59.58913,66.82413
+2000,32.45,33.65,34.96,IND,India,"Asia, South",,,4,South Asia,3,65.21417,61.48801,69.30753
+2005,37.17,38.69,40.38,IND,India,"Asia, South",,,4,South Asia,3,68.17632,63.93203,72.52298
+2010,41.57,43.38,45.42,IND,India,"Asia, South",,,4,South Asia,3,72.01125,67.69286,76.44241
+2013,44.62,46.66,48.97,IND,India,"Asia, South",,,4,South Asia,3,73.95399,69.44147,78.42302
+1990,11.87,12.12,12.37,IRL,Ireland,"Europe, Western",,,10,High income,1,46.57546,43.64783,49.5087
+1995,10.62,10.85,11.09,IRL,Ireland,"Europe, Western",,,10,High income,1,47.04753,44.47623,49.50513
+2000,9.53,9.75,9.99,IRL,Ireland,"Europe, Western",,,10,High income,1,47.3678,44.62243,50.05252
+2005,8.54,8.76,8.99,IRL,Ireland,"Europe, Western",,,10,High income,1,47.50895,44.51578,50.40953
+2010,8.17,8.39,8.62,IRL,Ireland,"Europe, Western",,,10,High income,1,47.60366,44.77384,50.5377
+2013,7.71,7.93,8.15,IRL,Ireland,"Europe, Western",,,10,High income,1,47.77798,44.8964,50.4665
+1990,27.76,28.63,29.59,IRN,Iran,North Africa / Middle East,,,15,North Africa / Middle East,2,69.63963,65.31743,74.11892
+1995,27.9,28.77,29.74,IRN,Iran,North Africa / Middle East,,,15,North Africa / Middle East,2,70.87708,66.18214,75.14046
+2000,28.49,29.39,30.4,IRN,Iran,North Africa / Middle East,,,15,North Africa / Middle East,2,71.99858,67.78811,76.52982
+2005,29.02,29.95,30.98,IRN,Iran,North Africa / Middle East,,,15,North Africa / Middle East,2,72.70577,68.34155,76.99115
+2010,30.83,31.88,33.03,IRN,Iran,North Africa / Middle East,,,15,North Africa / Middle East,2,73.19722,68.53438,77.27414
+2013,30.82,31.87,33.03,IRN,Iran,North Africa / Middle East,,,15,North Africa / Middle East,2,73.70872,69.06519,78.2079
+1990,28.24,29.11,30.08,IRQ,Iraq,North Africa / Middle East,,,15,North Africa / Middle East,2,71.39866,67.20506,75.72338
+1995,28.27,29.15,30.12,IRQ,Iraq,North Africa / Middle East,,,15,North Africa / Middle East,2,72.63158,68.12714,76.76301
+2000,28.7,29.59,30.59,IRQ,Iraq,North Africa / Middle East,,,15,North Africa / Middle East,2,73.65013,69.23547,78.03465
+2005,30.18,31.17,32.27,IRQ,Iraq,North Africa / Middle East,,,15,North Africa / Middle East,2,74.17298,69.72905,78.56878
+2010,34.37,35.63,37.01,IRQ,Iraq,North Africa / Middle East,,,15,North Africa / Middle East,2,74.37451,70.29516,78.66158
+2013,31.47,32.55,33.74,IRQ,Iraq,North Africa / Middle East,,,15,North Africa / Middle East,2,74.75499,70.08999,79.2081
+1990,6.87,7.07,7.29,ISL,Iceland,"Europe, Western",,,10,High income,1,44.28017,41.71379,46.91501
+1995,6.74,6.95,7.17,ISL,Iceland,"Europe, Western",,,10,High income,1,44.51551,42.10153,47.02993
+2000,6.67,6.87,7.09,ISL,Iceland,"Europe, Western",,,10,High income,1,44.73929,41.91434,47.50535
+2005,6.75,6.95,7.17,ISL,Iceland,"Europe, Western",,,10,High income,1,44.93549,42.17988,47.44254
+2010,6.78,6.99,7.21,ISL,Iceland,"Europe, Western",,,10,High income,1,44.86089,41.98962,47.59106
+2013,6.98,7.18,7.41,ISL,Iceland,"Europe, Western",,,10,High income,1,45.02182,42.49123,47.62734
+1990,26.38,27.16,28,ISR,Israel,"Europe, Western",,,10,High income,1,71.6746,67.44081,76.00807
+1995,26.2,26.97,27.8,ISR,Israel,"Europe, Western",,,10,High income,1,71.86998,67.39907,76.17773
+2000,26.17,26.93,27.76,ISR,Israel,"Europe, Western",,,10,High income,1,72.02493,67.73824,76.10658
+2005,26.1,26.86,27.68,ISR,Israel,"Europe, Western",,,10,High income,1,72.12425,67.81925,76.63377
+2010,25.6,26.33,27.13,ISR,Israel,"Europe, Western",,,10,High income,1,71.69459,67.21972,75.74983
+2013,25.07,25.77,26.53,ISR,Israel,"Europe, Western",,,10,High income,1,71.6521,67.4772,76.06268
+1990,29.6,30.6,31.69,ITA,Italy,"Europe, Western",,,10,High income,1,81.23203,76.82288,86.20511
+1995,25.98,26.77,27.62,ITA,Italy,"Europe, Western",,,10,High income,1,79.91006,75.14984,84.63074
+2000,22.85,23.47,24.13,ITA,Italy,"Europe, Western",,,10,High income,1,78.63287,74.06817,83.13386
+2005,21.37,21.92,22.51,ITA,Italy,"Europe, Western",,,10,High income,1,77.25427,72.8933,82.09572
+2010,19.61,20.07,20.57,ITA,Italy,"Europe, Western",,,10,High income,1,75.69738,71.27605,80.28833
+2013,17.93,18.33,18.74,ITA,Italy,"Europe, Western",,,10,High income,1,74.81641,70.2523,79.57191
+1990,10.85,11.08,11.32,JAM,Jamaica,Caribbean,,,7,Latin America and Caribbean ,5,42.95191,40.44262,45.43368
+1995,10.91,11.15,11.39,JAM,Jamaica,Caribbean,,,7,Latin America and Caribbean ,5,43.40586,40.78217,45.85359
+2000,10.95,11.19,11.43,JAM,Jamaica,Caribbean,,,7,Latin America and Caribbean ,5,43.88285,41.30259,46.50132
+2005,11.02,11.26,11.5,JAM,Jamaica,Caribbean,,,7,Latin America and Caribbean ,5,44.0564,41.46225,46.67361
+2010,11.02,11.26,11.5,JAM,Jamaica,Caribbean,,,7,Latin America and Caribbean ,5,44.21574,41.65189,47.05183
+2013,10.9,11.13,11.37,JAM,Jamaica,Caribbean,,,7,Latin America and Caribbean ,5,44.24478,41.71132,46.88968
+1990,25.72,26.46,27.26,JOR,Jordan,North Africa / Middle East,,,15,North Africa / Middle East,2,70.91863,66.82037,75.27116
+1995,25.62,26.35,27.14,JOR,Jordan,North Africa / Middle East,,,15,North Africa / Middle East,2,71.88352,67.54548,76.43617
+2000,25.58,26.31,27.11,JOR,Jordan,North Africa / Middle East,,,15,North Africa / Middle East,2,72.6818,68.66335,76.81522
+2005,25.19,25.89,26.66,JOR,Jordan,North Africa / Middle East,,,15,North Africa / Middle East,2,72.95533,68.46914,77.76275
+2010,25.55,26.28,27.07,JOR,Jordan,North Africa / Middle East,,,15,North Africa / Middle East,2,72.9426,68.66393,77.05827
+2013,24.94,25.63,26.38,JOR,Jordan,North Africa / Middle East,,,15,North Africa / Middle East,2,73.12253,68.56646,77.884
+1990,18.98,19.41,19.88,JPN,Japan,"Asia Pacific, High Income",,,1,High income,1,56.76125,53.39939,60.13122
+1995,18.23,18.64,19.05,JPN,Japan,"Asia Pacific, High Income",,,1,High income,1,56.84518,53.44387,60.13499
+2000,17.66,18.04,18.42,JPN,Japan,"Asia Pacific, High Income",,,1,High income,1,57.42691,53.91983,60.89776
+2005,17.22,17.58,17.95,JPN,Japan,"Asia Pacific, High Income",,,1,High income,1,58.61691,55.03397,61.95251
+2010,16.41,16.76,17.09,JPN,Japan,"Asia Pacific, High Income",,,1,High income,1,59.87274,56.05672,63.39749
+2013,15.69,16.02,16.33,JPN,Japan,"Asia Pacific, High Income",,,1,High income,1,60.53673,57.09389,64.16866
+1990,16.08,16.43,16.76,KAZ,Kazakhstan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,54.00521,50.57749,57.38781
+1995,13.94,14.22,14.5,KAZ,Kazakhstan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,52.93948,49.91957,56.03094
+2000,13.09,13.36,13.62,KAZ,Kazakhstan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,52.30706,49.21252,55.56785
+2005,14.63,14.93,15.22,KAZ,Kazakhstan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,52.17503,49.09701,55.25953
+2010,14.62,14.93,15.21,KAZ,Kazakhstan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,52.35856,49.28164,55.5166
+2013,13.93,14.22,14.5,KAZ,Kazakhstan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,52.06781,49.05623,55.21113
+1990,9.87,10.08,10.31,KEN,Kenya,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,42.38292,39.78788,45.01412
+1995,9.89,10.1,10.33,KEN,Kenya,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,42.33752,39.73542,45.02068
+2000,9.83,10.04,10.27,KEN,Kenya,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,42.18116,39.49932,44.66051
+2005,10.48,10.7,10.93,KEN,Kenya,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,42.24081,39.82912,44.76669
+2010,10.49,10.71,10.95,KEN,Kenya,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,42.3339,39.55019,44.78602
+2013,11.2,11.43,11.67,KEN,Kenya,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,42.33622,39.83461,44.84512
+1990,19.12,19.54,19.99,KGZ,Kyrgyzstan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,64.76734,60.80953,68.86163
+1995,17.08,17.45,17.8,KGZ,Kyrgyzstan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,63.80342,59.93352,67.51723
+2000,16.19,16.53,16.85,KGZ,Kyrgyzstan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,63.64091,59.95853,67.56015
+2005,17.73,18.11,18.48,KGZ,Kyrgyzstan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,63.97017,59.98588,67.86823
+2010,17.6,17.98,18.35,KGZ,Kyrgyzstan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,64.55662,60.66715,68.35445
+2013,17.94,18.33,18.72,KGZ,Kyrgyzstan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,64.909,60.8188,69.03165
+1990,9.95,10.18,10.41,KHM,Cambodia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,40.16555,37.87125,42.47582
+1995,9.92,10.14,10.37,KHM,Cambodia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,41.07021,38.67122,43.70583
+2000,10.68,10.91,11.15,KHM,Cambodia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,42.36402,39.73828,44.98989
+2005,14.29,14.58,14.86,KHM,Cambodia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,44.53207,41.87581,47.0588
+2010,16.96,17.32,17.67,KHM,Cambodia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,47.37361,44.46812,50.23705
+2013,19.29,19.73,20.19,KHM,Cambodia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,48.79389,45.80436,51.57306
+1990,7.22,7.43,7.66,KIR,Kiribati,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,22.6094,21.26019,24.08843
+1995,7.22,7.43,7.66,KIR,Kiribati,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,22.49911,21.15487,23.89245
+2000,7.22,7.43,7.66,KIR,Kiribati,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,22.42026,21.11023,23.72719
+2005,7.22,7.43,7.66,KIR,Kiribati,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,22.56524,21.27549,23.95266
+2010,7.22,7.43,7.66,KIR,Kiribati,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,22.61299,21.26914,23.934
+2013,7.22,7.43,7.66,KIR,Kiribati,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,22.64256,21.32274,23.93597
+1990,34.27,35.57,37.01,KOR,South Korea,"Asia Pacific, High Income",,,1,High income,1,65.49879,61.56574,69.60796
+1995,30.9,31.97,33.15,KOR,South Korea,"Asia Pacific, High Income",,,1,High income,1,62.60245,58.88016,66.41201
+2000,28.5,29.41,30.41,KOR,South Korea,"Asia Pacific, High Income",,,1,High income,1,61.29698,57.73306,64.84959
+2005,29.02,29.94,30.97,KOR,South Korea,"Asia Pacific, High Income",,,1,High income,1,62.3223,58.51611,66.35384
+2010,28.37,29.25,30.24,KOR,South Korea,"Asia Pacific, High Income",,,1,High income,1,65.02193,60.92472,69.00423
+2013,28.19,29.07,30.04,KOR,South Korea,"Asia Pacific, High Income",,,1,High income,1,65.74598,61.62394,69.60139
+1990,35.17,36.48,37.92,KWT,Kuwait,North Africa / Middle East,,,15,North Africa / Middle East,2,76.39944,71.89819,81.17043
+1995,35.24,36.55,37.99,KWT,Kuwait,North Africa / Middle East,,,15,North Africa / Middle East,2,78.97442,74.50319,83.50027
+2000,35.47,36.79,38.25,KWT,Kuwait,North Africa / Middle East,,,15,North Africa / Middle East,2,80.80944,75.74406,85.49036
+2005,38.81,40.37,42.11,KWT,Kuwait,North Africa / Middle East,,,15,North Africa / Middle East,2,82.26563,77.46297,87.1487
+2010,44.59,46.55,48.76,KWT,Kuwait,North Africa / Middle East,,,15,North Africa / Middle East,2,83.41252,78.37559,88.46326
+2013,46.97,49.11,51.53,KWT,Kuwait,North Africa / Middle East,,,15,North Africa / Middle East,2,84.35178,79.68642,89.34541
+1990,14.34,14.63,14.92,LAO,Laos,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,47.81624,44.71132,50.69073
+1995,14.45,14.75,15.04,LAO,Laos,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,49.21478,46.22376,52.1937
+2000,14.94,15.25,15.55,LAO,Laos,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,51.29661,48.32682,54.31516
+2005,18.09,18.48,18.88,LAO,Laos,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,54.30477,50.9238,57.4487
+2010,20.08,20.55,21.06,LAO,Laos,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,58.16793,54.82223,61.69115
+2013,26.56,27.46,28.46,LAO,Laos,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,60.29009,56.82272,63.71941
+1990,23.73,24.37,25.07,LBN,Lebanon,North Africa / Middle East,,,15,North Africa / Middle East,2,70.20604,65.90675,74.38242
+1995,23.13,23.75,24.41,LBN,Lebanon,North Africa / Middle East,,,15,North Africa / Middle East,2,71.20992,67.11217,75.35017
+2000,23,23.6,24.26,LBN,Lebanon,North Africa / Middle East,,,15,North Africa / Middle East,2,71.84993,67.58333,76.1215
+2005,23.06,23.66,24.3,LBN,Lebanon,North Africa / Middle East,,,15,North Africa / Middle East,2,71.99889,67.62003,76.26392
+2010,22.6,23.18,23.8,LBN,Lebanon,North Africa / Middle East,,,15,North Africa / Middle East,2,71.61436,67.31266,76.00753
+2013,22.96,23.55,24.2,LBN,Lebanon,North Africa / Middle East,,,15,North Africa / Middle East,2,71.73925,67.60641,76.18974
+1990,13.91,14.2,14.47,LBR,Liberia,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,54.14439,50.81461,57.34699
+1995,14,14.28,14.56,LBR,Liberia,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,54.71005,51.38221,57.918
+2000,14.06,14.34,14.63,LBR,Liberia,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,54.98096,51.36831,58.32118
+2005,15.75,16.09,16.4,LBR,Liberia,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,55.17516,52.15059,58.33193
+2010,16.13,16.47,16.78,LBR,Liberia,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,54.99866,51.80462,58.10716
+2013,22.11,22.71,23.36,LBR,Liberia,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,54.9476,51.4475,58.48168
+1990,29.19,30.24,31.39,LBY,Libya,North Africa / Middle East,,,15,North Africa / Middle East,2,58.87978,55.61184,62.36438
+1995,28.42,29.42,30.52,LBY,Libya,North Africa / Middle East,,,15,North Africa / Middle East,2,59.53204,55.96143,63.10921
+2000,27.8,28.77,29.83,LBY,Libya,North Africa / Middle East,,,15,North Africa / Middle East,2,60.0474,56.47207,63.73545
+2005,28.91,29.94,31.08,LBY,Libya,North Africa / Middle East,,,15,North Africa / Middle East,2,60.43373,56.62235,63.8656
+2010,29.03,30.06,31.2,LBY,Libya,North Africa / Middle East,,,15,North Africa / Middle East,2,60.45142,57.09289,64.10514
+2013,26.89,27.81,28.82,LBY,Libya,North Africa / Middle East,,,15,North Africa / Middle East,2,60.87565,57.20946,64.36884
+1990,14.97,15.28,15.58,LCA,Saint Lucia,Caribbean,,,7,Latin America and Caribbean ,5,39.03712,36.73746,41.31788
+1995,14.94,15.25,15.55,LCA,Saint Lucia,Caribbean,,,7,Latin America and Caribbean ,5,39.2813,37.08631,41.712
+2000,14.94,15.24,15.54,LCA,Saint Lucia,Caribbean,,,7,Latin America and Caribbean ,5,39.453,37.17161,41.879
+2005,14.67,14.96,15.26,LCA,Saint Lucia,Caribbean,,,7,Latin America and Caribbean ,5,39.62867,37.40996,41.98168
+2010,15.22,15.53,15.84,LCA,Saint Lucia,Caribbean,,,7,Latin America and Caribbean ,5,39.64728,37.28675,41.9872
+2013,15.29,15.6,15.91,LCA,Saint Lucia,Caribbean,,,7,Latin America and Caribbean ,5,39.75393,37.32825,42.20949
+1990,11.21,11.45,11.69,LKA,Sri Lanka,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,45.69561,43.01973,48.32106
+1995,11.83,12.07,12.32,LKA,Sri Lanka,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,46.28118,43.56298,49.12051
+2000,12.56,12.82,13.08,LKA,Sri Lanka,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,47.34187,44.28254,50.22215
+2005,14.31,14.6,14.89,LKA,Sri Lanka,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,49.21139,46.13292,52.07096
+2010,15.77,16.1,16.41,LKA,Sri Lanka,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,51.36255,48.48233,54.27124
+2013,16.78,17.14,17.49,LKA,Sri Lanka,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,52.52838,49.37757,55.76874
+1990,9.29,9.51,9.74,LSO,Lesotho,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,52.39029,49.38272,55.56624
+1995,9.64,9.86,10.09,LSO,Lesotho,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,52.82298,49.96383,56.0363
+2000,9.86,10.09,10.32,LSO,Lesotho,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,53.31006,50.071,56.41584
+2005,10.2,10.42,10.66,LSO,Lesotho,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,53.74202,50.31557,56.90769
+2010,10.4,10.63,10.87,LSO,Lesotho,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,54.44035,51.35173,57.45892
+2013,10.47,10.69,10.93,LSO,Lesotho,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,54.76477,51.49333,58.00117
+1990,22.66,23.25,23.88,LTU,Lithuania,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,54.43579,51.19861,57.82061
+1995,17.51,17.88,18.25,LTU,Lithuania,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,52.88081,49.77026,56.15902
+2000,14.45,14.74,15.03,LTU,Lithuania,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,51.61387,48.30355,54.55874
+2005,14.62,14.92,15.21,LTU,Lithuania,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,51.0093,47.82464,54.08565
+2010,13.98,14.26,14.54,LTU,Lithuania,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,50.82377,47.92428,53.95446
+2013,13.48,13.75,14.02,LTU,Lithuania,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,50.45952,47.48579,53.26523
+1990,26.39,27.17,28.01,LUX,Luxembourg,"Europe, Western",,,10,High income,1,54.83338,51.38197,57.94849
+1995,21.99,22.55,23.14,LUX,Luxembourg,"Europe, Western",,,10,High income,1,55.11048,51.78093,58.50034
+2000,18.73,19.14,19.56,LUX,Luxembourg,"Europe, Western",,,10,High income,1,55.11174,51.99648,58.60421
+2005,15.99,16.33,16.64,LUX,Luxembourg,"Europe, Western",,,10,High income,1,54.9602,51.75988,58.0889
+2010,14.9,15.21,15.51,LUX,Luxembourg,"Europe, Western",,,10,High income,1,54.71165,51.44092,57.70784
+2013,14.5,14.79,15.08,LUX,Luxembourg,"Europe, Western",,,10,High income,1,54.66236,51.30522,57.90547
+1990,19.34,19.77,20.23,LVA,Latvia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,52.6993,49.64329,55.90364
+1995,14.94,15.25,15.55,LVA,Latvia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,51.18725,48.26183,54.22086
+2000,12.41,12.67,12.92,LVA,Latvia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,50.01436,46.91186,53.31132
+2005,12.24,12.49,12.74,LVA,Latvia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,49.33761,46.59045,52.32949
+2010,12.03,12.28,12.53,LVA,Latvia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,49.09096,46.15438,52.16665
+2013,11.78,12.02,12.26,LVA,Latvia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,48.71197,45.76363,51.50096
+1990,17.86,18.24,18.63,MAR,Morocco,North Africa / Middle East,,,15,North Africa / Middle East,2,57.78885,54.5036,61.29672
+1995,18.09,18.48,18.87,MAR,Morocco,North Africa / Middle East,,,15,North Africa / Middle East,2,58.48112,55.09953,61.78194
+2000,18.12,18.51,18.9,MAR,Morocco,North Africa / Middle East,,,15,North Africa / Middle East,2,58.7915,55.35962,61.93123
+2005,18.07,18.46,18.86,MAR,Morocco,North Africa / Middle East,,,15,North Africa / Middle East,2,58.94397,55.53734,62.56125
+2010,16.47,16.82,17.15,MAR,Morocco,North Africa / Middle East,,,15,North Africa / Middle East,2,58.74394,55.25103,62.2997
+2013,16.99,17.35,17.7,MAR,Morocco,North Africa / Middle East,,,15,North Africa / Middle East,2,58.68579,55.17876,62.39554
+1990,31.05,32.09,33.23,MDA,Moldova,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,61.91043,58.37761,65.49483
+1995,23.71,24.35,25.03,MDA,Moldova,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,60.25145,56.73152,63.6789
+2000,18.81,19.22,19.65,MDA,Moldova,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,58.94995,55.52476,62.66528
+2005,17.6,17.98,18.35,MDA,Moldova,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,58.33143,54.67649,61.78538
+2010,17.31,17.68,18.04,MDA,Moldova,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,58.03317,54.47927,61.44781
+2013,16.7,17.06,17.39,MDA,Moldova,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,57.74745,54.22808,61.09964
+1990,5.62,5.82,6.03,MDG,Madagascar,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,38.97778,36.57995,41.17975
+1995,5.59,5.79,6,MDG,Madagascar,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,38.96854,36.53466,41.3468
+2000,5.57,5.77,5.98,MDG,Madagascar,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,39.04089,36.60213,41.24147
+2005,5.68,5.88,6.09,MDG,Madagascar,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,39.38491,36.87293,41.67647
+2010,5.88,6.08,6.29,MDG,Madagascar,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,39.82328,37.39858,42.37162
+2013,5.99,6.2,6.41,MDG,Madagascar,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,39.97511,37.54461,42.4366
+1990,6.21,6.42,6.64,MDV,Maldives,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,,,
+1995,6.21,6.42,6.64,MDV,Maldives,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,,,
+2000,6.22,6.43,6.65,MDV,Maldives,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,,,
+2005,6.26,6.46,6.68,MDV,Maldives,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,,,
+2010,6.27,6.47,6.69,MDV,Maldives,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,,,
+2013,6.3,6.51,6.72,MDV,Maldives,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,,,
+1990,14.21,14.5,14.79,MEX,Mexico,"Latin America, Central",,,12,Latin America and Caribbean ,5,61.63443,57.88442,65.60849
+1995,15.59,15.93,16.24,MEX,Mexico,"Latin America, Central",,,12,Latin America and Caribbean ,5,62.4233,58.64973,66.07899
+2000,16.07,16.42,16.75,MEX,Mexico,"Latin America, Central",,,12,Latin America and Caribbean ,5,62.50758,58.88727,66.2354
+2005,15.04,15.36,15.65,MEX,Mexico,"Latin America, Central",,,12,Latin America and Caribbean ,5,61.83752,58.1253,65.54764
+2010,12.78,13.04,13.3,MEX,Mexico,"Latin America, Central",,,12,Latin America and Caribbean ,5,60.72595,57.21672,64.36783
+2013,11.68,11.93,12.17,MEX,Mexico,"Latin America, Central",,,12,Latin America and Caribbean ,5,60.37775,56.72199,63.88794
+1990,3.95,4.12,4.3,MHL,Marshall Islands,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+1995,3.9,4.08,4.26,MHL,Marshall Islands,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+2000,3.9,4.07,4.26,MHL,Marshall Islands,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+2005,4.35,4.53,4.72,MHL,Marshall Islands,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+2010,4.46,4.64,4.84,MHL,Marshall Islands,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+2013,4.36,4.54,4.73,MHL,Marshall Islands,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+1990,24.99,25.69,26.45,MKD,Macedonia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,68.84736,64.84361,72.80866
+1995,22.05,22.61,23.2,MKD,Macedonia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,68.25304,64.21983,72.46096
+2000,20.08,20.55,21.04,MKD,Macedonia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,67.73008,63.52951,71.83678
+2005,19.21,19.64,20.08,MKD,Macedonia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,67.1963,63.4037,71.13311
+2010,17.61,17.98,18.35,MKD,Macedonia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,66.87811,62.9794,70.66208
+2013,16.64,16.99,17.33,MKD,Macedonia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,66.64269,62.43199,70.63047
+1990,32.46,33.63,34.91,MLI,Mali,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,48.86177,46.05384,51.77224
+1995,32.57,33.74,35.03,MLI,Mali,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,49.27469,46.57169,52.26826
+2000,32.61,33.79,35.09,MLI,Mali,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,49.5829,46.66575,52.58654
+2005,33.42,34.65,36,MLI,Mali,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,49.71659,46.76249,52.72077
+2010,32.02,33.17,34.43,MLI,Mali,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,49.94814,46.97486,52.89451
+2013,34.6,35.91,37.37,MLI,Mali,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,50.02405,47.0504,52.98168
+1990,21.42,21.95,22.5,MLT,Malta,"Europe, Western",,,10,High income,1,72.70529,68.60135,77.32163
+1995,20.15,20.62,21.11,MLT,Malta,"Europe, Western",,,10,High income,1,72.41737,67.8941,76.6953
+2000,19.03,19.45,19.89,MLT,Malta,"Europe, Western",,,10,High income,1,71.63594,67.18129,75.92309
+2005,17.21,17.57,17.93,MLT,Malta,"Europe, Western",,,10,High income,1,70.94287,66.84953,75.13323
+2010,17.6,17.98,18.34,MLT,Malta,"Europe, Western",,,10,High income,1,69.9277,65.82951,74.02507
+2013,13.8,14.08,14.36,MLT,Malta,"Europe, Western",,,10,High income,1,69.54625,65.18015,73.78166
+1990,14.18,14.46,14.75,MMR,Myanmar,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,64.85474,61.23344,68.54089
+1995,13.91,14.19,14.47,MMR,Myanmar,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,65.2449,61.52178,69.05448
+2000,14.92,15.23,15.53,MMR,Myanmar,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,66.77808,62.62185,70.59652
+2005,19.34,19.78,20.25,MMR,Myanmar,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,70.58553,66.47516,74.59403
+2010,24.5,25.18,25.93,MMR,Myanmar,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,75.41834,70.91074,80.05199
+2013,28.04,28.92,29.9,MMR,Myanmar,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,77.63445,72.96475,82.3266
+1990,19.84,20.29,20.77,MNE,Montenegro,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,67.54285,63.22803,71.74851
+1995,16.85,17.21,17.55,MNE,Montenegro,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,66.78669,62.56734,70.75677
+2000,14.81,15.11,15.41,MNE,Montenegro,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,65.87975,62.36472,69.73396
+2005,15.37,15.69,16,MNE,Montenegro,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,65.2058,61.29204,69.06862
+2010,14.08,14.37,14.65,MNE,Montenegro,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,64.47852,60.52527,68.14649
+2013,14.64,14.95,15.24,MNE,Montenegro,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,64.15095,60.23671,67.92789
+1990,10.91,11.14,11.36,MNG,Mongolia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,49.89413,46.82629,52.65041
+1995,9.96,10.17,10.37,MNG,Mongolia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,49.56257,46.89571,52.40573
+2000,9.46,9.66,9.85,MNG,Mongolia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,49.2273,46.51601,52.19442
+2005,9.46,9.65,9.85,MNG,Mongolia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,49.12839,46.16279,52.20622
+2010,9.68,9.88,10.08,MNG,Mongolia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,49.24364,46.33919,51.92138
+2013,8.15,8.33,8.51,MNG,Mongolia,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,49.11072,46.105,51.95157
+1990,5.47,5.66,5.87,MOZ,Mozambique,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,44.26822,41.70538,46.8871
+1995,5.55,5.74,5.95,MOZ,Mozambique,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,44.47295,41.60214,47.10903
+2000,5.74,5.93,6.13,MOZ,Mozambique,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,44.87041,42.36181,47.62581
+2005,6.19,6.39,6.6,MOZ,Mozambique,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,45.6806,42.95121,48.36145
+2010,6.75,6.95,7.17,MOZ,Mozambique,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,46.71321,44.12086,49.41921
+2013,7.13,7.33,7.55,MOZ,Mozambique,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,47.2101,44.32329,49.93476
+1990,72.15,76.47,81.47,MRT,Mauritania,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,43.8261,41.02537,46.53684
+1995,70.81,75.02,79.87,MRT,Mauritania,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,44.02011,41.59423,46.60884
+2000,69.67,73.77,78.49,MRT,Mauritania,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,44.04179,41.25818,46.83885
+2005,63.96,67.55,71.67,MRT,Mauritania,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,44.00575,41.46518,46.5778
+2010,62.09,65.5,69.42,MRT,Mauritania,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,44.01987,41.41926,46.69652
+2013,66.32,70.1,74.44,MRT,Mauritania,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,44.00737,41.49957,46.49188
+1990,9.22,9.44,9.67,MUS,Mauritius,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,38.0094,35.68453,40.18919
+1995,9.22,9.44,9.67,MUS,Mauritius,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,37.9981,35.7772,40.15349
+2000,9.22,9.44,9.67,MUS,Mauritius,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,38.17537,35.80865,40.51537
+2005,9.27,9.5,9.73,MUS,Mauritius,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,38.61166,36.2878,40.91173
+2010,9.36,9.58,9.81,MUS,Mauritius,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,39.23171,37.06384,41.57726
+2013,9.43,9.65,9.89,MUS,Mauritius,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,39.35462,36.92582,41.67123
+1990,6.99,7.2,7.42,MWI,Malawi,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,48.14819,45.36343,50.77017
+1995,6.86,7.07,7.29,MWI,Malawi,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,48.20511,45.50087,51.14652
+2000,6.93,7.14,7.36,MWI,Malawi,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,48.66256,45.70976,51.7123
+2005,7.74,7.96,8.19,MWI,Malawi,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,49.69695,46.92226,52.67765
+2010,8.36,8.58,8.81,MWI,Malawi,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.06465,48.11387,53.88611
+2013,8.91,9.13,9.36,MWI,Malawi,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.66278,48.64818,54.8232
+1990,18.03,18.48,18.96,MYS,Malaysia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,49.3363,46.40368,52.24734
+1995,14.56,14.87,15.16,MYS,Malaysia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,46.38757,43.58112,49.3056
+2000,11.86,12.11,12.35,MYS,Malaysia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,44.72421,42.26818,47.71745
+2005,12.33,12.59,12.84,MYS,Malaysia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,45.04036,42.38084,47.52704
+2010,12.2,12.46,12.7,MYS,Malaysia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,46.69397,43.86424,49.45699
+2013,14.11,14.4,14.68,MYS,Malaysia,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,46.73927,43.89028,49.67392
+1990,9.5,9.71,9.93,NAM,Namibia,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,57.59837,54.06987,61.09127
+1995,9.06,9.28,9.5,NAM,Namibia,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,57.90967,54.60569,61.33208
+2000,8.98,9.2,9.42,NAM,Namibia,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,58.25652,54.88634,61.76135
+2005,7.68,7.9,8.12,NAM,Namibia,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,59.35871,55.9503,62.82992
+2010,7.81,8.02,8.25,NAM,Namibia,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,60.37324,56.56316,64.12041
+2013,8.1,8.32,8.55,NAM,Namibia,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,60.95118,57.24698,64.43155
+1990,35.26,36.58,38.05,NER,Niger,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,51.64825,48.49319,54.78849
+1995,35.16,36.47,37.93,NER,Niger,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,52.0243,48.83271,55.27993
+2000,35.05,36.37,37.82,NER,Niger,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,52.25215,49.22247,55.35595
+2005,36.33,37.73,39.28,NER,Niger,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,52.30007,49.33762,55.42422
+2010,35.64,36.99,38.48,NER,Niger,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,52.39477,49.04243,55.64371
+2013,36.67,38.1,39.69,NER,Niger,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,52.38095,49.12189,55.48557
+1990,29.95,30.95,32.06,NGA,Nigeria,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,66.27812,62.11263,70.5765
+1995,29.69,30.68,31.77,NGA,Nigeria,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,66.95052,62.90502,70.89156
+2000,29.39,30.36,31.43,NGA,Nigeria,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,67.38256,63.20485,71.32471
+2005,29.74,30.73,31.82,NGA,Nigeria,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,67.62563,63.81331,71.75011
+2010,27.52,28.38,29.33,NGA,Nigeria,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,67.47665,63.43029,71.46443
+2013,28.57,29.5,30.53,NGA,Nigeria,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,67.53767,63.50301,71.86209
+1990,6.72,6.93,7.15,NIC,Nicaragua,"Latin America, Central",,,12,Latin America and Caribbean ,5,40.00203,37.40876,42.46703
+1995,6.82,7.03,7.25,NIC,Nicaragua,"Latin America, Central",,,12,Latin America and Caribbean ,5,40.33351,37.86513,42.94562
+2000,6.93,7.14,7.36,NIC,Nicaragua,"Latin America, Central",,,12,Latin America and Caribbean ,5,40.65705,38.14911,43.33291
+2005,7.31,7.52,7.74,NIC,Nicaragua,"Latin America, Central",,,12,Latin America and Caribbean ,5,40.80438,38.24989,43.13497
+2010,7.05,7.25,7.48,NIC,Nicaragua,"Latin America, Central",,,12,Latin America and Caribbean ,5,40.87598,38.58606,43.35121
+2013,6.78,6.98,7.2,NIC,Nicaragua,"Latin America, Central",,,12,Latin America and Caribbean ,5,40.94235,38.41921,43.397
+1990,27.31,28.13,29.03,NLD,Netherlands,"Europe, Western",,,10,High income,1,47.37875,44.50626,50.12803
+1995,22.83,23.42,24.05,NLD,Netherlands,"Europe, Western",,,10,High income,1,48.98757,46.14594,51.9137
+2000,19.41,19.84,20.3,NLD,Netherlands,"Europe, Western",,,10,High income,1,50.45863,47.33068,53.56393
+2005,18.2,18.59,18.99,NLD,Netherlands,"Europe, Western",,,10,High income,1,51.43603,48.44756,54.54858
+2010,16.97,17.33,17.68,NLD,Netherlands,"Europe, Western",,,10,High income,1,52.13718,49.26497,55.15503
+2013,16.48,16.83,17.16,NLD,Netherlands,"Europe, Western",,,10,High income,1,52.78376,49.81312,55.97985
+1990,9.2,9.41,9.62,NOR,Norway,"Europe, Western",,,10,High income,1,45.78774,43.23185,48.47596
+1995,8.4,8.6,8.81,NOR,Norway,"Europe, Western",,,10,High income,1,45.81686,43.11701,48.46332
+2000,7.74,7.95,8.16,NOR,Norway,"Europe, Western",,,10,High income,1,45.82408,43.04349,48.55476
+2005,7.52,7.73,7.94,NOR,Norway,"Europe, Western",,,10,High income,1,45.69102,42.89794,48.58669
+2010,6.85,7.05,7.26,NOR,Norway,"Europe, Western",,,10,High income,1,45.6645,42.97319,48.29405
+2013,5.84,6.04,6.24,NOR,Norway,"Europe, Western",,,10,High income,1,45.46923,42.9044,48.00352
+1990,28.74,29.66,30.68,NPL,Nepal,"Asia, South",,,4,South Asia,3,61.54794,57.70819,65.43808
+1995,30.32,31.35,32.47,NPL,Nepal,"Asia, South",,,4,South Asia,3,63.53209,59.94409,67.0506
+2000,32.16,33.3,34.56,NPL,Nepal,"Asia, South",,,4,South Asia,3,65.84472,62.08065,69.55753
+2005,35.61,36.97,38.49,NPL,Nepal,"Asia, South",,,4,South Asia,3,69.50949,65.16064,73.71096
+2010,39.79,41.46,43.33,NPL,Nepal,"Asia, South",,,4,South Asia,3,73.44176,69.205,77.83988
+2013,44.08,46.06,48.3,NPL,Nepal,"Asia, South",,,4,South Asia,3,75.81537,71.52386,80.24198
+1990,8.27,8.49,8.72,NZL,New Zealand,Australasia,,,6,High income,1,34.17253,32.10374,36.2814
+1995,8.29,8.51,8.74,NZL,New Zealand,Australasia,,,6,High income,1,34.26186,32.20658,36.18938
+2000,8.3,8.52,8.75,NZL,New Zealand,Australasia,,,6,High income,1,34.35389,32.22355,36.43051
+2005,8.31,8.53,8.76,NZL,New Zealand,Australasia,,,6,High income,1,34.54556,32.64154,36.6468
+2010,8.4,8.62,8.85,NZL,New Zealand,Australasia,,,6,High income,1,34.8488,32.77072,36.94255
+2013,8.42,8.64,8.87,NZL,New Zealand,Australasia,,,6,High income,1,34.8772,32.81473,36.99097
+1990,26.44,27.24,28.1,OMN,Oman,North Africa / Middle East,,,15,North Africa / Middle East,2,71.07871,66.9641,75.23398
+1995,26.4,27.19,28.05,OMN,Oman,North Africa / Middle East,,,15,North Africa / Middle East,2,73.36767,68.64986,77.77451
+2000,26.5,27.3,28.16,OMN,Oman,North Africa / Middle East,,,15,North Africa / Middle East,2,75.42879,71.05573,79.66795
+2005,27.12,27.95,28.85,OMN,Oman,North Africa / Middle East,,,15,North Africa / Middle East,2,76.71238,72.07415,81.55057
+2010,29.24,30.17,31.21,OMN,Oman,North Africa / Middle East,,,15,North Africa / Middle East,2,77.57964,72.79283,82.05545
+2013,29.4,30.34,31.38,OMN,Oman,North Africa / Middle East,,,15,North Africa / Middle East,2,78.58556,73.67479,83.39741
+1990,35.21,36.53,37.99,PAK,Pakistan,"Asia, South",,,4,South Asia,3,59.04307,55.51674,62.65248
+1995,36.61,38.02,39.59,PAK,Pakistan,"Asia, South",,,4,South Asia,3,61.0376,57.40393,64.78935
+2000,38.17,39.7,41.4,PAK,Pakistan,"Asia, South",,,4,South Asia,3,63.22365,59.19037,66.80731
+2005,40.05,41.71,43.57,PAK,Pakistan,"Asia, South",,,4,South Asia,3,65.25606,61.5395,69.01888
+2010,41.53,43.3,45.28,PAK,Pakistan,"Asia, South",,,4,South Asia,3,67.41147,63.5849,71.51092
+2013,44.2,46.15,48.36,PAK,Pakistan,"Asia, South",,,4,South Asia,3,68.78956,64.87966,72.74961
+1990,5.98,6.18,6.39,PAN,Panama,"Latin America, Central",,,12,Latin America and Caribbean ,5,38.41614,36.08058,40.86522
+1995,6.03,6.24,6.45,PAN,Panama,"Latin America, Central",,,12,Latin America and Caribbean ,5,39.26961,36.85402,41.7293
+2000,6.24,6.44,6.66,PAN,Panama,"Latin America, Central",,,12,Latin America and Caribbean ,5,40.06495,37.68013,42.38966
+2005,5.81,6.02,6.23,PAN,Panama,"Latin America, Central",,,12,Latin America and Caribbean ,5,40.90482,38.31852,43.33268
+2010,5.74,5.94,6.15,PAN,Panama,"Latin America, Central",,,12,Latin America and Caribbean ,5,41.83638,39.36309,44.38678
+2013,6.61,6.81,7.03,PAN,Panama,"Latin America, Central",,,12,Latin America and Caribbean ,5,42.40915,39.85437,44.83468
+1990,7.64,7.84,8.04,PER,Peru,"Latin America, Andean",,,11,Latin America and Caribbean ,5,38.6089,36.29067,40.98111
+1995,8.01,8.21,8.41,PER,Peru,"Latin America, Andean",,,11,Latin America and Caribbean ,5,38.82386,36.63541,41.1593
+2000,8.71,8.92,9.12,PER,Peru,"Latin America, Andean",,,11,Latin America and Caribbean ,5,39.51549,37.23813,41.89292
+2005,10.37,10.59,10.81,PER,Peru,"Latin America, Andean",,,11,Latin America and Caribbean ,5,40.91657,38.46986,43.22869
+2010,11.08,11.31,11.54,PER,Peru,"Latin America, Andean",,,11,Latin America and Caribbean ,5,42.86639,40.19434,45.48762
+2013,12.64,12.89,13.15,PER,Peru,"Latin America, Andean",,,11,Latin America and Caribbean ,5,43.70192,41.18031,46.35535
+1990,8.88,9.09,9.31,PHL,Philippines,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,38.58594,36.29962,40.89976
+1995,9.04,9.25,9.47,PHL,Philippines,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,38.61745,36.29526,40.78248
+2000,9.09,9.3,9.52,PHL,Philippines,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,38.87098,36.62658,41.08685
+2005,9.27,9.49,9.71,PHL,Philippines,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,39.15384,36.81852,41.24409
+2010,8.7,8.92,9.14,PHL,Philippines,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,39.66747,37.28256,41.9821
+2013,8.4,8.6,8.81,PHL,Philippines,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,39.94324,37.49195,42.23828
+1990,6.36,6.56,6.77,PNG,Papua New Guinea,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,30.92976,28.95557,32.82661
+1995,5.55,5.75,5.96,PNG,Papua New Guinea,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,29.30374,27.60566,31.05711
+2000,5.03,5.22,5.43,PNG,Papua New Guinea,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,28.18031,26.45663,29.85632
+2005,4.94,5.13,5.33,PNG,Papua New Guinea,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,27.98008,26.20027,29.71452
+2010,5.18,5.37,5.58,PNG,Papua New Guinea,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,28.3603,26.65667,30.11994
+2013,5.72,5.9,6.09,PNG,Papua New Guinea,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,28.23137,26.45059,30.035
+1990,29.94,30.92,32,POL,Poland,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,56.23998,52.57764,59.78979
+1995,23.16,23.77,24.43,POL,Poland,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,56.60932,53.38104,59.87614
+2000,18.63,19.04,19.46,POL,Poland,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,56.72466,53.47226,60.03615
+2005,18.59,18.99,19.41,POL,Poland,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,56.47536,53.06783,60.0462
+2010,17.77,18.16,18.54,POL,Poland,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,55.91651,52.63571,59.29347
+2013,16.62,16.98,17.32,POL,Poland,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,55.76872,52.49682,58.98113
+1990,25.39,26.14,26.95,PRK,North Korea,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,61.52162,57.80345,65.11436
+1995,23.31,23.94,24.62,PRK,North Korea,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,62.61921,58.69006,66.27872
+2000,21.89,22.46,23.06,PRK,North Korea,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,64.16752,60.43431,68.02295
+2005,22.86,23.46,24.11,PRK,North Korea,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,65.85299,61.8715,69.7512
+2010,22.63,23.22,23.86,PRK,North Korea,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,67.56986,63.65695,71.73766
+2013,23.67,24.32,25.04,PRK,North Korea,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,68.7059,64.51603,72.78678
+1990,14.49,14.79,15.08,PRT,Portugal,"Europe, Western",,,10,High income,1,58.14819,54.938,61.61874
+1995,14.39,14.68,14.97,PRT,Portugal,"Europe, Western",,,10,High income,1,58.88776,55.59143,62.14956
+2000,14.01,14.3,14.58,PRT,Portugal,"Europe, Western",,,10,High income,1,58.90584,55.44662,62.24008
+2005,12.87,13.13,13.39,PRT,Portugal,"Europe, Western",,,10,High income,1,57.77965,54.37414,61.30688
+2010,10.33,10.55,10.78,PRT,Portugal,"Europe, Western",,,10,High income,1,55.84074,52.56897,59.27045
+2013,9.67,9.89,10.12,PRT,Portugal,"Europe, Western",,,10,High income,1,55.21925,51.68016,58.41517
+1990,8.39,8.61,8.84,PRY,Paraguay,"Latin America, Tropical",,,14,Latin America and Caribbean ,5,44.23513,41.57861,46.74214
+1995,8.24,8.46,8.69,PRY,Paraguay,"Latin America, Tropical",,,14,Latin America and Caribbean ,5,44.56483,41.80339,47.2167
+2000,8.61,8.83,9.05,PRY,Paraguay,"Latin America, Tropical",,,14,Latin America and Caribbean ,5,45.82006,42.82314,48.48514
+2005,10.28,10.5,10.73,PRY,Paraguay,"Latin America, Tropical",,,14,Latin America and Caribbean ,5,48.73131,45.65913,51.55633
+2010,12.12,12.37,12.62,PRY,Paraguay,"Latin America, Tropical",,,14,Latin America and Caribbean ,5,52.65404,49.58162,55.80389
+2013,13.84,14.12,14.4,PRY,Paraguay,"Latin America, Tropical",,,14,Latin America and Caribbean ,5,54.55612,51.35899,57.63892
+1990,25.88,26.62,27.43,PSE,Palestine,North Africa / Middle East,,,15,North Africa / Middle East,2,71.97462,67.42641,76.33292
+1995,25.72,26.45,27.25,PSE,Palestine,North Africa / Middle East,,,15,North Africa / Middle East,2,72.34093,68.22614,76.71525
+2000,25.81,26.56,27.36,PSE,Palestine,North Africa / Middle East,,,15,North Africa / Middle East,2,72.6818,68.47682,77.1358
+2005,25.8,26.54,27.34,PSE,Palestine,North Africa / Middle East,,,15,North Africa / Middle East,2,72.68865,68.35397,77.15251
+2010,25.65,26.38,27.18,PSE,Palestine,North Africa / Middle East,,,15,North Africa / Middle East,2,72.33964,68.2445,76.52903
+2013,25.61,26.34,27.13,PSE,Palestine,North Africa / Middle East,,,15,North Africa / Middle East,2,72.33286,68.10718,76.48418
+1990,33.26,34.44,35.74,QAT,Qatar,North Africa / Middle East,,,15,North Africa / Middle East,2,95.09911,89.23248,100.861
+1995,33.2,34.38,35.67,QAT,Qatar,North Africa / Middle East,,,15,North Africa / Middle East,2,101.8776,95.28327,108.2669
+2000,33.32,34.51,35.82,QAT,Qatar,North Africa / Middle East,,,15,North Africa / Middle East,2,107.2619,100.6537,113.6229
+2005,35.86,37.2,38.69,QAT,Qatar,North Africa / Middle East,,,15,North Africa / Middle East,2,111.1739,104.6712,118.3954
+2010,38.6,40.14,41.85,QAT,Qatar,North Africa / Middle East,,,15,North Africa / Middle East,2,113.9054,107.0522,120.6531
+2013,36.92,38.34,39.9,QAT,Qatar,North Africa / Middle East,,,15,North Africa / Middle East,2,116.6593,109.8046,123.4376
+1990,30.15,31.14,32.23,ROU,Romania,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,62.59657,58.70464,66.53624
+1995,24.09,24.74,25.45,ROU,Romania,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,61.43234,57.69673,64.95822
+2000,20.11,20.57,21.07,ROU,Romania,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,60.5877,57.00588,64.22835
+2005,19.24,19.67,20.12,ROU,Romania,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,60.16204,56.45618,63.77139
+2010,17.67,18.05,18.42,ROU,Romania,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,59.56902,56.1492,63.14201
+2013,16.46,16.81,17.14,ROU,Romania,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,59.35651,55.7407,62.97025
+1990,19.17,19.65,20.16,RUS,Russia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,48.58629,45.64913,51.3986
+1995,15.74,16.07,16.4,RUS,Russia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,48.27781,45.45641,51.11921
+2000,13.75,14.03,14.31,RUS,Russia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,48.15747,45.23712,51.18087
+2005,14.87,15.18,15.48,RUS,Russia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,48.22145,45.42471,50.90531
+2010,14,14.29,14.57,RUS,Russia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,48.25148,45.32703,51.13385
+2013,13.93,14.22,14.5,RUS,Russia,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,48.28009,45.37328,51.2902
+1990,16.95,17.31,17.66,RWA,Rwanda,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,52.2543,48.8945,55.2361
+1995,16.93,17.29,17.64,RWA,Rwanda,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,52.10574,49.07394,55.07846
+2000,16.88,17.24,17.59,RWA,Rwanda,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,52.10559,49.12303,55.20868
+2005,15.76,16.09,16.41,RWA,Rwanda,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.99674,48.89945,54.8614
+2010,15.46,15.78,16.09,RWA,Rwanda,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.81842,48.78893,54.74546
+2013,16.66,17.01,17.35,RWA,Rwanda,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.78737,48.6978,54.65293
+1990,47.34,49.68,52.33,SAU,Saudi Arabia,North Africa / Middle East,,,15,North Africa / Middle East,2,63.43196,59.7561,67.12697
+1995,47.18,49.5,52.14,SAU,Saudi Arabia,North Africa / Middle East,,,15,North Africa / Middle East,2,65.22739,61.20126,69.5024
+2000,47.16,49.47,52.11,SAU,Saudi Arabia,North Africa / Middle East,,,15,North Africa / Middle East,2,66.58077,62.60233,70.26612
+2005,48.74,51.17,53.93,SAU,Saudi Arabia,North Africa / Middle East,,,15,North Africa / Middle East,2,67.5402,63.51674,71.62589
+2010,51.22,53.84,56.83,SAU,Saudi Arabia,North Africa / Middle East,,,15,North Africa / Middle East,2,68.16196,64.05238,72.14144
+2013,51.45,54.09,57.09,SAU,Saudi Arabia,North Africa / Middle East,,,15,North Africa / Middle East,2,68.80719,64.56286,73.21039
+1990,23.77,24.42,25.13,SDN,Sudan,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,50.3723,47.49297,53.4489
+1995,23.7,24.35,25.06,SDN,Sudan,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,50.67961,47.82497,53.57849
+2000,23.68,24.33,25.03,SDN,Sudan,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,50.89419,47.84664,54.04864
+2005,24.79,25.5,26.27,SDN,Sudan,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,50.96418,48.06668,53.97903
+2010,24.45,25.13,25.87,SDN,Sudan,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.17084,47.94341,54.27774
+2013,25.81,26.58,27.42,SDN,Sudan,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.27445,48.30192,54.42437
+1990,39.3,40.9,42.68,SEN,Senegal,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,44.26939,41.61517,46.96012
+1995,39.38,40.99,42.77,SEN,Senegal,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,44.43232,41.60192,47.1942
+2000,39.43,41.03,42.82,SEN,Senegal,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,44.63821,41.92101,47.44354
+2005,38.51,40.05,41.76,SEN,Senegal,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,44.60628,42.02229,47.19241
+2010,37.4,38.86,40.48,SEN,Senegal,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,44.57923,41.79684,47.23516
+2013,39.56,41.19,42.99,SEN,Senegal,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,44.6176,42.03121,47.18688
+1990,47.6,49.78,52.24,SGP,Singapore,"Asia Pacific, High Income",,,1,High income,1,66.67635,62.66961,70.78777
+1995,28.4,29.28,30.25,SGP,Singapore,"Asia Pacific, High Income",,,1,High income,1,56.64354,53.60246,60.00664
+2000,13.38,13.65,13.92,SGP,Singapore,"Asia Pacific, High Income",,,1,High income,1,50.12533,47.11129,53.1716
+2005,9.97,10.2,10.44,SGP,Singapore,"Asia Pacific, High Income",,,1,High income,1,49.47501,46.55802,52.38354
+2010,12.23,12.49,12.74,SGP,Singapore,"Asia Pacific, High Income",,,1,High income,1,52.30631,49.39106,55.34481
+2013,16.33,16.68,17,SGP,Singapore,"Asia Pacific, High Income",,,1,High income,1,51.93664,48.87225,55.05858
+1990,3.95,4.12,4.3,SLB,Solomon Islands,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,28.68674,26.99739,30.44642
+1995,3.9,4.08,4.26,SLB,Solomon Islands,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,28.2611,26.48974,29.76431
+2000,3.9,4.07,4.26,SLB,Solomon Islands,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,28.08317,26.45636,29.73401
+2005,4.35,4.53,4.72,SLB,Solomon Islands,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,28.0646,26.47318,29.5977
+2010,4.46,4.64,4.84,SLB,Solomon Islands,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,28.20575,26.49264,29.85038
+2013,4.36,4.54,4.73,SLB,Solomon Islands,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,28.17659,26.43191,29.81572
+1990,23.07,23.68,24.33,SLE,Sierra Leone,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,56.9822,53.64353,60.08698
+1995,23.12,23.72,24.38,SLE,Sierra Leone,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,57.53061,54.364,61.03789
+2000,23.16,23.77,24.42,SLE,Sierra Leone,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,58.03962,54.8993,61.52979
+2005,21.81,22.36,22.95,SLE,Sierra Leone,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,57.95994,54.48255,61.68279
+2010,19.51,19.95,20.41,SLE,Sierra Leone,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,57.87519,54.42962,61.31515
+2013,23.28,23.91,24.58,SLE,Sierra Leone,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,58.0503,54.76986,61.48804
+1990,10.5,10.73,10.96,SLV,El Salvador,"Latin America, Central",,,12,Latin America and Caribbean ,5,53.0215,49.76343,55.9441
+1995,11.28,11.52,11.76,SLV,El Salvador,"Latin America, Central",,,12,Latin America and Caribbean ,5,54.74366,51.24516,58.14363
+2000,11.88,12.12,12.37,SLV,El Salvador,"Latin America, Central",,,12,Latin America and Caribbean ,5,55.98978,52.67812,59.2207
+2005,13.19,13.46,13.73,SLV,El Salvador,"Latin America, Central",,,12,Latin America and Caribbean ,5,56.49829,53.08776,59.7104
+2010,12.24,12.5,12.75,SLV,El Salvador,"Latin America, Central",,,12,Latin America and Caribbean ,5,56.4974,53.26579,59.71801
+2013,12.66,12.92,13.17,SLV,El Salvador,"Latin America, Central",,,12,Latin America and Caribbean ,5,56.97436,53.42194,60.42802
+1990,10.06,10.27,10.48,SOM,Somalia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,40.24233,37.81659,42.69952
+1995,9.61,9.81,10.02,SOM,Somalia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,40.1018,37.65758,42.53431
+2000,9.21,9.41,9.61,SOM,Somalia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,39.90199,37.54792,42.20274
+2005,8.4,8.59,8.79,SOM,Somalia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,39.66603,37.23554,42.05836
+2010,8.85,9.04,9.25,SOM,Somalia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,39.66021,37.17438,41.85739
+2013,10.17,10.38,10.6,SOM,Somalia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,39.45642,37.0959,41.61141
+1990,25.71,26.45,27.25,SRB,Serbia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,63.83257,60.4434,67.79797
+1995,21.5,22.04,22.6,SRB,Serbia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,63.57489,59.72515,67.34883
+2000,18.82,19.24,19.67,SRB,Serbia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,63.12573,59.44907,66.76584
+2005,18.83,19.24,19.67,SRB,Serbia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,62.68332,58.85091,66.23765
+2010,17.26,17.63,17.99,SRB,Serbia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,62.11207,58.35461,66.09868
+2013,15.45,15.78,16.08,SRB,Serbia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,61.89219,58.48922,65.45176
+1990,14.65,14.95,15.25,SSD,South Sudan,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,65.39361,61.63711,69.32801
+1995,14.63,14.93,15.23,SSD,South Sudan,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,65.28129,61.34275,69.30293
+2000,14.62,14.92,15.21,SSD,South Sudan,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,65.18531,61.48621,69.11372
+2005,15.29,15.61,15.91,SSD,South Sudan,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,64.77809,60.79788,68.57937
+2010,15.04,15.34,15.65,SSD,South Sudan,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,64.50644,60.64204,68.30293
+2013,15.99,16.33,16.64,SSD,South Sudan,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,64.28534,60.25737,68.14637
+1990,8.27,8.49,8.72,STP,São Tomé and Príncipe,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,53.35734,50.0647,56.59425
+1995,8.06,8.27,8.5,STP,São Tomé and Príncipe,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,53.63544,50.60413,56.7942
+2000,8,8.21,8.44,STP,São Tomé and Príncipe,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,53.85843,50.90764,56.94676
+2005,8.59,8.81,9.04,STP,São Tomé and Príncipe,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,53.93872,50.53355,57.08753
+2010,7.34,7.55,7.78,STP,São Tomé and Príncipe,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,54.18766,50.82209,57.51458
+2013,6.57,6.77,6.99,STP,São Tomé and Príncipe,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,54.36675,51.14334,57.58719
+1990,8.51,8.73,8.96,SUR,Suriname,Caribbean,,,7,Latin America and Caribbean ,5,32.87816,31.02195,34.81563
+1995,8.5,8.72,8.94,SUR,Suriname,Caribbean,,,7,Latin America and Caribbean ,5,32.97293,31.02515,34.9909
+2000,8.53,8.75,8.98,SUR,Suriname,Caribbean,,,7,Latin America and Caribbean ,5,33.1576,31.17043,35.11308
+2005,9.13,9.35,9.58,SUR,Suriname,Caribbean,,,7,Latin America and Caribbean ,5,33.40925,31.27072,35.39677
+2010,8.91,9.13,9.36,SUR,Suriname,Caribbean,,,7,Latin America and Caribbean ,5,33.57078,31.50855,35.41191
+2013,11.24,11.48,11.72,SUR,Suriname,Caribbean,,,7,Latin America and Caribbean ,5,33.64782,31.6303,35.63194
+1990,30.37,31.36,32.47,SVK,Slovakia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,62.05592,58.32776,65.77625
+1995,23.26,23.87,24.53,SVK,Slovakia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,61.55517,58.05972,65.18718
+2000,18.43,18.83,19.24,SVK,Slovakia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,61.0564,57.27773,64.64216
+2005,17.37,17.74,18.1,SVK,Slovakia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,60.67405,57.1539,64.21192
+2010,15.97,16.31,16.62,SVK,Slovakia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,60.15573,56.52417,64.04168
+2013,15.6,15.93,16.24,SVK,Slovakia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,60.04377,56.40319,63.59469
+1990,24.76,25.44,26.18,SVN,Slovenia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,68.11911,64.16202,72.08691
+1995,20.58,21.06,21.58,SVN,Slovenia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,67.36926,63.25183,71.33121
+2000,17.57,17.95,18.32,SVN,Slovenia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,66.26635,62.36143,70.72327
+2005,17.07,17.44,17.79,SVN,Slovenia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,65.26138,61.38113,69.32388
+2010,15.56,15.88,16.19,SVN,Slovenia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,64.50446,60.54644,68.30867
+2013,13.34,13.61,13.89,SVN,Slovenia,"Europe, Central",,,8,"Central Europe, Eastern Europe, Central Asia",4,64.08688,60.32874,67.90633
+1990,11.42,11.66,11.89,SWE,Sweden,"Europe, Western",,,10,High income,1,46.75103,44.03692,49.36001
+1995,9.7,9.92,10.14,SWE,Sweden,"Europe, Western",,,10,High income,1,46.74312,43.69317,49.58346
+2000,8.47,8.68,8.9,SWE,Sweden,"Europe, Western",,,10,High income,1,46.52555,43.52789,49.49426
+2005,8.56,8.78,9,SWE,Sweden,"Europe, Western",,,10,High income,1,46.32594,43.48602,49.12671
+2010,7.74,7.95,8.17,SWE,Sweden,"Europe, Western",,,10,High income,1,46.21115,43.66769,48.92457
+2013,7.11,7.32,7.53,SWE,Sweden,"Europe, Western",,,10,High income,1,46.14957,43.29178,48.72961
+1990,8.97,9.19,9.42,SWZ,Swaziland,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,48.01922,45.06772,50.9235
+1995,9.17,9.39,9.62,SWZ,Swaziland,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,48.40227,45.34667,51.18132
+2000,9.37,9.59,9.82,SWZ,Swaziland,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,48.69239,45.98178,51.64703
+2005,9.91,10.14,10.38,SWZ,Swaziland,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,49.3739,46.5874,52.40507
+2010,10.07,10.3,10.53,SWZ,Swaziland,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,50.08366,47.0604,53.0196
+2013,10.15,10.37,10.61,SWZ,Swaziland,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,50.45179,47.4683,53.5118
+1990,6.21,6.42,6.64,SYC,Seychelles,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,33.34224,31.26822,35.31596
+1995,6.21,6.42,6.64,SYC,Seychelles,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,33.10509,31.1053,35.12809
+2000,6.22,6.43,6.65,SYC,Seychelles,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,33.07801,31.08353,34.99227
+2005,6.26,6.46,6.68,SYC,Seychelles,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,33.34252,31.39729,35.33454
+2010,6.27,6.47,6.69,SYC,Seychelles,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,33.75425,31.90253,35.76324
+2013,6.3,6.51,6.72,SYC,Seychelles,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,33.89469,31.8612,35.80421
+1990,24.06,24.71,25.41,SYR,Syria,North Africa / Middle East,,,15,North Africa / Middle East,2,68.50214,64.2517,72.6373
+1995,23.53,24.15,24.83,SYR,Syria,North Africa / Middle East,,,15,North Africa / Middle East,2,69.56211,65.42688,73.68389
+2000,23.79,24.42,25.11,SYR,Syria,North Africa / Middle East,,,15,North Africa / Middle East,2,70.39159,65.95856,74.52115
+2005,23.01,23.61,24.25,SYR,Syria,North Africa / Middle East,,,15,North Africa / Middle East,2,70.32176,66.1318,74.35241
+2010,24.5,25.17,25.89,SYR,Syria,North Africa / Middle East,,,15,North Africa / Middle East,2,70.29613,66.28643,74.6432
+2013,22.94,23.53,24.17,SYR,Syria,North Africa / Middle East,,,15,North Africa / Middle East,2,70.415,66.37918,74.56732
+1990,29.08,30.05,31.12,TCD,Chad,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,59.83168,56.13999,63.33339
+1995,28.92,29.89,30.95,TCD,Chad,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,60.07008,56.51965,64.19212
+2000,28.8,29.75,30.8,TCD,Chad,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,60.16822,56.68072,63.74646
+2005,30.63,31.69,32.86,TCD,Chad,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,60.27545,56.52038,63.51452
+2010,28.79,29.74,30.79,TCD,Chad,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,60.10907,56.57115,63.64529
+2013,29.68,30.69,31.8,TCD,Chad,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,60.03782,56.7393,63.71152
+1990,24.69,25.37,26.12,TGO,Togo,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,71.22038,67.04218,75.6719
+1995,24.56,25.24,25.99,TGO,Togo,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,71.88179,67.84494,76.26923
+2000,24.42,25.1,25.83,TGO,Togo,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,72.39316,68.19003,76.76664
+2005,23.95,24.61,25.31,TGO,Togo,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,72.59383,68.08815,76.64135
+2010,23.07,23.68,24.33,TGO,Togo,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,72.45042,68.12405,76.76828
+2013,24.7,25.39,26.14,TGO,Togo,"Sub-Saharan Africa, West",,,21,Sub-Saharan Africa,7,72.60658,68.30105,76.70216
+1990,16.87,17.23,17.6,THA,Thailand,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,48.48427,45.67865,51.35639
+1995,16.52,16.88,17.22,THA,Thailand,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,49.65512,46.7289,52.47335
+2000,16.58,16.93,17.28,THA,Thailand,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,51.15728,48.29427,54.16867
+2005,18.59,19.01,19.45,THA,Thailand,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,53.29342,50.13205,56.56892
+2010,19.88,20.36,20.88,THA,Thailand,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,55.99522,52.83636,59.47099
+2013,21.78,22.35,22.97,THA,Thailand,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,57.47974,54.16046,60.74855
+1990,20.36,20.84,21.35,TJK,Tajikistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,64.63908,60.84549,68.72252
+1995,17.81,18.19,18.57,TJK,Tajikistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,64.04831,60.42675,67.85742
+2000,16.73,17.09,17.43,TJK,Tajikistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,63.55335,59.73354,67.64541
+2005,17.16,17.53,17.88,TJK,Tajikistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,63.80861,59.87463,67.4743
+2010,19.28,19.71,20.16,TJK,Tajikistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,63.86286,59.98089,67.37973
+2013,19.18,19.61,20.06,TJK,Tajikistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,63.79343,60.04903,67.42378
+1990,42.33,44.22,46.36,TKM,Turkmenistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,59.32822,55.86766,62.74387
+1995,41.27,43.09,45.14,TKM,Turkmenistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,58.67201,55.12831,62.08109
+2000,40.89,42.68,44.7,TKM,Turkmenistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,58.35072,55.08647,61.76583
+2005,38.96,40.62,42.48,TKM,Turkmenistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,58.27821,54.68826,61.56279
+2010,40.04,41.76,43.71,TKM,Turkmenistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,58.37113,54.9009,61.90456
+2013,39.95,41.66,43.59,TKM,Turkmenistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,58.21837,54.82277,61.94361
+1990,6.84,7.05,7.27,TLS,Timor-Leste,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,39.85371,37.39352,42.26722
+1995,6.61,6.82,7.04,TLS,Timor-Leste,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,38.78512,36.56431,41.20889
+2000,6.46,6.66,6.88,TLS,Timor-Leste,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,38.08843,35.78615,40.22987
+2005,6.01,6.21,6.43,TLS,Timor-Leste,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,37.58747,35.26343,39.93677
+2010,6.04,6.25,6.46,TLS,Timor-Leste,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,37.29744,34.97234,39.4938
+2013,6,6.21,6.42,TLS,Timor-Leste,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,37.08224,34.78394,39.33205
+1990,7.24,7.45,7.68,TON,Tonga,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+1995,7.22,7.43,7.65,TON,Tonga,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+2000,7.2,7.41,7.64,TON,Tonga,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+2005,7.18,7.4,7.62,TON,Tonga,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+2010,7.23,7.44,7.67,TON,Tonga,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+2013,7.21,7.42,7.64,TON,Tonga,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+1990,8.66,8.88,9.1,TTO,Trinidad and Tobago,Caribbean,,,7,Latin America and Caribbean ,5,38.43137,36.08487,40.73956
+1995,8.63,8.85,9.07,TTO,Trinidad and Tobago,Caribbean,,,7,Latin America and Caribbean ,5,38.71695,36.48305,41.03598
+2000,8.65,8.87,9.09,TTO,Trinidad and Tobago,Caribbean,,,7,Latin America and Caribbean ,5,38.95526,36.49875,41.25016
+2005,8.59,8.81,9.03,TTO,Trinidad and Tobago,Caribbean,,,7,Latin America and Caribbean ,5,39.11536,36.73736,41.45415
+2010,9.7,9.93,10.16,TTO,Trinidad and Tobago,Caribbean,,,7,Latin America and Caribbean ,5,39.23589,36.89241,41.48438
+2013,8.95,9.17,9.39,TTO,Trinidad and Tobago,Caribbean,,,7,Latin America and Caribbean ,5,39.30593,37.11038,41.68695
+1990,19.51,19.95,20.42,TUN,Tunisia,North Africa / Middle East,,,15,North Africa / Middle East,2,65.93462,61.9331,69.90224
+1995,19.08,19.51,19.95,TUN,Tunisia,North Africa / Middle East,,,15,North Africa / Middle East,2,66.54113,62.43265,70.53413
+2000,18.62,19.03,19.46,TUN,Tunisia,North Africa / Middle East,,,15,North Africa / Middle East,2,66.87086,63.23484,70.63411
+2005,17.24,17.61,17.97,TUN,Tunisia,North Africa / Middle East,,,15,North Africa / Middle East,2,67.04916,62.918,70.93823
+2010,17.17,17.54,17.89,TUN,Tunisia,North Africa / Middle East,,,15,North Africa / Middle East,2,67.26624,63.21967,71.04877
+2013,16,16.34,16.66,TUN,Tunisia,North Africa / Middle East,,,15,North Africa / Middle East,2,67.2291,63.09723,71.37397
+1990,19.43,19.87,20.34,TUR,Turkey,North Africa / Middle East,,,15,North Africa / Middle East,2,67.04091,63.09127,70.85465
+1995,17.74,18.12,18.5,TUR,Turkey,North Africa / Middle East,,,15,North Africa / Middle East,2,67.05943,63.15903,71.00927
+2000,16.99,17.36,17.71,TUR,Turkey,North Africa / Middle East,,,15,North Africa / Middle East,2,67.10278,62.74819,70.97235
+2005,17.43,17.8,18.17,TUR,Turkey,North Africa / Middle East,,,15,North Africa / Middle East,2,67.0502,63.06429,71.04697
+2010,17.82,18.2,18.58,TUR,Turkey,North Africa / Middle East,,,15,North Africa / Middle East,2,66.86395,62.70348,71.05105
+2013,16.85,17.21,17.56,TUR,Turkey,North Africa / Middle East,,,15,North Africa / Middle East,2,66.73006,62.99592,70.70012
+1990,18.53,18.94,19.36,TWN,Taiwan,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,58.72245,55.09235,62.12341
+1995,18.44,18.84,19.26,TWN,Taiwan,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,58.92651,55.46842,62.45354
+2000,18.42,18.83,19.24,TWN,Taiwan,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,60.10355,56.59026,63.67486
+2005,18.92,19.34,19.78,TWN,Taiwan,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,62.57334,58.82786,66.46687
+2010,18.32,18.71,19.12,TWN,Taiwan,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,65.80347,62.08038,69.84574
+2013,19.09,19.52,19.97,TWN,Taiwan,"Asia, East",,,3,"Southeast Asia, East Asia and Oceania",6,67.32375,63.43984,71.06683
+1990,7.15,7.35,7.57,TZA,Tanzania,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,45.48283,42.69622,48.27536
+1995,7.16,7.37,7.58,TZA,Tanzania,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,45.53005,42.9423,48.16059
+2000,7.17,7.38,7.6,TZA,Tanzania,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,45.61694,42.76076,48.34157
+2005,7.76,7.97,8.19,TZA,Tanzania,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,45.82645,43.13511,48.55843
+2010,8.06,8.28,8.5,TZA,Tanzania,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,46.37729,43.58491,49.07597
+2013,8.95,9.16,9.39,TZA,Tanzania,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,46.46515,43.65087,49.12649
+1990,14.79,15.09,15.39,UGA,Uganda,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.61942,48.42249,54.69468
+1995,14.64,14.94,15.23,UGA,Uganda,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.37147,48.18608,54.35753
+2000,14.59,14.89,15.18,UGA,Uganda,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.34405,48.33367,54.19576
+2005,15.13,15.45,15.75,UGA,Uganda,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.19907,48.20074,54.05374
+2010,15.36,15.68,15.98,UGA,Uganda,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,51.00663,47.99664,54.23652
+2013,17.26,17.63,17.99,UGA,Uganda,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,50.9337,47.83032,53.93812
+1990,28.34,29.22,30.2,UKR,Ukraine,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,60.0387,56.59606,63.64316
+1995,21.3,21.83,22.39,UKR,Ukraine,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,58.97184,55.25671,62.3791
+2000,16.85,17.21,17.55,UKR,Ukraine,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,58.09471,54.37599,61.46577
+2005,16.67,17.02,17.36,UKR,Ukraine,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,57.84621,54.49367,61.30888
+2010,15.61,15.94,16.24,UKR,Ukraine,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,57.51539,53.99906,60.93236
+2013,14.78,15.08,15.38,UKR,Ukraine,"Europe, Eastern",,,9,"Central Europe, Eastern Europe, Central Asia",4,57.12422,53.76786,60.40027
+1990,5.87,6.06,6.28,URY,Uruguay,"Latin America, Southern",,,13,High income,1,34.23772,32.13988,36.26405
+1995,5.97,6.17,6.38,URY,Uruguay,"Latin America, Southern",,,13,High income,1,34.54396,32.29471,36.68416
+2000,5.96,6.16,6.37,URY,Uruguay,"Latin America, Southern",,,13,High income,1,35.21394,33.20487,37.16
+2005,6.05,6.25,6.47,URY,Uruguay,"Latin America, Southern",,,13,High income,1,36.13457,33.8815,38.5185
+2010,6.37,6.58,6.79,URY,Uruguay,"Latin America, Southern",,,13,High income,1,37.19194,35.00557,39.39213
+2013,6.48,6.68,6.9,URY,Uruguay,"Latin America, Southern",,,13,High income,1,37.80367,35.40993,40.01145
+1990,16.07,16.41,16.74,USA,United States,"North America, High Income",,,16,High income,1,70.28056,66.23312,74.28662
+1995,15.13,15.45,15.75,USA,United States,"North America, High Income",,,16,High income,1,70.19839,65.92638,74.16399
+2000,14.38,14.67,14.96,USA,United States,"North America, High Income",,,16,High income,1,69.58311,65.40397,74.03431
+2005,13.4,13.67,13.94,USA,United States,"North America, High Income",,,16,High income,1,68.81524,64.83642,73.14509
+2010,11.55,11.79,12.03,USA,United States,"North America, High Income",,,16,High income,1,67.51355,63.4867,71.73623
+2013,10.52,10.74,10.97,USA,United States,"North America, High Income",,,16,High income,1,67.01229,62.93794,71.21994
+1990,26.46,27.25,28.11,UZB,Uzbekistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,63.97769,60.1668,67.76139
+1995,23.33,23.95,24.62,UZB,Uzbekistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,63.07693,59.33114,66.81555
+2000,21.84,22.4,22.99,UZB,Uzbekistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,62.7136,59.14886,66.48825
+2005,21.7,22.25,22.83,UZB,Uzbekistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,62.61326,59.16108,66.32836
+2010,24.25,24.91,25.63,UZB,Uzbekistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,62.99265,59.32212,66.74849
+2013,24.83,25.52,26.27,UZB,Uzbekistan,"Asia, Central",,,2,"Central Europe, Eastern Europe, Central Asia",4,62.82235,58.75853,66.5432
+1990,14.28,14.57,14.85,VCT,Saint Vincent and the Grenadines,Caribbean,,,7,Latin America and Caribbean ,5,38.64201,36.41085,40.77604
+1995,14.28,14.57,14.85,VCT,Saint Vincent and the Grenadines,Caribbean,,,7,Latin America and Caribbean ,5,38.96571,36.8159,41.07082
+2000,14.26,14.55,14.83,VCT,Saint Vincent and the Grenadines,Caribbean,,,7,Latin America and Caribbean ,5,39.20102,37.0215,41.32617
+2005,14.23,14.52,14.8,VCT,Saint Vincent and the Grenadines,Caribbean,,,7,Latin America and Caribbean ,5,39.36668,36.78814,41.78115
+2010,14.12,14.41,14.69,VCT,Saint Vincent and the Grenadines,Caribbean,,,7,Latin America and Caribbean ,5,39.41506,37.16948,41.74275
+2013,14.2,14.49,14.78,VCT,Saint Vincent and the Grenadines,Caribbean,,,7,Latin America and Caribbean ,5,39.4798,37.1666,41.78399
+1990,9.94,10.16,10.39,VEN,Venezuela,"Latin America, Central",,,12,Latin America and Caribbean ,5,39.79942,37.34154,42.31977
+1995,9.33,9.54,9.77,VEN,Venezuela,"Latin America, Central",,,12,Latin America and Caribbean ,5,40.47144,38.28442,42.98129
+2000,10.02,10.24,10.47,VEN,Venezuela,"Latin America, Central",,,12,Latin America and Caribbean ,5,41.50729,39.08912,44.10989
+2005,10.72,10.95,11.19,VEN,Venezuela,"Latin America, Central",,,12,Latin America and Caribbean ,5,43.18035,40.68647,45.815
+2010,12.01,12.26,12.51,VEN,Venezuela,"Latin America, Central",,,12,Latin America and Caribbean ,5,45.33525,42.64035,48.2051
+2013,13.15,13.42,13.69,VEN,Venezuela,"Latin America, Central",,,12,Latin America and Caribbean ,5,46.34673,43.56128,49.2986
+1990,18.63,19.08,19.55,VNM,Vietnam,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,45.57356,42.88485,47.97468
+1995,19.69,20.19,20.72,VNM,Vietnam,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,46.61708,43.84126,49.37512
+2000,20.73,21.26,21.85,VNM,Vietnam,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,48.11206,45.26441,50.94006
+2005,22.57,23.19,23.86,VNM,Vietnam,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,50.16716,47.22282,53.08247
+2010,24.39,25.12,25.92,VNM,Vietnam,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,52.7357,49.6278,55.86743
+2013,24.71,25.46,26.28,VNM,Vietnam,"Asia, Southeast",,,5,"Southeast Asia, East Asia and Oceania",6,54.22408,50.71276,57.67062
+1990,7.82,8.04,8.26,VUT,Vanuatu,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,36.9144,34.65298,39.12258
+1995,7.78,7.99,8.22,VUT,Vanuatu,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,36.64547,34.41911,38.6895
+2000,7.74,7.96,8.19,VUT,Vanuatu,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,36.56104,34.23503,38.77776
+2005,7.52,7.74,7.96,VUT,Vanuatu,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,36.61877,34.38944,38.62188
+2010,7.22,7.42,7.64,VUT,Vanuatu,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,36.94992,34.74607,39.05298
+2013,7.17,7.38,7.59,VUT,Vanuatu,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,37.02878,34.65281,39.204
+1990,7.24,7.45,7.68,WSM,Samoa,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+1995,7.22,7.43,7.65,WSM,Samoa,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+2000,7.2,7.41,7.64,WSM,Samoa,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+2005,7.18,7.4,7.62,WSM,Samoa,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+2010,7.23,7.44,7.67,WSM,Samoa,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+2013,7.21,7.42,7.64,WSM,Samoa,Oceania,,,17,"Southeast Asia, East Asia and Oceania",6,,,
+1990,31.39,32.48,33.67,YEM,Yemen,North Africa / Middle East,,,15,North Africa / Middle East,2,50.1498,47.10431,53.17867
+1995,31.49,32.59,33.79,YEM,Yemen,North Africa / Middle East,,,15,North Africa / Middle East,2,51.14774,48.27644,54.09219
+2000,31.73,32.85,34.06,YEM,Yemen,North Africa / Middle East,,,15,North Africa / Middle East,2,52.00136,48.78973,55.14856
+2005,30.56,31.58,32.7,YEM,Yemen,North Africa / Middle East,,,15,North Africa / Middle East,2,52.68127,49.54105,55.59582
+2010,32.17,33.29,34.52,YEM,Yemen,North Africa / Middle East,,,15,North Africa / Middle East,2,53.15885,49.96141,56.15648
+2013,34.88,36.17,37.6,YEM,Yemen,North Africa / Middle East,,,15,North Africa / Middle East,2,53.54565,50.29991,56.65147
+1990,11.44,11.68,11.92,ZAF,South Africa,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,49.65421,46.68331,52.47255
+1995,12,12.25,12.5,ZAF,South Africa,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,50.26149,47.2298,53.1515
+2000,12.55,12.8,13.06,ZAF,South Africa,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,50.79604,47.5493,53.68388
+2005,13.17,13.44,13.7,ZAF,South Africa,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,51.53374,48.292,54.61367
+2010,14.01,14.3,14.58,ZAF,South Africa,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,52.33807,49.20365,55.54176
+2013,14.03,14.32,14.6,ZAF,South Africa,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,52.82848,49.67864,55.89033
+1990,9.16,9.38,9.61,ZMB,Zambia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,58.50626,54.98754,62.00075
+1995,8.73,8.95,9.18,ZMB,Zambia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,58.61694,54.93728,62.22817
+2000,8.76,8.98,9.2,ZMB,Zambia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,58.90964,55.39544,62.52747
+2005,9.3,9.51,9.74,ZMB,Zambia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,60.17922,56.57946,63.81886
+2010,10.56,10.79,11.03,ZMB,Zambia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,61.80263,58.22084,65.63193
+2013,11.54,11.78,12.02,ZMB,Zambia,"Sub-Saharan Africa, East",,,19,Sub-Saharan Africa,7,62.52502,58.6335,66.05225
+1990,7.15,7.36,7.59,ZWE,Zimbabwe,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,52.65296,49.39777,55.63239
+1995,6.94,7.14,7.36,ZWE,Zimbabwe,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,52.942,49.55654,56.33628
+2000,7.03,7.24,7.46,ZWE,Zimbabwe,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,53.38384,50.13527,56.49517
+2005,7.43,7.64,7.86,ZWE,Zimbabwe,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,54.48655,51.20661,57.68977
+2010,8.22,8.44,8.66,ZWE,Zimbabwe,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,55.87999,52.36922,59.15866
+2013,8.85,9.07,9.3,ZWE,Zimbabwe,"Sub-Saharan Africa, Southern",,,20,Sub-Saharan Africa,7,56.37056,52.87293,59.80908
