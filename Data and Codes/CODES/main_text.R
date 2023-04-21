@@ -12,6 +12,36 @@ library(RColorBrewer)
 library(ggpattern)
 library(ggtext)
 
+FASST_mapping <- read_xlsx(path = "TM5_SRMs/COUNTRY-FASST-TABLE_GENERATOR_v2.xlsx", sheet = 1, range = "A1:C231") %>% 
+  rename("ISO_A3" = "ISO 3")
+COPD_SSP1_mort_0 <- read.csv("HIA/COPD_SSP1_mort_0.csv", stringsAsFactors = F)
+
+# population by age group, each year
+for (i in 1:5) {
+  assign(paste0("pop_SSP", i), read.csv(paste0("HIA/pop_SSP", i, ".csv"), stringsAsFactors = F))
+}
+
+common.region <- setdiff(intersect(unique(FASST_mapping$ISO_A3), unique(COPD_SSP1_mort_0$ISO_A3)), c("SYC", "DMA", "TWN"))
+
+pop_all <- do.call(rbind, list(pop_SSP1, pop_SSP2, pop_SSP3, pop_SSP4, pop_SSP5))
+pop_all <- pop_all %>% filter(REGION %in% common.region)
+pop_all <- pop_all %>% filter(!grepl(".*Education$", VARIABLE)) %>% filter(grepl(".*Aged.*", VARIABLE))
+pop_all <- pop_all %>% mutate(VARIABLE = sub(".*Aged", "", VARIABLE))
+pop_all <- pop_all %>% select(SCENARIO, REGION, VARIABLE, X2015, X2020, X2025, X2030, X2035, X2040, X2045, 
+                              X2050, X2055, X2060, X2065, X2070, X2075, X2080, X2085, X2090, X2095, X2100) %>%
+  group_by(SCENARIO, REGION, VARIABLE) %>% summarise_all(list(sum)) %>% ungroup()
+pop_all <- pop_all %>% mutate(SCENARIO = ifelse(SCENARIO == "SSP1_v9_130115", "0", SCENARIO)) %>%
+  mutate(SCENARIO = ifelse(SCENARIO == "SSP2_v9_130115", "1", SCENARIO)) %>%
+  mutate(SCENARIO = ifelse(SCENARIO == "SSP3_v9_130115", "2", SCENARIO)) %>%
+  mutate(SCENARIO = ifelse(SCENARIO == "SSP4d_v9_130115", "3", SCENARIO)) %>%
+  mutate(SCENARIO = ifelse(SCENARIO == "SSP5_v9_130115", "4", SCENARIO))
+pop_all <- pop_all %>% mutate(VARIABLE = paste0("X", VARIABLE))
+pop_all <- pop_all %>% gather(key = "year", value = "val", -SCENARIO, -REGION, -VARIABLE) %>% spread(key = VARIABLE, value = val)
+pop_all <- pop_all %>% mutate(year = sub("X", "", year)) %>% mutate(`X95+` = `X95-99` + `X100+`) %>%
+  select(`SCENARIO`, REGION, year, `X25-29`, `X30-34`, `X35-39`, 
+         `X40-44`, `X45-49`, `X50-54`, `X55-59`, `X60-64`, `X65-69`, `X70-74`, `X75-79`, 
+         `X80-84`, `X85-89`, `X90-94`, `X95+`)
+
 #### Figure 1: Influence diagram ####
 
 #### Figure 2: Carbon price, CO2, and health risks, as time series; Map of health impacts ####
