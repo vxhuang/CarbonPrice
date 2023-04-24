@@ -3,10 +3,45 @@ library(tidyr)
 library(readxl)
 library(doParallel)
 
+region_mapping <- read_xlsx("~/work/HEALED_XH_1/GCAM emissions matching/region_mapping.xlsx", sheet = 1)
+region_mapping2 <- read_xlsx("~/work/HEALED_XH_1/GCAM emissions matching/region_mapping.xlsx", sheet = 2)
+FASST_mapping <- read_xlsx(path = "~/work/HEALED_XH_1/TM5_SRMs/COUNTRY-FASST-TABLE_GENERATOR_v2.xlsx", sheet = 1, range = "A1:C231") %>% 
+  rename("ISO_A3" = "ISO 3")
+COPD_SSP1_mort_0 <- read.csv("~/work/HEALED_XH_1/HIA/COPD_SSP1_mort_0.csv", stringsAsFactors = F)
+
+# population by age group, each year
+for (i in 1:5) {
+  assign(paste0("pop_SSP", i), read.csv(paste0("~/work/HEALED_XH_1/HIA/pop_SSP", i, ".csv"), stringsAsFactors = F))
+}
+
+
+common.region <- setdiff(intersect(unique(FASST_mapping$ISO_A3), unique(COPD_SSP1_mort_0$ISO_A3)), c("SYC", "DMA", "TWN"))
+
+pop_all <- do.call(rbind, list(pop_SSP1, pop_SSP2, pop_SSP3, pop_SSP4, pop_SSP5))
+pop_all <- pop_all %>% filter(REGION %in% common.region)
+pop_all <- pop_all %>% filter(!grepl(".*Education$", VARIABLE)) %>% filter(grepl(".*Aged.*", VARIABLE))
+pop_all <- pop_all %>% mutate(VARIABLE = sub(".*Aged", "", VARIABLE))
+pop_all <- pop_all %>% select(SCENARIO, REGION, VARIABLE, X2015, X2020, X2025, X2030, X2035, X2040, X2045, 
+                              X2050, X2055, X2060, X2065, X2070, X2075, X2080, X2085, X2090, X2095, X2100) %>%
+  group_by(SCENARIO, REGION, VARIABLE) %>% summarise_all(list(sum)) %>% ungroup()
+pop_all <- pop_all %>% mutate(SCENARIO = ifelse(SCENARIO == "SSP1_v9_130115", "0", SCENARIO)) %>%
+  mutate(SCENARIO = ifelse(SCENARIO == "SSP2_v9_130115", "1", SCENARIO)) %>%
+  mutate(SCENARIO = ifelse(SCENARIO == "SSP3_v9_130115", "2", SCENARIO)) %>%
+  mutate(SCENARIO = ifelse(SCENARIO == "SSP4d_v9_130115", "3", SCENARIO)) %>%
+  mutate(SCENARIO = ifelse(SCENARIO == "SSP5_v9_130115", "4", SCENARIO))
+pop_all <- pop_all %>% mutate(VARIABLE = paste0("X", VARIABLE))
+pop_all <- pop_all %>% gather(key = "year", value = "val", -SCENARIO, -REGION, -VARIABLE) %>% spread(key = VARIABLE, value = val)
+pop_all <- pop_all %>% mutate(year = sub("X", "", year)) %>% mutate(`X95+` = `X95-99` + `X100+`) %>%
+  select(`SCENARIO`, REGION, year, `X25-29`, `X30-34`, `X35-39`, 
+         `X40-44`, `X45-49`, `X50-54`, `X55-59`, `X60-64`, `X65-69`, `X70-74`, `X75-79`, 
+         `X80-84`, `X85-89`, `X90-94`, `X95+`)
 
 # 1. Temperature
 library(dplyr)
+library(tidyr)
+library(readxl)
 library(doParallel)
+
 setwd("~/work/HEALED_XH_1/")
 scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-1]-[0-3].*\\.csv$")
@@ -46,7 +81,10 @@ write.csv(temp_df, "temp_1020.csv", row.names = F)
 
 # 2. SO2
 library(dplyr)
+library(tidyr)
+library(readxl)
 library(doParallel)
+
 setwd("~/work/HEALED_XH_1/")
 scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
@@ -114,11 +152,13 @@ write.csv(SO2_All, "~/wei/xinyuanh/HEALED_XH_1/cp_results/SO2_All.csv", row.name
 
 # 3. Primary energy consumption
 library(dplyr)
-library(doParallel)
+library(tidyr)
 library(readxl)
-setwd("~/work/HEALED_1_CODES/")
+library(doParallel)
+
+setwd("~/work/HEALED_XH_1/")
 scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
-scenarios <- list.files(scenarios_path, pattern = "^query_08232021_[0-9]-[0-3].*\\.csv$")
+scenarios <- list.files(scenarios_path, pattern = "^query_08232021_[0-9]-1.*\\.csv$")
 
 numCores <- detectCores()
 registerDoParallel(numCores)
@@ -147,8 +187,15 @@ write.csv(primary_All, "~/wei/xinyuanh/HEALED_XH_1/cp_results/primary_2050.csv",
 
 
 # 4. PM2.5 by country
+library(dplyr)
+library(tidyr)
+library(readxl)
+library(doParallel)
+
+setwd("~/work/HEALED_XH_1")
 scenarios_path <- "~/wei/xinyuanh/HEALED_XH_1/cp_results/pm2p5_results/"
 scenarios <- list.files(scenarios_path)
+
 numCores <- detectCores()
 registerDoParallel(numCores)
 
@@ -185,8 +232,10 @@ write.csv(pm_country_data, "~/wei/xinyuanh/HEALED_XH_1/cp_results/pm2p5_country_
 # 5. OC by aggregate sectors
 
 library(dplyr)
-library(doParallel)
+library(tidyr)
 library(readxl)
+library(doParallel)
+
 setwd("~/work/HEALED_XH_1/")
 scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
@@ -206,7 +255,7 @@ OC_All <- foreach(s = scenarios) %dopar% {
     fossil_fuel <- scenario_input[6]
     low_energy <- scenario_input[7]
     ccs <- scenario_input[8]
-    print(s)
+    # print(s)
     # 1. read in the scenario
     scenario <- read.table(paste0(scenarios_path, s), header = FALSE, sep = ",", col.names = paste0("V",seq_len(29)), fill = TRUE, 
                            nrow = 25000, stringsAsFactors = F)  
@@ -254,8 +303,10 @@ write.csv(OC_All, "OC_sectors_All.csv", row.names = F)
 
 # 6. OC emissions from deforestation
 library(dplyr)
-library(doParallel)
+library(tidyr)
 library(readxl)
+library(doParallel)
+
 setwd("~/work/HEALED_XH_1")
 scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
@@ -276,7 +327,7 @@ OC_All <- foreach(s = scenarios) %dopar% {
     fossil_fuel <- scenario_input[6]
     low_energy <- scenario_input[7]
     ccs <- scenario_input[8]
-    print(s)
+    # print(s)
     # 1. read in the scenario
     if(substr(s, 7, 7) == 0) {
       scenario <- read.table(paste0(scenarios_path, s), header = FALSE, sep = ",", col.names = paste0("V",seq_len(29)), fill = TRUE,
@@ -333,11 +384,14 @@ OC_All <- foreach(s = scenarios) %dopar% {
 }
 stopImplicitCluster()
 OC_All <- data.table::rbindlist(OC_All)
-write.csv(OC_All, "~/wei/xinyuanh/HEALED_XH_1/cp_results/OC_deforest.csv", row.names = F)
+write.csv(OC_All, "~/wei/xinyuanh/HEALED_XH_1/cp_results/OC_deforest_2050.csv", row.names = F)
 
 # 7. OC emissions (by region)
 library(dplyr)
+library(tidyr)
+library(readxl)
 library(doParallel)
+
 setwd("~/work/HEALED_XH_1/")
 scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
@@ -407,9 +461,11 @@ write.csv(OC_All, "~/wei/xinyuanh/HEALED_XH_1/cp_results/OC_All.csv", row.names 
 
 # 8. Aggregate land use in 2050
 library(dplyr)
-library(doParallel)
+library(tidyr)
 library(readxl)
-setwd("~/work/HEALED_XH_1/HEALED_1_CODES/")
+library(doParallel)
+
+setwd("~/work/HEALED_XH_1/")
 scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
 scenarios <- list.files(scenarios_path, pattern = "^query_08232021_[0-9]-0.*\\.csv$")
 
@@ -440,8 +496,10 @@ write.csv(land_All, "land.csv", row.names = F)
 
 #### land use in 2050
 library(dplyr)
-library(doParallel)
+library(tidyr)
 library(readxl)
+library(doParallel)
+
 setwd("~/work/HEALED_XH_1/")
 scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
 scenarios <- list.files(scenarios_path, pattern = "^query_08232021_[0-1]-[0-3].*\\.csv$")
@@ -474,6 +532,11 @@ write.csv(land_All, "land_2050.csv", row.names = F)
 
 
 # 9. death rates (by region) in 2050
+library(dplyr)
+library(tidyr)
+library(readxl)
+library(doParallel)
+
 scenarios_path = "~/wei/xinyuanh/HEALED_XH_1/cp_results/results_05102022/"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
 
@@ -516,6 +579,10 @@ write.csv(fig72_data, "~/wei/xinyuanh/HEALED_XH_1/cp_results/fig72_data.csv", ro
 
 
 # 10. death rate time series, global death rates in 2050 and 2100
+library(dplyr)
+library(tidyr)
+library(readxl)
+library(doParallel)
 
 scenarios_path = "~/wei/xinyuanh/HEALED_XH_1/cp_results/results_05102022/"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
@@ -561,6 +628,11 @@ write.csv(dr_ts, "~/wei/xinyuanh/HEALED_XH_1/cp_results/dr_ts_summary.csv", row.
 
 
 # 12. death rates in 2050 (by country)
+library(dplyr)
+library(tidyr)
+library(readxl)
+library(doParallel)
+
 scenarios_path = "~/wei/xinyuanh/HEALED_XH_1/cp_results/results_05102022/"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
 
@@ -598,8 +670,13 @@ write.csv(dr_2050, "~/wei/xinyuanh/HEALED_XH_1/cp_results/dr_2050.csv", row.name
 
 
 # 13. death rates assuming all clear-cutting
+library(dplyr)
+library(tidyr)
+library(readxl)
+library(doParallel)
+
 scenarios_path = "~/wei/xinyuanh/HEALED_XH_1/cp_results/results_10252022_lowEF/"
-scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-0.*\\.csv$")
+scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
 
 numCores <- detectCores()
 registerDoParallel(numCores)
@@ -638,43 +715,34 @@ write.csv(dr_2050_lowEF, "~/wei/xinyuanh/HEALED_XH_1/cp_results/dr_2050_lowEF.cs
 
 
 # 15. death rates in 2015
+library(dplyr)
+library(tidyr)
+library(readxl)
+library(doParallel)
+
 scenarios_path = "~/wei/xinyuanh/HEALED_XH_1/cp_results/results_05102022/"
-scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-0.*\\.csv$")
+scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
+s <- scenarios[1] # The death rates in all SOWs are the same in 2015
 
-numCores <- detectCores()
-registerDoParallel(numCores)
+scenario <- read.csv(paste0(scenarios_path, s), header = T, stringsAsFactors = F, check.names = F)
+socioecon <- substr(s, 11, 11)
+scenario$deaths_total <- rowSums(scenario[, 5:19])
+scenario <- scenario %>% select(1:4, deaths_total)
 
-dr_2015 <- foreach(s = scenarios) %dopar% {
-  tryCatch({
-    scenario <- read.csv(paste0(scenarios_path, s), header = T, stringsAsFactors = F, check.names = F)
-    socioecon <- substr(s, 11, 11)
-    scenario$deaths_total <- rowSums(scenario[, 5:19])
-    scenario <- scenario %>% filter(YEAR == "2015", metric == "Deaths") %>% select(1:4, deaths_total)
-    
-    pop_all_yr <- pop_all %>% filter(year == "2015", SCENARIO == socioecon) %>% arrange(REGION)
-    pop_all_yr$total_pop <- rowSums(pop_all_yr[, 4:18])
-    pop_all_yr <- pop_all_yr %>% select(1:3, total_pop)
-    
-    scenario$total_pop <- pop_all_yr$total_pop
-    scenario <- scenario %>% replace(is.na(.), 0)
-    scenario <- scenario %>% mutate(death_rate = deaths_total / total_pop)
-    scenario$scenario_input <- s
-    if (which(scenarios == s) %% 1000 == 1) {
-      print(which(scenarios == s))
-      print(Sys.time())
-    }
-    # if (dim(scenario)[1] != 62) print(paste0(which(scenarios == s), ": ", s))
-    # if (dim(scenario)[2] != 4) print(paste0(which(scenarios == s), ": ", s))
-    scenario
-  }, error = function(e) function(e) {cat("Index:", which(scenarios == s), "Query:", s, conditionMessage(e), "\n")}
-  )
-}
-stopImplicitCluster()
+pop_all_yr <- pop_all %>% filter(SCENARIO == socioecon) %>% arrange(year, REGION)
+pop_all_yr$pop_total <- rowSums(pop_all_yr[, 4:18])
+pop_all_yr <- pop_all_yr %>% select(1:3, pop_total)
 
-dr_2015 <- data.table::rbindlist(dr_2015)
-write.csv(dr_2015, "~/wei/xinyuanh/HEALED_XH_1/cp_results/dr_2015.csv", row.names = F)
+scenario <- scenario %>% cbind(pop_all_yr %>% select(pop_total))
+scenario <- scenario %>% left_join(region_mapping %>% select(ISO_A3, GCAM), by = "ISO_A3")
+scenario <- scenario %>% mutate(GCAM = if_else(ISO_A3 == "PRI", "USA", GCAM))
 
+scenario <- scenario %>% filter(YEAR == "2015") %>% select(GCAM, metric, deaths_total, pop_total)
+scenario <- scenario %>% group_by(GCAM, metric) %>% summarise_at(c("deaths_total", "pop_total"), sum, na.rm = T)
+scenario$death_rate <- scenario$deaths_total / scenario$pop_total
+scenario$scenario_input <- s
 
+write.csv(scenario, "~/wei/xinyuanh/HEALED_XH_1/cp_results/dr_2015.csv", row.names = F)
 
 
 
