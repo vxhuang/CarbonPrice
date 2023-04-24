@@ -12,6 +12,9 @@ library(RColorBrewer)
 library(ggpattern)
 library(ggtext)
 
+# setwd("~/Documents/PSU/XH papers/Carbon price/Data and Codes/CODES/")
+setwd("Data and Codes/CODES")
+
 FASST_mapping <- read_xlsx(path = "TM5_SRMs/COUNTRY-FASST-TABLE_GENERATOR_v2.xlsx", sheet = 1, range = "A1:C231") %>% 
   rename("ISO_A3" = "ISO 3")
 COPD_SSP1_mort_0 <- read.csv("HIA/COPD_SSP1_mort_0.csv", stringsAsFactors = F)
@@ -46,7 +49,6 @@ pop_all <- pop_all %>% mutate(year = sub("X", "", year)) %>% mutate(`X95+` = `X9
 
 #### Figure 2: Carbon price, CO2, and health risks, as time series; Map of health impacts ####
 
-setwd("Data and Codes/CODES")
 # Carbon prices are preset. 
 carbon_price <- data.frame(year = as.character(seq(2015, 2100, by = 5)), 
                            price = c(0, 21, 38.1667, 
@@ -68,7 +70,7 @@ fig_carbon_price <- ggplot(data = carbon_price) +
                    expand = expansion(mult = c(0, 0.05))) + 
   scale_y_continuous(limits = c(0, 120), expand = expansion(mult = c(0, 0)))
 
-temp_ts <- read.csv("Data and Codes/DATA/temp_1020.csv", stringsAsFactors = F) %>% 
+temp_ts <- read.csv("../DATA/temp_1020.csv", stringsAsFactors = F) %>% 
   mutate(scenario = substr(scenario, 1, 15))
 temp_ts$carbon_tax <- substr(temp_ts$scenario, 1, 1)
 temp_2050 <- temp_ts %>% select(carbon_tax, X2050)
@@ -105,13 +107,13 @@ fig_temp_ts <- ggplot() +
   guides(fill = "none", alpha = "none")
 
 
-dr_ts <- read.csv("Data and Codes/DATA/dr_ts_summary.csv", stringsAsFactors = F)
-dr_2050_global <- read.csv("Data and Codes/DATA/dr_2050_global.csv", stringsAsFactors = F)
+dr_ts <- read.csv("../DATA/dr_ts_summary.csv", stringsAsFactors = F)
+dr_2050_global <- read.csv("../DATA/dr_2050_global.csv", stringsAsFactors = F)
 dr_ts$YEAR <- as.character(dr_ts$YEAR)
 dr_2050_global$YEAR <- as.character(dr_2050_global$YEAR)
 dr_ts$carbon_tax <- as.character(dr_ts$carbon_tax)
 dr_2050_global$carbon_tax <- as.character(dr_2050_global$carbon_tax)
-dr_2100_global <- read.csv("Data and Codes/DATA/dr_2100_global.csv", stringsAsFactors = F)
+dr_2100_global <- read.csv("../DATA/dr_2100_global.csv", stringsAsFactors = F)
 dr_ts$YEAR <- as.character(dr_ts$YEAR)
 dr_2100_global$YEAR <- as.character(dr_2100_global$YEAR)
 dr_ts$carbon_tax <- as.character(dr_ts$carbon_tax)
@@ -153,7 +155,7 @@ region_mapping2 <- read_xlsx("GCAM emissions matching/region_mapping.xlsx", shee
 
 region_mapping2[7, 2] <- "Brazil"
 
-dt_fig2 <- read.csv("Data and Codes/DATA/dr_2050.csv", stringsAsFactors = F)
+dt_fig2 <- read.csv("../DATA/dr_2050.csv", stringsAsFactors = F)
 dt_fig2 <- dt_fig2 %>% mutate(scenario_input = paste0(substr(scenario_input, 1, 21), "-", "0"))
 dt_fig2 <- dt_fig2 %>% select(Country, ISO_A3, deaths_total, death_rate, scenario_input)
 names(dt_fig2)[3] <- "total_deaths"
@@ -273,9 +275,9 @@ ggsave("Figures/fig_basic_2.jpeg", fig_basic_1, width = 7.08, height = 6.33)
 
 setwd("Data and Codes/CODES")
 
-income_ssp <- read.csv("Data and Codes/DATAgdp_GCAM32.csv", stringsAsFactors = F) # from GCAM!!!
-pop_gcam <- read.csv("Data and Codes/DATApop_gcam.csv", stringsAsFactors = F)
-dt_fig7 <- read.csv("Data and Codes/DATA/fig72_data.csv", stringsAsFactors = F)
+income_ssp <- read.csv("../DATA/gdp_GCAM32.csv", stringsAsFactors = F) # from GCAM!!!
+pop_gcam <- read.csv("../DATA/pop_gcam.csv", stringsAsFactors = F)
+dt_fig7 <- read.csv("../DATA/fig72_data.csv", stringsAsFactors = F)
 dt_fig7 <- dt_fig7 %>% mutate(scenario_input = paste0(substr(scenario_input, 1, 21), "-", "0"))
 dt_fig7$carbon_tax <- substr(dt_fig7$scenario_input, 7, 7)
 
@@ -301,7 +303,7 @@ dt_fig7 <- dt_fig7 %>% left_join(income_ssp, by = c("GCAM" = "region")) %>% inne
 dt_fig7 <- dt_fig7 %>% mutate(income = GDP2015 / X2015) %>% select(-GDP2015, -X2015)
 dt_fig7_median <- dt_fig7 %>% select(-scenario_input) %>% group_by(GCAM, metric) %>% summarise_all(list(median))
 
-dr_2015 <- read.csv("Data and Codes/DATA/dr_2015.csv", stringsAsFactors = F)
+dr_2015 <- read.csv("../DATA/dr_2015.csv", stringsAsFactors = F)
 
 dr_2015_bar <- dt_fig7 %>% left_join(dr_2015 %>% select(GCAM, death_rate), by = "GCAM") %>% 
   select(GCAM, death_rate, death_rate.x, death_rate.y) %>% group_by(GCAM) %>% 
@@ -398,14 +400,14 @@ ggsave("Figures/fig7_Deaths_box3.jpeg", plot = fig_3, width = 10, height = 5)
 
 #### Mechanism of health effects 
 
-SO2_2050 <- read.csv("Data and Codes/DATA/SO2_All.csv", stringsAsFactors = F)
+SO2_2050 <- read.csv("../DATA/SO2_All.csv", stringsAsFactors = F)
 
 region_mapping <- read_xlsx("GCAM emissions matching/region_mapping.xlsx", sheet = 1)
 region_mapping2 <- read_xlsx("GCAM emissions matching/region_mapping.xlsx", sheet = 2)
 
 region_mapping2[7, 2] <- "Brazil"
 
-OC_2050 <- read.csv("Data and Codes/DATA/OC_All.csv", stringsAsFactors = F)
+OC_2050 <- read.csv("../DATA/OC_All.csv", stringsAsFactors = F)
 OC_2050$EF <- "High"
 
 OC_2050 <- OC_2050 %>% left_join(region_mapping2, by = c("region" = "GCAM"))
@@ -434,7 +436,7 @@ SO2_2050 = SO2_2050 %>% select(-carbon_tax.x, -carbon_tax.y) %>%
   mutate(dSO2 = SO2.y - SO2.x) 
 
 
-dr_2050 <- read.csv("Data and Codes/DATA/dr_2050.csv", stringsAsFactors = F)
+dr_2050 <- read.csv("../DATA/dr_2050.csv", stringsAsFactors = F)
 dr_2050$EF <- "High"
 dr_2050 <- dr_2050 %>% mutate(scenario_input = sub("_all", "", scenario_input))
 
@@ -461,7 +463,7 @@ OC_vs_SO2 <- OC_vs_SO2 %>% mutate(ddr_TF = ifelse(ddr <= 0, 1, 0))
 
 # Coal and biomass, SO2 and OC, health co-benefits as background color?
 
-primary_2050 <- read.csv("Data and Codes/DATA/primary_2050.csv", stringsAsFactors = F)
+primary_2050 <- read.csv("../DATA/primary_2050.csv", stringsAsFactors = F)
 names(primary_2050)[4] <- "pri"
 primary_2050 <- primary_2050 %>% mutate(fuel = str_sub(fuel, 3, -1)) 
 primary_2050$scenario <- substr(primary_2050$scenario, 1, 15)
@@ -490,11 +492,11 @@ primary_2050 <- inner_join(
 primary_2050 <- primary_2050 %>% ungroup() %>% mutate(dpri_ratio = pri_ratio.y - pri_ratio.x) %>% 
   select(Map_19re, fuel_cat, dpri_ratio)
 
-dt_fig7 <- read.csv("Data and Codes/DATA/fig72_data.csv", stringsAsFactors = F)
+dt_fig7 <- read.csv("../DATA/fig72_data.csv", stringsAsFactors = F)
 dt_fig7 <- dt_fig7 %>% mutate(scenario_input = paste0(substr(scenario_input, 1, 21), "-", "0"))
 dt_fig4_bg <- dt_fig7
 
-pop_2050 <- read.csv("Data and Codes/DATA/pop_GCAM32_2050.csv", stringsAsFactors = F)
+pop_2050 <- read.csv("../DATA/pop_GCAM32_2050.csv", stringsAsFactors = F)
 pop_2050$socioecon <- as.character(pop_2050$socioecon)
 dt_fig4_bg <- dt_fig4_bg %>% mutate(socioecon = substr(scenario_input, 11, 11)) %>%
   left_join(region_mapping2, by = c("GCAM")) %>% left_join(pop_2050, by = c("GCAM" = "region", "socioecon")) %>% 
@@ -598,7 +600,7 @@ fig4_em <- ggplot() +
   annotate(geom = "text", x = 2, y = 6, label = "OC emissions", color = "cyan4") +
   annotate(geom = "text", x = 5.8, y = -7.5, parse = T, label = "SO[2]~'emissions'", color = "brown3") 
 
-pm2p5_2050 <- read.csv("Data and Codes/DATA/pm_country_2050.csv", stringsAsFactors = F)
+pm2p5_2050 <- read.csv("../DATA/pm_country_2050.csv", stringsAsFactors = F)
 pm2p5_2050$EF <- "High"
 
 substr(pm2p5_2050$scenario_input, 7, 7) <- "X"
@@ -693,7 +695,7 @@ ggsave("Figures/fig_mech_1_IAMC.jpeg", width = 7.08, height = 6.69)
 #### Figure 5 ####
 
 # Panel a) 
-land_2050 <- read.csv("Data and Codes/DATA/land_2050.csv", stringsAsFactors = F)
+land_2050 <- read.csv("../DATA/land_2050.csv", stringsAsFactors = F)
 names(land_2050)[4] <- "km2"
 land_2050$scenario <- substr(land_2050$scenario, 1, 15)
 
@@ -763,9 +765,9 @@ fig_harm_a <- ggplot() +
   scale_color_manual(values = c("darkgreen", "brown2", "purple2"), 
                      labels = c("biomass", "food-purpose", "unmanaged forest                 "))
 
-OC_sectors_All <- read.csv("Data and Codes/DATA/OC_sectors_All.csv", stringsAsFactors = F)
+OC_sectors_All <- read.csv("../DATA/OC_sectors_All.csv", stringsAsFactors = F)
 
-OC_deforest_2050 <- read.csv("Data and Codes/DATA/OC_deforest_2050.csv", stringsAsFactors = F)
+OC_deforest_2050 <- read.csv("../DATA/OC_deforest_2050.csv", stringsAsFactors = F)
 
 OC_aglu <- OC_sectors_All %>% filter(major_sector == "agriculture")
 OC_aglu_lowEF <- OC_aglu %>% left_join(OC_deforest_2050 %>% filter(subsector == "Deforest"), by = c("region", "scenario_input"))
@@ -832,8 +834,8 @@ fig_harm_b <- ggplot() +
                                 "Agriculture and land use \n(deforestation: clearcutting)")) 
 
 
-dr_2050 <- read.csv("Data and Codes/DATA/dr_2050.csv", stringsAsFactors = F)
-dr_lowEF <- read.csv("Data and Codes/DATA/dr_2050_lowEF.csv", stringsAsFactors = F)
+dr_2050 <- read.csv("../DATA/dr_2050.csv", stringsAsFactors = F)
+dr_lowEF <- read.csv("../DATA/dr_2050_lowEF.csv", stringsAsFactors = F)
 dr_2050$EF <- "High"
 dr_lowEF$EF <- "Low"
 dr_2050 <- rbind(dr_2050, dr_lowEF)
