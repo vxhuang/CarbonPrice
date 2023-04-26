@@ -6,3 +6,4 @@ This repository contains codes for Huang et al. Effects of global climate mitiga
   * The "downscaling.R" script can be used to downscale emissions from GCAM's 32 regional resolution to the country level using the Emissions Database for Global Atmospheric Research (EDGAR v4.3) as calibration. 
   * The "healthImpacts.R" script performs the air quality modeling using the TM5-FASST model, and the health impact assessments. 
   * The "main_text.R" script generates figures for the research paper. 
+* Codes in "GCAM ensemble" are executed using Python 3.6.8. Codes in "Data and Codes/CODES" are executed using R 3.6.0 or R 4.1.2 (both available). 
