@@ -128,8 +128,6 @@ fig_dr_ts <- ggplot() +
                width = 0.7, outlier.size = 0.05, position = position_dodge(width = 1.2)) + 
   geom_boxplot(data = dr_2100_global, mapping = aes(x = 20.4, y = death_rate, color = carbon_tax), 
                width = 0.7, outlier.size = 0.05, position = position_dodge(width = 1.2)) + 
-  # geom_point(aes(x = 8, 730.8)) + 
-  # geom_point(aes(x = 18.4, 730.8)) + 
   geom_segment(aes(x = 19.6, xend = 19.6, y = 630, yend = 2070), size = 0.3, linetype = "dashed") + 
   geom_text(aes(x = 18.7, y = 2035, label = "2050"), size = 2) + 
   geom_text(aes(x = 20.5, y = 2035, label = "2100"), size = 2) + 
@@ -162,7 +160,6 @@ names(dt_fig2)[3] <- "total_deaths"
 
 dt_fig2$carbon_tax <- substr(dt_fig2$scenario_input, 7, 7)
 substr(dt_fig2$scenario_input, 7, 7) <- "X"
-# dt_fig32_backup <- dt_fig2
 
 dt_fig2_diff <- inner_join(
   x = dt_fig2 %>% filter(carbon_tax == "0"), 
@@ -173,13 +170,6 @@ dt_fig2_diff <- dt_fig2_diff %>% mutate(dr_diff = (death_rate.y - death_rate.x) 
                                         deaths_diff = (total_deaths.y - total_deaths.x) / total_deaths.x)
 dt_fig2_diff <- dt_fig2_diff %>% mutate(dr_diff_abs = (death_rate.y - death_rate.x),
                                         deaths_diff_abs = (total_deaths.y - total_deaths.x))
-# dt_fig2_gcam32 <- dt_fig2_diff %>% left_join(region_mapping[, c(3, 1)], by = "ISO_A3") %>%
-#   select(GCAM, scenario_input, deaths_diff_abs) %>% group_by(GCAM, scenario_input) %>%
-#   summarise(deaths_diff_abs = sum(deaths_diff_abs), .groups = "drop") %>%
-#   select(GCAM, deaths_diff_abs) %>% group_by(GCAM) %>% summarise(deaths_diff_abs = max(deaths_diff_abs)) %>% drop_na() %>%
-#   mutate(mark = if_else(deaths_diff_abs > 0, "harm", "benefit"))
-# dt_fig2_gcam32$GCAM_30_re <- c(2:5, 31, 6:11, 32, 12:29, 1)
-# dt_fig2_gcam32$GCAM_30_re <- as.character(dt_fig2_gcam32$GCAM_30_re)
 
 dt_fig2_diff <- dt_fig2_diff %>% group_by(ISO_A3) %>%
   mutate(mark = if_else(quantile(dr_diff_abs, probs = 0.99) > 0, 0, 1)) # 1 for all co-benefits, 0 for potential co-harms
@@ -208,22 +198,16 @@ dt_fig2_diff <- world_map %>% inner_join(dt_fig2_diff %>% select(-death_rate.x, 
 
 #### test of .shp
 library(sf)
+library(sp)
 sf_use_s2(use_s2 = F)
-gcam_sf <- st_read("Data and Codes/CODES/GCAM 32 (with Taiwan)/GCAM_32_w_Taiwan.shp")
+gcam_sf <- st_read("GCAM 32 (with Taiwan)/GCAM_32_w_Taiwan.shp")
 
 gcam_sf_32 <- gcam_sf %>% select(GCAM_30_re, geometry)
 gcam_sf_32 <- gcam_sf_32 %>% group_by(GCAM_30_re) %>% summarise(geometry = st_union(geometry))
-# gcam_sf_32 <- gcam_sf_32 %>% left_join(dt_fig2_gcam32 %>% select(GCAM_30_re, mark), by = "GCAM_30_re")
-# gcam_sf_32[31, "mark"] <- "benefit"
 gcam_sf_32 <- gcam_sf_32[-1, ] %>% as_Spatial() %>% broom::tidy()
-# gcam_sf_32 <- gcam_sf_32 %>% left_join(dt_fig2_gcam32 %>% select(GCAM_30_re, mark), by = c("id" = "GCAM_30_re"))
 
 library(ggallin)
-# cbrt <- trans_new(name = "cbrt", transform = function(x) sign(x) * abs(x) ^ (1/3), inverse = function(x) x^3)
 dt_fig2_diff_plot_only <- dt_fig2_diff %>% 
-  # mutate(deaths_diff_abs = ifelse(deaths_diff_abs < -2000, -2000, deaths_diff_abs)) %>% 
-  # mutate(dr_diff_abs = ifelse(dr_diff_abs < -50, -50, dr_diff_abs)) %>% 
-  # mutate(dr_diff_abs = ifelse(dr_diff_abs > 10, 10, dr_diff_abs)) %>% 
   mutate(dr_diff_abs = ifelse(region == "Greenland", 0, dr_diff_abs)) %>%
   mutate(mark = ifelse(region == "Greenland", "1", mark))
 
@@ -252,11 +236,8 @@ fig4_map <-
                        breaks = seq(-210, 30, by = 30)) +
   scale_pattern_manual(values = c("none", "stripe"), labels = c("Consistent co-benefits", "Potential co-harms"), 
                        guide = "none") + 
-  # scale_fill_gradientn(colours = c("deepskyblue4", "deepskyblue3", "white"), values = c(0, 0.5, 1), limits = c(-100, 0), breaks = seq(-100, 0, by = 20)) +
-  # scale_linetype_manual(values = c("solid", "dotted"), guide = "none") + 
   labs(x = "", y = "", 
        title = expression("<b>d) Changes in PM<sub>2.5</sub> attributable death rates due to a global carbon price</b>"),
-       # title = expression("<b>Changes in PM<sub>2.5</sub> attributable death rates due to a global carbon price</b>"),
        fill = "Ensemble median \nchange in death rate\n[deaths per million per year]") + 
   theme_bw() +
   theme(panel.background = element_blank(), panel.grid.major = element_line(colour = "gray85"), text = element_text(size = 8), 
@@ -273,8 +254,6 @@ ggsave("Figures/fig_basic_2.jpeg", fig_basic_1, width = 7.08, height = 6.33)
 
 #### Figure 3 Reduction of Health Inequity ####
 
-setwd("Data and Codes/CODES")
-
 income_ssp <- read.csv("../DATA/gdp_GCAM32.csv", stringsAsFactors = F) # from GCAM!!!
 pop_gcam <- read.csv("../DATA/pop_gcam.csv", stringsAsFactors = F)
 dt_fig7 <- read.csv("../DATA/fig72_data.csv", stringsAsFactors = F)
@@ -282,7 +261,6 @@ dt_fig7 <- dt_fig7 %>% mutate(scenario_input = paste0(substr(scenario_input, 1, 
 dt_fig7$carbon_tax <- substr(dt_fig7$scenario_input, 7, 7)
 
 substr(dt_fig7$scenario_input, 7, 7) <- "X"
-# dt_fig32 <- dt_fig32 %>% select(-scenario_input)
 dt_fig7 <- dt_fig7 %>% select(-deaths_total, -pop_total)
 dt_fig7 <- inner_join(
   x = dt_fig7 %>% filter(carbon_tax == "0"), 
@@ -290,11 +268,6 @@ dt_fig7 <- inner_join(
   by = c("GCAM", "metric", "scenario_input")
 )
 
-# dt_fig7 %>% filter(GCAM %in% c("India", "Pakistan", "South Asia")) %>% 
-#   select(scenario_input, deaths_total.x, pop_total.x, deaths_total.y) %>% 
-#   group_by(scenario_input) %>% summarise_all(list(sum)) %>% 
-#   mutate(dr.x = deaths_total.x/pop_total.x, dr.y = deaths_total.y / pop_total.x) %>% 
-#   mutate(ddr = dr.x - dr.y) %>% summary()
 
 dt_fig7 <- dt_fig7 %>% select(-carbon_tax.x, -carbon_tax.y) %>%
   mutate(death_rate.y = death_rate.y - death_rate.x)
@@ -335,7 +308,6 @@ fig_3a <- ggplot() +
         panel.background = element_blank(), axis.line = element_line(colour = "black"), 
         legend.position = c(.3, .7), legend.text = element_text(size = 11), legend.key.width = unit(2.5, "line"), 
         legend.key = element_rect(fill = "transparent"), legend.background = element_rect(fill = "transparent"), 
-        # legend.spacing.y = unit(-0.1, "cm"), 
         legend.margin = margin(0, -10, 0, -10),
         axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 12),
         axis.title.y = element_text(size = 12), axis.text.y = element_text(size = 12), plot.margin = unit(c(.3, .5, .3, .5), "cm")) +
@@ -370,7 +342,6 @@ fig_3b <- ggplot() +
         panel.background = element_blank(), axis.line = element_line(colour = "black"), 
         legend.position = c(.4, .2), legend.text = element_text(size = 11), legend.key.width = unit(2.5, "line"), 
         legend.key = element_rect(fill = "transparent"), legend.background = element_rect(fill = "transparent"), 
-        # legend.spacing.y = unit(-0.1, "cm"), 
         legend.margin = margin(0, -10, 0, -10),
         axis.title.x = element_text(size = 12), axis.text.x = element_text(size = 12),
         axis.title.y = element_text(size = 12), axis.text.y = element_text(size = 12), plot.margin = unit(c(.3, .5, .3, .5), "cm")) +
@@ -378,8 +349,6 @@ fig_3b <- ggplot() +
   scale_y_continuous(limits = c(-320, 60), expand = expansion(mult = c(.0, .0))) + 
   scale_color_manual(values = c("black", "brown"), name = "Death rate (median and range)", 
                      labels = c("Consistent co-benefits", "Potential co-benefits and co-harms")) + 
-  # scale_linetype_manual(values = c("solid", "dashed"), name = "Death rate (median and range)", 
-  #                       labels = c("Consistent co-benefits", "Potential co-harms")) +  
   scale_size_manual(values = c(0.7, 1), name = NULL) + 
   scale_alpha_manual(values = 1, name = NULL) +
   guides(color = guide_legend(order = 1, override.aes = list(size = .5)), linetype = guide_legend(order = 1),
@@ -798,7 +767,6 @@ dt_fig3$major_sector <- factor(dt_fig3$major_sector, levels = c("residential com
 
 # panel b)
 fig_harm_b <- ggplot() +
-  # geom_rect(mapping = aes(xmin = .5, xmax = 8.5, ymin = -.3, ymax = .5), fill = "white") +
   geom_rect(mapping = aes(xmin = 0.6, xmax = 1.4, ymin = -.3, ymax = .5), fill = "grey90") +
   geom_rect(mapping = aes(xmin = 1.6, xmax = 2.4, ymin = -.3, ymax = .5), fill = "grey90") +
   geom_rect(mapping = aes(xmin = 2.6, xmax = 3.4, ymin = -.3, ymax = .5), fill = "grey90") +
@@ -862,7 +830,6 @@ dt_fig5$Map_19re <- factor(dt_fig5$Map_19re, levels = mech_regions)
 
 # panel c)
 fig_harm_c <- ggplot() +
-  # geom_rect(mapping = aes(xmin = .5, xmax = 8.5, ymin = -330, ymax = 30), fill = "white") +
   geom_rect(mapping = aes(xmin = 0.6, xmax = 1.4, ymin = -330, ymax = 30), fill = "grey90") +
   geom_rect(mapping = aes(xmin = 1.6, xmax = 2.4, ymin = -330, ymax = 30), fill = "grey90") +
   geom_rect(mapping = aes(xmin = 2.6, xmax = 3.4, ymin = -330, ymax = 30), fill = "grey90") +
