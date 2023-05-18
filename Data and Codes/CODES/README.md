@@ -1,4 +1,4 @@
-This section provides all Scripts and data used in the Carbon Price model
+This section provides all scripts used in the paper. 
 
 # Module Summary
 
