@@ -4,11 +4,11 @@ library(tidyr)
 
 
 # read in mapping sheets
-sector_mapping_GCAM <- read_xlsx("GCAM emissions matching/sector_mapping.xlsx", sheet = 1)
-sector_mapping_EDGAR_GHGs <- read_xlsx("GCAM emissions matching/sector_mapping.xlsx", sheet = 2)
-sector_mapping_EDGAR_emissions <- read_xlsx("GCAM emissions matching/sector_mapping.xlsx", sheet = 3)
+sector_mapping_GCAM <- read_xlsx("Data and Codes/CODES/GCAM emissions matching/sector_mapping.xlsx", sheet = 1)
+sector_mapping_EDGAR_GHGs <- read_xlsx("Data and Codes/CODES/GCAM emissions matching/sector_mapping.xlsx", sheet = 2)
+sector_mapping_EDGAR_emissions <- read_xlsx("Data and Codes/CODES/GCAM emissions matching/sector_mapping.xlsx", sheet = 3)
 
-region_mapping <- read_xlsx("GCAM emissions matching/region_mapping.xlsx")
+region_mapping <- read_xlsx("Data and Codes/CODES/GCAM emissions matching/region_mapping.xlsx")
 
 # to proportion function for emissions
 # calculates the proportions of a [country, major sector] combination in a [GCAM region, all sectors] combination
@@ -48,30 +48,30 @@ to_propn_GHG <- function(EDGAR) {
 }
 
 # EDGAR data read in
-BC_EDGAR <- read_xls("GCAM emissions matching/v432_BC_1970_2012.xls", sheet = 1, skip = 7) %>% 
+BC_EDGAR <- read_xls("Data and Codes/CODES/GCAM emissions matching/v432_BC_1970_2012.xls", sheet = 1, skip = 7) %>% 
   select(c(`ISO_A3`, `IPCC_description`, `2012`))
-CO_EDGAR <- read_xls("GCAM emissions matching/v432_CO_1970_2012.xls", sheet = 1, skip = 7) %>%
+CO_EDGAR <- read_xls("Data and Codes/CODES/GCAM emissions matching/v432_CO_1970_2012.xls", sheet = 1, skip = 7) %>%
   select(c(`ISO_A3`, `IPCC_description`, `2012`))
-NH3_EDGAR <- read_xls("GCAM emissions matching/v432_NH3_1970_2012.xls", sheet = 1, skip = 7) %>%
+NH3_EDGAR <- read_xls("Data and Codes/CODES/GCAM emissions matching/v432_NH3_1970_2012.xls", sheet = 1, skip = 7) %>%
   select(c(`ISO_A3`, `IPCC_description`, `2012`))
-NMVOC_EDGAR <- read_xls("GCAM emissions matching/v432_NMVOC_1970_2012.xls", sheet = 1, skip = 7) %>%
+NMVOC_EDGAR <- read_xls("Data and Codes/CODES/GCAM emissions matching/v432_NMVOC_1970_2012.xls", sheet = 1, skip = 7) %>%
   select(c(`ISO_A3`, `IPCC_description`, `2012`))
-NOx_EDGAR <- read_xls("GCAM emissions matching/v432_NOx_1970_2012.xls", sheet = 1, skip = 7) %>%
+NOx_EDGAR <- read_xls("Data and Codes/CODES/GCAM emissions matching/v432_NOx_1970_2012.xls", sheet = 1, skip = 7) %>%
   select(c(`ISO_A3`, `IPCC_description`, `2012`))
-OC_EDGAR <- read_xls("GCAM emissions matching/v432_OC_1970_2012.xls", sheet = 1, skip = 7) %>%
+OC_EDGAR <- read_xls("Data and Codes/CODES/GCAM emissions matching/v432_OC_1970_2012.xls", sheet = 1, skip = 7) %>%
   select(c(`ISO_A3`, `IPCC_description`, `2012`))
-SO2_EDGAR <- read_xls("GCAM emissions matching/v432_SO2_1970_2012.xls", sheet = 1, skip = 7) %>%
+SO2_EDGAR <- read_xls("Data and Codes/CODES/GCAM emissions matching/v432_SO2_1970_2012.xls", sheet = 1, skip = 7) %>%
   select(c(`ISO_A3`, `IPCC_description`, `2012`))
 
-PM2.5bio_EDGAR <- read_xls("GCAM emissions matching/v432_PM2.5_bio_1970_2012.xls", sheet = 1, skip = 7) %>% 
+PM2.5bio_EDGAR <- read_xls("Data and Codes/CODES/GCAM emissions matching/v432_PM2.5_bio_1970_2012.xls", sheet = 1, skip = 7) %>% 
   select(c(`ISO_A3`, `IPCC_description`, `2012`))
-PM2.5fossil_EDGAR <- read_xls("GCAM emissions matching/v432_PM2.5_fossil_1970_2012.xls", sheet = 1, skip = 7) %>% 
+PM2.5fossil_EDGAR <- read_xls("Data and Codes/CODES/GCAM emissions matching/v432_PM2.5_fossil_1970_2012.xls", sheet = 1, skip = 7) %>% 
   select(c(`ISO_A3`, `IPCC_description`, `2012`))
 PM2.5_EDGAR <- rbind(PM2.5bio_EDGAR, PM2.5fossil_EDGAR)
 
-CH4_EDGAR <- read_xls("GCAM emissions matching/v50_CH4_1970_2015.xls", sheet = 1, skip = 9) %>% 
+CH4_EDGAR <- read_xls("Data and Codes/CODES/GCAM emissions matching/v50_CH4_1970_2015.xls", sheet = 1, skip = 9) %>% 
   select(c(`ISO_A3`, `IPCC_description`, `2015`))
-CO2_EDGAR <- read_xls("GCAM emissions matching/v50_CO2_excl_short-cycle_org_C_1970_2018.xls", sheet = 1, skip = 9) %>% 
+CO2_EDGAR <- read_xls("Data and Codes/CODES/GCAM emissions matching/v50_CO2_excl_short-cycle_org_C_1970_2018.xls", sheet = 1, skip = 9) %>% 
   select(c(`ISO_A3`, `IPCC_description`, `2015`))
 
 # to proportions

@@ -3,15 +3,15 @@ library(tidyr)
 library(readxl)
 library(doParallel)
 
-region_mapping <- read_xlsx("~/work/HEALED_XH_1/GCAM emissions matching/region_mapping.xlsx", sheet = 1)
-region_mapping2 <- read_xlsx("~/work/HEALED_XH_1/GCAM emissions matching/region_mapping.xlsx", sheet = 2)
-FASST_mapping <- read_xlsx(path = "~/work/HEALED_XH_1/TM5_SRMs/COUNTRY-FASST-TABLE_GENERATOR_v2.xlsx", sheet = 1, range = "A1:C231") %>% 
+region_mapping <- read_xlsx("Data and Codes/CODES/GCAM emissions matching/region_mapping.xlsx", sheet = 1)
+region_mapping2 <- read_xlsx("Data and Codes/CODES/GCAM emissions matching/region_mapping.xlsx", sheet = 2)
+FASST_mapping <- read_xlsx(path = "Data and Codes/CODES/TM5_SRMs/COUNTRY-FASST-TABLE_GENERATOR_v2.xlsx", sheet = 1, range = "A1:C231") %>% 
   rename("ISO_A3" = "ISO 3")
-COPD_SSP1_mort_0 <- read.csv("~/work/HEALED_XH_1/HIA/COPD_SSP1_mort_0.csv", stringsAsFactors = F)
+COPD_SSP1_mort_0 <- read.csv("Data and Codes/CODES/HIA/COPD_SSP1_mort_0.csv", stringsAsFactors = F)
 
 # population by age group, each year
 for (i in 1:5) {
-  assign(paste0("pop_SSP", i), read.csv(paste0("~/work/HEALED_XH_1/HIA/pop_SSP", i, ".csv"), stringsAsFactors = F))
+  assign(paste0("pop_SSP", i), read.csv(paste0("Data and Codes/CODES/HIA/pop_SSP", i, ".csv"), stringsAsFactors = F))
 }
 
 
@@ -42,8 +42,7 @@ library(tidyr)
 library(readxl)
 library(doParallel)
 
-setwd("~/work/HEALED_XH_1/")
-scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
+scenarios_path <- "your_path_to_the_query_results"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-1]-[0-3].*\\.csv$")
 numCores <- detectCores()
 registerDoParallel(numCores)
@@ -77,7 +76,7 @@ stopImplicitCluster()
 
 temp_df <- data.table::rbindlist(temp_All)
 
-write.csv(temp_df, "temp_1020.csv", row.names = F)
+write.csv(temp_df, "your_path_to_intermediate_results/temp_1020.csv", row.names = F)
 
 # 2. SO2
 library(dplyr)
@@ -85,8 +84,7 @@ library(tidyr)
 library(readxl)
 library(doParallel)
 
-setwd("~/work/HEALED_XH_1/")
-scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
+scenarios_path <- "your_path_to_the_query_results"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
 
 numCores <- detectCores()
@@ -147,7 +145,7 @@ SO2_All <- foreach(s = scenarios) %dopar% {
 }
 stopImplicitCluster()
 SO2_All <- data.table::rbindlist(SO2_All)
-write.csv(SO2_All, "~/wei/xinyuanh/HEALED_XH_1/cp_results/SO2_All.csv", row.names = F)
+write.csv(SO2_All, "your_path_to_intermediate_results/SO2_All.csv", row.names = F)
 
 
 # 3. Primary energy consumption
@@ -156,8 +154,7 @@ library(tidyr)
 library(readxl)
 library(doParallel)
 
-setwd("~/work/HEALED_XH_1/")
-scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
+scenarios_path <- "your_path_to_the_query_results"
 scenarios <- list.files(scenarios_path, pattern = "^query_08232021_[0-9]-1.*\\.csv$")
 
 numCores <- detectCores()
@@ -183,7 +180,7 @@ primary_All <- foreach(s = scenarios) %dopar% {
 }
 stopImplicitCluster()
 primary_All <- data.table::rbindlist(primary_All)
-write.csv(primary_All, "~/wei/xinyuanh/HEALED_XH_1/cp_results/primary_2050.csv", row.names = F)
+write.csv(primary_All, "your_path_to_intermediate_results/primary_2050.csv", row.names = F)
 
 
 # 4. PM2.5 by country
@@ -192,8 +189,7 @@ library(tidyr)
 library(readxl)
 library(doParallel)
 
-setwd("~/work/HEALED_XH_1")
-scenarios_path <- "~/wei/xinyuanh/HEALED_XH_1/cp_results/pm2p5_results/"
+scenarios_path <- "your_path_to_the_pm2p5_results"
 scenarios <- list.files(scenarios_path)
 
 numCores <- detectCores()
@@ -226,7 +222,7 @@ pm_country_data <- foreach(s = scenarios) %dopar% {
 }
 stopImplicitCluster()
 pm_country_data <- data.table::rbindlist(pm_country_data)
-write.csv(pm_country_data, "~/wei/xinyuanh/HEALED_XH_1/cp_results/pm2p5_country_2050.csv", row.names = F)
+write.csv(pm_country_data, "your_path_to_intermediate_results/pm2p5_country_2050.csv", row.names = F)
 
 
 # 5. OC by aggregate sectors
@@ -236,8 +232,7 @@ library(tidyr)
 library(readxl)
 library(doParallel)
 
-setwd("~/work/HEALED_XH_1/")
-scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
+scenarios_path <- "your_path_to_the_query_results"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
 sector_mapping_GCAM <- read_xlsx("GCAM emissions matching/sector_mapping.xlsx", sheet = 1)
 
@@ -298,7 +293,7 @@ OC_All <- foreach(s = scenarios) %dopar% {
 }
 stopImplicitCluster()
 OC_All <- data.table::rbindlist(OC_All)
-write.csv(OC_All, "OC_sectors_All.csv", row.names = F)
+write.csv(OC_All, "your_path_to_intermediate_results/OC_sectors_All.csv", row.names = F)
 
 
 # 6. OC emissions from deforestation
@@ -307,8 +302,7 @@ library(tidyr)
 library(readxl)
 library(doParallel)
 
-setwd("~/work/HEALED_XH_1")
-scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
+scenarios_path <- "your_path_to_the_query_results"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
 sector_mapping_GCAM <- read_xlsx("GCAM emissions matching/sector_mapping.xlsx", sheet = 1)
 
@@ -384,7 +378,7 @@ OC_All <- foreach(s = scenarios) %dopar% {
 }
 stopImplicitCluster()
 OC_All <- data.table::rbindlist(OC_All)
-write.csv(OC_All, "~/wei/xinyuanh/HEALED_XH_1/cp_results/OC_deforest_2050.csv", row.names = F)
+write.csv(OC_All, "your_path_to_intermediate_results/OC_deforest_2050.csv", row.names = F)
 
 # 7. OC emissions (by region)
 library(dplyr)
@@ -392,8 +386,7 @@ library(tidyr)
 library(readxl)
 library(doParallel)
 
-setwd("~/work/HEALED_XH_1/")
-scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
+scenarios_path <- "your_path_to_the_query_results"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
 
 numCores <- detectCores()
@@ -456,43 +449,10 @@ OC_All <- foreach(s = scenarios) %dopar% {
 }
 stopImplicitCluster()
 OC_All <- data.table::rbindlist(OC_All)
-write.csv(OC_All, "~/wei/xinyuanh/HEALED_XH_1/cp_results/OC_All.csv", row.names = F)
+write.csv(OC_All, "your_path_to_intermediate_results/OC_All.csv", row.names = F)
 
 
 # 8. Aggregate land use in 2050
-library(dplyr)
-library(tidyr)
-library(readxl)
-library(doParallel)
-
-setwd("~/work/HEALED_XH_1/")
-scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
-scenarios <- list.files(scenarios_path, pattern = "^query_08232021_[0-9]-0.*\\.csv$")
-
-numCores <- detectCores()
-registerDoParallel(numCores)
-
-land_All <- foreach(s = scenarios) %dopar% {
-  tryCatch({
-    scenario <- read.table(paste0(scenarios_path, s), header = FALSE, sep = ",", col.names = paste0("V",seq_len(26)), fill = TRUE, stringsAsFactors = F)
-    row_start <- which(scenario$V1 == "aggregated land allocation") + 0
-    row_end <- nrow(scenario)
-    land <- scenario[row_start:row_end, ]
-    colnames(land) <- land[2, ]
-    land <- land[-c(1, 2), ]
-    land <- land[, !colnames(land) %in% c("", "NA")]
-    land <- land %>% select(-`1990`, -`2005`, -`2010`, -`Units`)
-    if (which(scenarios == s) %% 1000 == 1) {
-      print(which(scenarios == s))
-      print(Sys.time())
-    }
-    land}
-    , error = function(c) "error"
-  )
-}
-stopImplicitCluster()
-land_All <- data.table::rbindlist(land_All)
-write.csv(land_All, "land.csv", row.names = F)
 
 #### land use in 2050
 library(dplyr)
@@ -500,8 +460,7 @@ library(tidyr)
 library(readxl)
 library(doParallel)
 
-setwd("~/work/HEALED_XH_1/")
-scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
+scenarios_path <- "your_path_to_the_query_results"
 scenarios <- list.files(scenarios_path, pattern = "^query_08232021_[0-1]-[0-3].*\\.csv$")
 
 numCores <- detectCores()
@@ -528,7 +487,7 @@ land_All <- foreach(s = scenarios) %dopar% {
 }
 stopImplicitCluster()
 land_All <- data.table::rbindlist(land_All)
-write.csv(land_All, "land_2050.csv", row.names = F)
+write.csv(land_All, "your_path_to_intermediate_results/land_2050.csv", row.names = F)
 
 
 # 9. death rates (by region) in 2050
@@ -537,7 +496,7 @@ library(tidyr)
 library(readxl)
 library(doParallel)
 
-scenarios_path = "~/wei/xinyuanh/HEALED_XH_1/cp_results/results_05102022/"
+scenarios_path <- "your_path_to_the_health_results"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
 
 numCores <- detectCores()
@@ -574,7 +533,7 @@ fig72_data <- foreach(s = scenarios) %dopar% {
 stopImplicitCluster()
 
 fig72_data <- data.table::rbindlist(fig72_data)
-write.csv(fig72_data, "~/wei/xinyuanh/HEALED_XH_1/cp_results/fig72_data.csv", row.names = F)
+write.csv(fig72_data, "your_path_to_intermediate_results/fig72_data.csv", row.names = F)
 
 
 
@@ -584,7 +543,7 @@ library(tidyr)
 library(readxl)
 library(doParallel)
 
-scenarios_path = "~/wei/xinyuanh/HEALED_XH_1/cp_results/results_05102022/"
+scenarios_path <- "your_path_to_the_health_results"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
 
 numCores <- detectCores()
@@ -613,17 +572,17 @@ dr_ts <- foreach(s = scenarios) %dopar% {
 stopImplicitCluster()
 
 dr_ts <- data.table::rbindlist(dr_ts)
-write.csv(dr_ts, "~/wei/xinyuanh/HEALED_XH_1/cp_results/dr_ts.csv", row.names = F)
+write.csv(dr_ts, "your_path_to_intermediate_results/dr_ts.csv", row.names = F)
 
 dr_ts$carbon_tax <- substr(dr_ts$scenario_input, 7, 7)
 substr(dr_ts$scenario_input, 7, 7) <- "X"
 dr_2050_global <- dr_ts %>% filter(YEAR == "2050")
 dr_2100_global <- dr_ts %>% filter(YEAR == "2100")
-write.csv(dr_2050_global, "~/wei/xinyuanh/HEALED_XH_1/cp_results/dr_2050_global.csv", row.names = F)
-write.csv(dr_2100_global, "~/wei/xinyuanh/HEALED_XH_1/cp_results/dr_2100_global.csv", row.names = F)
+write.csv(dr_2050_global, "your_path_to_intermediate_results/dr_2050_global.csv", row.names = F)
+write.csv(dr_2100_global, "your_path_to_intermediate_results/dr_2100_global.csv", row.names = F)
 dr_ts <- dr_ts %>% select(YEAR, carbon_tax, death_rate) %>% group_by(YEAR, carbon_tax) %>%
   summarise(min = min(death_rate), median = median(death_rate), max = max(death_rate), .groups = "drop")
-write.csv(dr_ts, "~/wei/xinyuanh/HEALED_XH_1/cp_results/dr_ts_summary.csv", row.names = F)
+write.csv(dr_ts, "your_path_to_intermediate_results/dr_ts_summary.csv", row.names = F)
 
 
 
@@ -633,7 +592,7 @@ library(tidyr)
 library(readxl)
 library(doParallel)
 
-scenarios_path = "~/wei/xinyuanh/HEALED_XH_1/cp_results/results_05102022/"
+scenarios_path <- "your_path_to_the_health_results"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
 
 numCores <- detectCores()
@@ -665,7 +624,7 @@ dr_2050 <- foreach(s = scenarios) %dopar% {
 stopImplicitCluster()
 
 dr_2050 <- data.table::rbindlist(dr_2050)
-write.csv(dr_2050, "~/wei/xinyuanh/HEALED_XH_1/cp_results/dr_2050.csv", row.names = F)
+write.csv(dr_2050, "your_path_to_intermediate_results/dr_2050.csv", row.names = F)
 
 
 
@@ -675,7 +634,7 @@ library(tidyr)
 library(readxl)
 library(doParallel)
 
-scenarios_path = "~/wei/xinyuanh/HEALED_XH_1/cp_results/results_10252022_lowEF/"
+scenarios_path <- "your_path_to_the_health_results_clearcutting"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
 
 numCores <- detectCores()
@@ -709,7 +668,7 @@ dr_2050_lowEF <- foreach(s = scenarios) %dopar% {
 stopImplicitCluster()
 
 dr_2050_lowEF <- data.table::rbindlist(dr_2050_lowEF)
-write.csv(dr_2050_lowEF, "~/wei/xinyuanh/HEALED_XH_1/cp_results/dr_2050_lowEF.csv", row.names = F)
+write.csv(dr_2050_lowEF, "your_path_to_intermediate_results/dr_2050_lowEF.csv", row.names = F)
 
 
 
@@ -720,7 +679,7 @@ library(tidyr)
 library(readxl)
 library(doParallel)
 
-scenarios_path = "~/wei/xinyuanh/HEALED_XH_1/cp_results/results_05102022/"
+scenarios_path <- "your_path_to_the_health_results"
 scenarios <- list.files(scenarios_path, pattern = "^query_[0-9]-[0-3].*\\.csv$")
 s <- scenarios[1] # The death rates in all SOWs are the same in 2015
 
@@ -742,7 +701,7 @@ scenario <- scenario %>% group_by(GCAM, metric) %>% summarise_at(c("deaths_total
 scenario$death_rate <- scenario$deaths_total / scenario$pop_total
 scenario$scenario_input <- s
 
-write.csv(scenario, "~/wei/xinyuanh/HEALED_XH_1/cp_results/dr_2015.csv", row.names = F)
+write.csv(scenario, "your_path_to_intermediate_results/dr_2015.csv", row.names = F)
 
 
 

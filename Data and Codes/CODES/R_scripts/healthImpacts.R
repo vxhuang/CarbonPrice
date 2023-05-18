@@ -1,5 +1,5 @@
-source("downscaling.R")
-source("TM5_SRMs/TM5_FASST.R")
+source("Data and Codes/CODES/R_scripts/downscaling.R")
+source("Data and Codes/CODES/TM5_SRMs/TM5_FASST.R")
 
 library(dplyr)
 library(tidyr)
@@ -20,9 +20,9 @@ library(readxl)
 # input should be the emissions and populations (including age structure) for each scenario
 
 # input read-in before the loop: 
-RUE_ratio <- read_xlsx(path = "TM5_SRMs/COUNTRY-FASST-TABLE_GENERATOR_v2.xlsx", sheet = 3, range = "B1:I2")
+RUE_ratio <- read_xlsx(path = "Data and Codes/CODES/TM5_SRMs/COUNTRY-FASST-TABLE_GENERATOR_v2.xlsx", sheet = 3, range = "B1:I2")
 
-FASST_mapping <- read_xlsx(path = "TM5_SRMs/COUNTRY-FASST-TABLE_GENERATOR_v2.xlsx", sheet = 1, range = "A1:C231") %>% 
+FASST_mapping <- read_xlsx(path = "Data and Codes/CODES/TM5_SRMs/COUNTRY-FASST-TABLE_GENERATOR_v2.xlsx", sheet = 1, range = "A1:C231") %>% 
   rename("ISO_A3" = "ISO 3")
 
 diseases <- c("COPD", "DB", "IHD", "LC", "LRI", "Stroke")
@@ -36,14 +36,14 @@ RR_Stroke <- read.csv("HIA/GBD_2019_RR_Stroke.csv", stringsAsFactors = F)
 
 for (d in diseases) {
   for (i in 1:5) {
-    d_SSP_mort_0 <- read.csv(paste0("HIA/", d, "_SSP", i, "_mort_0.csv"), stringsAsFactors = F)
+    d_SSP_mort_0 <- read.csv(paste0("Data and Codes/CODES/HIA/", d, "_SSP", i, "_mort_0.csv"), stringsAsFactors = F)
     d_SSP_mort_0 <- d_SSP_mort_0 %>% mutate(year = ifelse(year == 2099, 2100, year)) # because IFs 2100 data are flaw
     assign(paste0(d, "_SSP", i, "_mort_0"), d_SSP_mort_0)
   }
 }
 
 for (i in 1:5) {
-  assign(paste0("pop_SSP", i), read.csv(paste0("HIA/pop_SSP", i, ".csv"), stringsAsFactors = F))
+  assign(paste0("pop_SSP", i), read.csv(paste0("Data and Codes/CODES/HIA/pop_SSP", i, ".csv"), stringsAsFactors = F))
 }
 
 exposure_level <- function(x) {
@@ -75,12 +75,12 @@ match_RR <- function(pm2p5, RR, d) {
 }
 
 # scenario path should be modified in cluster
-scenarios_path <- "/gpfs/group/wvp5117/default/GCAM_xh/query_out/"
+scenarios_path <- "your_path_to_the_query_results"
 scenarios <- list.files(path = scenarios_path, pattern = "^query_[0-1]-.*\\.csv$")
 
 while (length(scenarios) > 0) {
     
-  exist_path <- "~/wei/xinyuanh/HEALED_XH_1/cp_results/pm2p5_results"
+  exist_path <- "your_path_to_the_pm2p5_results"
   existing_scenarios <- list.files(path = exist_path)
   existing_scenarios <- paste0(substr(existing_scenarios, 1, 21), substr(existing_scenarios, 28, 31))
   scenarios <- setdiff(scenarios, existing_scenarios)
@@ -261,7 +261,7 @@ while (length(scenarios) > 0) {
     
     MORT_summary_all <- data.table::rbindlist(MORT_summary)
     
-    write.csv(MORT_summary_all, paste0("~/wei/xinyuanh/HEALED_XH_1/cp_results/results_05102022/", substr(s, 1, 21), "_all.csv"), row.names = F)
+    write.csv(MORT_summary_all, paste0("your_path_to_the_health_results", substr(s, 1, 21), "_all.csv"), row.names = F)
     
     if (which(scenarios == s) %% 100 == 1) {
       print(which(scenarios == s))
