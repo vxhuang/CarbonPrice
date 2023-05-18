@@ -1,5 +1,5 @@
 # README
-This repository contains codes for Huang et al. Effects of global climate mitigation on regional air quality and health. Nature Sustainability (2023). This code is developed by [Xinyuan Huang](https://github.com/vxhuang)and [Dr. Vivek Srikrishnan](https://github.com/vsrikrish), organized and reproduced by [Sitara Baboolal](https://github.com/SBabs08), and reproduced by Jinyu Shiwang. 
+This repository contains codes for Huang et al. Effects of global climate mitigation on regional air quality and health. Nature Sustainability (2023). This code is developed by [Xinyuan Huang](https://github.com/vxhuang) and [Dr. Vivek Srikrishnan](https://github.com/vsrikrish), organized and reproduced by [Sitara Baboolal](https://github.com/SBabs08), and reproduced by Jinyu Shiwang. 
 
 Module Summary
 --------------
