@@ -33,15 +33,8 @@ Xinyuan Huang<sup>1</sup> , Vivek Srikrishnan<sup>2</sup> , Jonathan Lamontagne<
 ## Abstract
 Climate mitigation can bring air quality and health co-benefits. How these health impacts might be distributed across countries remains unclear. Here we use a coupled climate–energy–health model to assess the country-varying health effects of a global carbon price across nearly 30,000 future states of the world (SOWs). As a carbon price lowers fossil fuel use, our analysis suggests consistent reductions in ambient fine particulate matter (PM<sub>2.5</sub>) levels and associated mortality risks in countries that currently suffer most from air pollution. For a few less-polluted countries, however, a carbon price can increase the mortality risks under some of the considered SOWs due to emissions increases from bioenergy use and land-use changes. These potential health co-harms are largely driven in our model by the scale and method of deforestation. A robust and quantitative understanding of these distributional outcomes requires improved representations of relevant deep uncertainties, country-specific characteristics and cross-sector interactions.
 
+## Journal reference
+Huang et al. Effects of global climate mitigation on regional air quality and health. Nature Sustainability (2023). https://www.nature.com/articles/s41893-023-01133-5. 
 
 ## Code reference
-
-## Reproduce the results and figures presented
-
-## Data 
-
-### Input data
-
-### Other
-
-### Output data
+Xinyuan Huang, vxhuang/CarbonPrice: Codes for Huang et al. Effects of global climate mitigation on regional air quality and health. Nature Sustainability (2023). Zenodo, May 3, 2023. https://zenodo.org/record/7894050. 
