@@ -10,8 +10,8 @@ Module Summary
     * "dataExtraction.R" - script extracts data from the ensemble results. The generated data are available at http://zenodo.org/record/6975580. The can be stored in the "Data and Codes/DATA" folder. 
     * The "downscaling.R" - script can be used to downscale emissions from GCAM's 32 regional resolution to the country level using the Emissions Database for Global Atmospheric Research (EDGAR v4.3) as calibration. 
     * "healthImpacts.R" - script performs the air quality modeling using the TM5-FASST model, and the health impact assessments. 
-  * Scripts and instructions provided in "Data and Codes/CODES/Huang_et_al_2023/" are used to replicate results from paper.
-    *  For the steps needed to replicate the exact results and figures presented, please follow **/Data and Codes/CODES/Huang_et_al_2023/README.md**.
+  * Scripts and instructions provided in "Data and Codes/CODES/Huang_etal_2023/" are used to replicate results from paper.
+    *  For the steps needed to replicate the exact results and figures presented, please follow **/Data and Codes/CODES/Huang_etal_2023/README.md**.
     * "main_text.R" - script generates figures for the research paper. 
     *  Example figures are provided in Data and Codes/CODES/Huang_etal_2023/Figures/" for comparison
 
